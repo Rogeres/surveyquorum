@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about limited availability in only two shops near the respondent, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:06.037Z"
+}

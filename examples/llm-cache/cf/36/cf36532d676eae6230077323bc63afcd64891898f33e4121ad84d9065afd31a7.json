@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer provides a specific reason 'staff pushback' and the issue of 'team hates learning new tools', plus a concrete example of wasted time on invoices, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 57
+  },
+  "storedAt": "2026-10-01T18:43:40.697Z"
+}

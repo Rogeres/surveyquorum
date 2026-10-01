@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific observation about the help centre's categorization and a concrete suggestion to improve the search box size."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:23.914Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided the identical answer, 'I like it and would use it again,' to three separate open questions that each requested a specific or reflective response. This is strong evidence of low-effort, template-based responding.",
+    "panel_text": "You gave exactly the same answer, “I like it and would use it again,” to three different open questions that called for your own thoughts or suggestions. Copying the same general response like this suggests you did not provide genuine answers as required.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2684,
+    "outputTokens": 117
+  },
+  "storedAt": "2026-10-01T22:23:40.126Z"
+}

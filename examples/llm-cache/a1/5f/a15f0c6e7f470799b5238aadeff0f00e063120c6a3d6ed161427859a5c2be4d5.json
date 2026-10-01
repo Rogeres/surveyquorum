@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer 'no' indicates a refusal or disclaimer without providing any relevant information about scheduling delivery."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:42:34.763Z"
+}

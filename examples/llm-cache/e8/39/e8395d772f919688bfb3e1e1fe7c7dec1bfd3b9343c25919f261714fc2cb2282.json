@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail by naming the 'mature cheddar flavour' and expressing a preference, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:50.776Z"
+}

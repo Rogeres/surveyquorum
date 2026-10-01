@@ -1,0 +1,12 @@
+{
+  "json": {
+    "winner": 1,
+    "confidence": 5,
+    "reason": "Review 1 correctly recognizes that clicking the exact same spot across three diverse first-click tasks is strong evidence the respondent did not engage with those questions, as each should require a different response location. Review 2 dismisses this without basis, despite not needing the exact interface to know this is implausible. The weak repeated open text is irrelevant; the click evidence alone is decisive."
+  },
+  "usage": {
+    "inputTokens": 1504,
+    "outputTokens": 88
+  },
+  "storedAt": "2026-10-01T22:23:27.855Z"
+}

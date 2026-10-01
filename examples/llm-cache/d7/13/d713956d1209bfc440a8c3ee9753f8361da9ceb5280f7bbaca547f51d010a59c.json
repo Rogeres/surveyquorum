@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Multiple open-text questions were filled with strings like 'asdkjh qwe', 'fghj', and 'kjhkjh lkj', all of which are gibberish and have no relation to the questions asked. This is clear evidence of bad faith participation.",
+    "panel_text": "You wrote 'asdkjh qwe', 'fghj', or similar random text on four separate questions where you were asked for detailed answers. Random letter strings are not valid answers and show that the questions were not answered properly.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2965,
+    "outputTokens": 142
+  },
+  "storedAt": "2026-10-02T07:19:13.308Z"
+}

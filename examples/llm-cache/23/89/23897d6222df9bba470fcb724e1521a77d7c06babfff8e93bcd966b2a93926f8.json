@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a minimal, vague opinion without any specific detail about scheduling delivery or expectations."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:13.794Z"
+}

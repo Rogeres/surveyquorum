@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single fast answer on a one-click brand selection question. The total survey time is actually above the cohort median. Speed on one trivial question does not indicate bad faith.",
+    "panel_text": "If there had been a violation, you would have been flagged for answering one multiple-choice brand question much faster than most. However, a quick answer to a simple question is not enough to prove bad faith.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2803,
+    "outputTokens": 106
+  },
+  "storedAt": "2026-10-01T22:23:38.630Z"
+}

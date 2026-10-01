@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire 18-question survey in 63 seconds, while the typical participant needed about 5.5 minutes. Several open answers are one-word, non-informative, and the matrix answers show straightlining at speed, indicating no meaningful engagement.",
+    "panel_text": "You completed the 18-question survey in 63 seconds, while most people needed about 5 and a half minutes. Finishing a detailed survey so much faster than everyone else shows you could not have read and answered the questions properly. This is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2840,
+    "outputTokens": 150
+  },
+  "storedAt": "2026-10-01T22:23:35.884Z"
+}

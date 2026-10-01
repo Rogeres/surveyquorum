@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "There is overwhelming evidence of bad faith: the respondent completed all questions far faster than the rest of the cohort (71 s vs 329 s median), including multiple matrices and open text, and straightlined three matrix blocks at high speed. This strongly indicates answers given without reading or considering the questions.",
+    "panel_text": "You completed the survey in 71 seconds, while most people needed about 5½ minutes. This is not enough time to read and answer the questions properly, so your responses cannot be accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3417,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-02T00:53:36.143Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The same generic text was used on all three open-ended questions, despite them asking about different topics. This is a clear template response and does not reflect genuine effort or engagement with the survey.",
+    "panel_text": "You gave the exact same answer, “Good experience, nothing to add here,” to three different questions that asked for your thoughts or suggestions. This suggests you did not provide real feedback to each question, which is required to receive payment.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2696,
+    "outputTokens": 109
+  },
+  "storedAt": "2026-10-01T22:23:39.399Z"
+}

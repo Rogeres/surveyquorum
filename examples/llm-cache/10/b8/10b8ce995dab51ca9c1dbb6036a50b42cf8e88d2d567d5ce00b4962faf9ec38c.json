@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two open answers ('zxcv zxcv', 'aaaa') are meaningless and do not address the questions asked. These are clear cases of bad-faith response, as the questions require substantive, relevant input.",
+    "panel_text": "On the question 'Describe the last software purchase you decided on: what, why, what went wrong?', you answered 'zxcv zxcv'. This response does not answer the question and does not provide any useful information. Answers like this break the rules for open questions, which require a real explanation.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2904,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-02T00:53:44.535Z"
+}

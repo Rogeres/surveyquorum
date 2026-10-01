@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up instantly on the prototype and website tasks with no attempt, and gave identical, generic open answers ('everything was easy') to three distinct questions that required specifics. This shows no genuine attempt to provide useful feedback.",
+    "panel_text": "On three different questions that asked for details about your experience, you wrote exactly 'everything was easy'. These questions call for specific feedback. Repeating the same short sentence instead is not giving a genuine answer.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x3": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2629,
+    "outputTokens": 150
+  },
+  "storedAt": "2026-10-01T22:23:31.323Z"
+}

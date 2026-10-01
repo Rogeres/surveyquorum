@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific sensory description and a context of buying Kettlebird crisps compared to supermarket brands, showing some detail beyond a generic opinion."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:42:49.405Z"
+}

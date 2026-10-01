@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed specific actions taken and a clear suggestion, showing engagement and concrete observations about the scheduling process."
+  },
+  "usage": {
+    "inputTokens": 1575,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:38.361Z"
+}

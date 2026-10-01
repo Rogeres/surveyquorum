@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 84 seconds while the cohort median was over 8 minutes, with persistent per-question speeds far below the norm, including on all interactive and open-ended questions. There is no evidence in the answers or timings to explain this away; this is not honest participation.",
+    "panel_text": "You finished the survey in 84 seconds, but most others took around 8 minutes. This includes several tasks and questions that normally take much longer to read and answer. Doing the survey much faster than everyone else means your answers cannot be accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3093,
+    "outputTokens": 175
+  },
+  "storedAt": "2026-10-02T07:14:00.668Z"
+}

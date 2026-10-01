@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the product's taste, mentioning 'good crunch' and 'too much salt on the paprika one.'"
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:57.199Z"
+}

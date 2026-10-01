@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave a gibberish answer ('fghj') to an open question that required a substantive and relevant response, which is clear bad faith. The total survey pace is also much faster than the cohort, reinforcing the concern. The gibberish open answer is definitive evidence in this context.",
+    "panel_text": "To the question 'What, if anything, was confusing about adding an item to the basket?', you answered: 'fghj'. This is not a meaningful answer to the question, which requires a specific description. Providing random letters or nonsensical responses violates survey rules.",
+    "per_signal": {
+      "pace.fast_cluster": "supports",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3075,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:26.025Z"
+}

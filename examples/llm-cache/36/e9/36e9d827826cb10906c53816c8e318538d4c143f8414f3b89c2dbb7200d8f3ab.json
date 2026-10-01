@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer briefly responds with no change needed and expresses a general opinion without specifics."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 35
+  },
+  "storedAt": "2026-10-01T18:42:59.882Z"
+}

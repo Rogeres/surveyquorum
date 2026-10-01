@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical answer 'No problems at all with this one.' to four different open-ended questions that requested process description or feedback. This indicates minimal engagement and does not provide meaningful input, which is bad faith participation.",
+    "panel_text": "You answered four different questions with exactly the same phrase: \"No problems at all with this one.\" when asked to describe or explain each step. These questions required your own detailed feedback, but you gave a repetitive answer that does not help the survey team.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2368,
+    "outputTokens": 120
+  },
+  "storedAt": "2026-10-01T22:23:32.588Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered the entire survey in a quarter of the median time (83 s vs 368 s), with seven questions answered at lightning speed. Multiple open answers ('ok', 'nothing', 'dont know') are non-informative placeholders, confirming lack of engagement. No substantive content explains this behaviour.",
+    "panel_text": "You completed this survey in 83 seconds, while most people took about 6 minutes. Several open questions asking about your experience got answers like 'ok', 'nothing', or 'dont know', which do not explain your decisions. This does not show genuine participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2972,
+    "outputTokens": 177
+  },
+  "storedAt": "2026-10-02T00:53:37.909Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific reason related to reliability and the example of losing money if the till fails on Saturday, which is a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:12.651Z"
+}

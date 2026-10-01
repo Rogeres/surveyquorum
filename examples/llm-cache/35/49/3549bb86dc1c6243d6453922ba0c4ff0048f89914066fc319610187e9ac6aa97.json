@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific concrete reason ('prices seemed higher than my usual supermarket') which is relevant and suggests a deciding factor."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:32.030Z"
+}

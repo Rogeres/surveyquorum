@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 59 seconds versus a median of 329 seconds for others, answering nearly all questions much faster than the cohort, straightlining several grids at high speed, and repeating 'nice' in two different open-ended responses. These are clear signs of not engaging with the questions.",
+    "panel_text": "You completed the survey in 59 seconds, while most people took about 5 and a half minutes. Nearly all your answers were much faster than everyone else’s, and key questions received identical or extremely brief answers. This shows you did not give the questions proper attention.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3514,
+    "outputTokens": 176
+  },
+  "storedAt": "2026-10-02T00:53:33.164Z"
+}

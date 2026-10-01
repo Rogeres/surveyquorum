@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered the exact same non-specific answer ('I think it is pretty good overall.') on four separate open-ended questions which required distinct reactions to different tasks. This is clear cut-and-paste behaviour and does not reflect genuine engagement.",
+    "panel_text": "You wrote exactly the same answer on four different questions: 'I think it is pretty good overall.' This does not give real feedback for the different tasks. Survey answers must be specific and show your experience for each question.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2975,
+    "outputTokens": 122
+  },
+  "storedAt": "2026-10-02T00:53:20.949Z"
+}

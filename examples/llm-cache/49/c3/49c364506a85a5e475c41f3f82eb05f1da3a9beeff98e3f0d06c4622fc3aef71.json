@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about planning to buy it during the weekend shop, showing some engagement and a concrete timeframe."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:50.978Z"
+}

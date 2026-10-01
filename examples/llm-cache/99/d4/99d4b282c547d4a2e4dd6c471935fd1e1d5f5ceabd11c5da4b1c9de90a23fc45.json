@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": true,
+    "reason": "The answer includes specific details about the interface behavior and user expectation, but profanity reduces it from high to medium."
+  },
+  "usage": {
+    "inputTokens": 1570,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:16.453Z"
+}

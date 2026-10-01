@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about searching 'missing item' in the help centre and finding the second article with instructions, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1566,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:42:25.357Z"
+}

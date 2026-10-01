@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific actions and an expectation about the scheduling interface, indicating some detail about the respondent's experience."
+  },
+  "usage": {
+    "inputTokens": 1570,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:39.862Z"
+}

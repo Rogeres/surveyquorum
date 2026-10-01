@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details like 'orange kettle logo' and 'strong vinegar flavour,' indicating concrete associations with Kettlebird."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:51.330Z"
+}

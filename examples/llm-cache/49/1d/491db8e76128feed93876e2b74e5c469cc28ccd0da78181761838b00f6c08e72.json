@@ -1,0 +1,20 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent instantly gave up on both prototype and website tasks, recording zero interaction where others spent over a minute. Their open answers are brief and partly duplicated. Multiple independent grounds: non-participation and uninformative, duplicated open answers.",
+    "panel_text": "On the interactive task: 'Using the Marrow prototype, add a bag of oranges to your basket and proceed to checkout,' you left after just 5 seconds with no interaction. Nearly everyone else spent about 1 minute 15 seconds on this task. This suggests you did not genuinely attempt to complete it.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3212,
+    "outputTokens": 197
+  },
+  "storedAt": "2026-10-02T00:53:23.059Z"
+}

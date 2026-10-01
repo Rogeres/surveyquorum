@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent states they have no software purchases and presents a disclaimer, offering no relevant data for the question."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:43:27.259Z"
+}

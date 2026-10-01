@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent gives a concrete suggestion about changing a specific label in the instructions, showing engagement and a detail beyond a minimal answer."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:30.270Z"
+}

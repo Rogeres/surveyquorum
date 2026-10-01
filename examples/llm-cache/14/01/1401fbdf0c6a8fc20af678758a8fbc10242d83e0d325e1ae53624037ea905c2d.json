@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared at screening that they are an owner/co-owner who has personally made software decisions, but repeatedly states in open answers that they do not have a company and cannot answer business-owner questions. This is a clear misrepresentation.",
+    "panel_text": "You stated during screening that you own a business and make software decisions. However, in the survey you repeatedly wrote you do not have a company and cannot answer these questions. Misrepresenting your profile is not allowed on the platform.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2412,
+    "outputTokens": 136
+  },
+  "storedAt": "2026-10-01T22:23:42.710Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about a particular flavor and personal preference, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:07.480Z"
+}

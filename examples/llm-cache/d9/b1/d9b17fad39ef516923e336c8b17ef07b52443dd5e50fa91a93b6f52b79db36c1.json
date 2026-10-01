@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific reason involving data migration time and company size preventing switching tools, thus providing a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:11.507Z"
+}

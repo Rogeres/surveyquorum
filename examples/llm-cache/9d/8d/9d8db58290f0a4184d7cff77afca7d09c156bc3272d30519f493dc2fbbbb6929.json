@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent states they do not know because they are not a business owner, which is a clear refusal to answer based on lack of relevant experience."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:09.627Z"
+}

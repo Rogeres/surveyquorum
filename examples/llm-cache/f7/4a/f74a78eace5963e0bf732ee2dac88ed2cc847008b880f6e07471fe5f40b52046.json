@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent indicates they cannot answer because they are a student, which is a refusal or disclaimer indicating absence of data."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:19.016Z"
+}

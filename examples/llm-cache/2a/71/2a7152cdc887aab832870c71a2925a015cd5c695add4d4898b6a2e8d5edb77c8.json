@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Multiple open-ended answers ('asdkjh qwe', 'hjkl', 'zxcv zxcv') are nonsense or non-informative, showing no attempt to provide real feedback where a substantive response was required. This shows clear bad faith.",
+    "panel_text": "For the question 'What, if anything, was confusing about adding an item to the basket?', you answered 'asdkjh qwe'. This answer does not relate to the question and is just random letters, showing you did not give meaningful feedback. This is not allowed.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2386,
+    "outputTokens": 132
+  },
+  "storedAt": "2026-10-01T22:23:23.868Z"
+}

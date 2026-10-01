@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a generic positive statement that does not specifically address how the respondent hears about new business software."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:43:12.815Z"
+}

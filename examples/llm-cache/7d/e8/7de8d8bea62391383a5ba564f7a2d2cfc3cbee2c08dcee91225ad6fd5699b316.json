@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is minimal and vague, giving no specific details or information about the software purchase."
+  },
+  "usage": {
+    "inputTokens": 1548,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:43:34.718Z"
+}

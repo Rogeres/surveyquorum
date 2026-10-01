@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single multiple-choice question answered rapidly, but this question is trivial and can be answered honestly in one second. All other responses are at a normal pace and show thoughtful engagement.",
+    "panel_text": "If there were a violation, you would have answered question 13 much faster than others (1 second, while most took about 14), but this question only required a simple selection and can be answered honestly that quickly. No action will be taken.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2479,
+    "outputTokens": 116
+  },
+  "storedAt": "2026-10-01T22:23:28.410Z"
+}

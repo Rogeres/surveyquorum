@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Three firstclick questions were all answered by clicking exactly the same spot regardless of the image, which is strong evidence of not engaging with the tasks. The duplicated short open answer is weaker but adds support.",
+    "panel_text": "On three questions asking 'Where would you click first to...?', you clicked the exact same spot every time, even though the screens were different. This suggests you did not carefully consider each task and did not provide genuine answers.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "firstclick-offtarget.same_spot": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3029,
+    "outputTokens": 126
+  },
+  "storedAt": "2026-10-02T00:53:22.570Z"
+}

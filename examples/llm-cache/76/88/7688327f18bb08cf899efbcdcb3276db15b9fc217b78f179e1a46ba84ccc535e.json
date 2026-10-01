@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific observation about the size of sharing bags and personal usage experience, which is a concrete detail related to Kettlebird."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:45.377Z"
+}

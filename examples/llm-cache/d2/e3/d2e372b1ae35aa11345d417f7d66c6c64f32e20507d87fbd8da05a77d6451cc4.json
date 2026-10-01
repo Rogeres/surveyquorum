@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about expecting a 'schedule for later' button on the basket page, which shows some engagement and concreteness."
+  },
+  "usage": {
+    "inputTokens": 1566,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:22.944Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent used the exact same phrase, 'It works well for what I need,' on four different open-ended questions that asked for distinct reflections about different tasks. This shows a lack of genuine engagement and does not provide meaningful answers.",
+    "panel_text": "On four questions that asked different things, you wrote exactly the same answer: \"It works well for what I need.\" This does not show that you read or answered the questions properly. Each question needs a real, specific answer, not a repeated phrase.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2383,
+    "outputTokens": 121
+  },
+  "storedAt": "2026-10-01T22:23:28.085Z"
+}

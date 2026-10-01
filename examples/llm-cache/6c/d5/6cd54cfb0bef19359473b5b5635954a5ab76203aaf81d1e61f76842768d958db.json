@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about where the brand was seen ('premium aisle') and an evaluative comment ('decent brand overall')."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:03.350Z"
+}

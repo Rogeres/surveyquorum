@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about the expected calendar location and actual slots placement, indicating engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1574,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:29.277Z"
+}

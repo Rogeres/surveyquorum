@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific feature requests (dark mode, bigger tap targets) showing concrete suggestions for improvement."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:32.066Z"
+}

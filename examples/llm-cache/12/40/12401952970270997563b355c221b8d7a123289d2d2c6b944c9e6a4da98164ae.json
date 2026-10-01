@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed specific feature (export button with usable data), a reason (shows respect for customers), and personal experience (recommended two tools in ten years)."
+  },
+  "usage": {
+    "inputTokens": 1566,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:30.144Z"
+}

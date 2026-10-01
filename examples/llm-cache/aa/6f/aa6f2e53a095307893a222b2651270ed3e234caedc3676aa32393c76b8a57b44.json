@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the exact same generic answer to four separate open-ended questions that request specific feedback. This is a clear pattern of low-effort, non-informative responses that does not match a genuine engagement with the survey.",
+    "panel_text": "You wrote the exact same answer, “I think it is pretty good overall,” on four different questions that asked for specific feedback. This does not show meaningful responses to the questions and does not meet the expectations for taking part in the survey.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2378,
+    "outputTokens": 117
+  },
+  "storedAt": "2026-10-01T22:23:23.843Z"
+}

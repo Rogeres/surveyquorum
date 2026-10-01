@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered much faster than the cohort overall (90 s vs 368 s) and gave placeholder open answers ('ok', 'no', 'nice') to questions that demand detail. Both are independent and strong signals of bad faith.",
+    "panel_text": "On several open questions asking for specific detail, you replied with 'nice', 'ok', or 'no'. These answers do not respond to the questions and suggest the survey was not taken seriously. The survey also took about 1.5 minutes for you, while others needed over 6 minutes.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2971,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-02T00:53:46.066Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 90 seconds versus the cohort median of 329 seconds, with 13 out of 18 questions answered much faster than typical and with non-informative open responses (“good”, “ok”, “no”). The fast pace applies to questions that are not trivially short. This provides strong evidence of not reading or engaging with the survey.",
+    "panel_text": "You completed the whole survey in 90 seconds, while most people needed about 5 and a half minutes. Finishing this quickly without reading the questions means you did not provide considered answers. This is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3458,
+    "outputTokens": 156
+  },
+  "storedAt": "2026-10-02T07:14:08.971Z"
+}

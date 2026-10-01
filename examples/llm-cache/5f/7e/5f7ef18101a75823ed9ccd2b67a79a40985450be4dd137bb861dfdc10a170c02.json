@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer mentions a specific detail about the product (quality potatoes and texture) and gives a concrete opinion about the brand overall."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:47.826Z"
+}

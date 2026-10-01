@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "Short, generic open answers are repeated twice, but only on two questions and they fit the context: respondents may genuinely not recall specifics, and such phrasing is common. This does not prove bad faith.",
+    "panel_text": "On two questions, you answered: 'Nothing specific comes to mind.' This would only be a violation if you gave that kind of non-answer to almost every open question or clearly gave no effort throughout. Here, your responses can be reasonable and are not enough to prove a violation.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2284,
+    "outputTokens": 124
+  },
+  "storedAt": "2026-10-01T22:23:44.217Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates no response or nothing to add, which fits the no_answer category."
+  },
+  "usage": {
+    "inputTokens": 1541,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:43:39.427Z"
+}

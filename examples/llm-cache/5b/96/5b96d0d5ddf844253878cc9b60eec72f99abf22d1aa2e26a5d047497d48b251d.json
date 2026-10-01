@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent sped through the entire survey, finishing in 115 seconds, while the median for others was 520 seconds, with consistently low times on key questions that required thoughtful interaction. Additionally, on three tasks where most respondents clicked on similar spots, this respondent clicked elsewhere, suggesting lack of engagement. Both signals independently support bad faith.",
+    "panel_text": "You finished the survey in 115 seconds, but most people took about 520 seconds. Completing a detailed survey this quickly means you likely did not read or answer the questions carefully, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3092,
+    "outputTokens": 148
+  },
+  "storedAt": "2026-10-02T07:14:00.306Z"
+}

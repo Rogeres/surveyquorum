@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about pricing relevant to the size of the company, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:16.413Z"
+}

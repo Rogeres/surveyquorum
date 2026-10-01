@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "There is overwhelming evidence: the respondent completed the survey in 84 seconds, while the cohort median is over 8 minutes, with 9 of 15 questions answered dramatically faster than others, including prototype and open-ended tasks. No factual basis explains this speed. The off-target clicks are a secondary, corroborating sign.",
+    "panel_text": "You completed the entire survey in 1 minute 24 seconds, while other participants took about 8 minutes 40 seconds. This is much faster than is physically possible to read and answer carefully. Rushing like this means your answers cannot be trusted for research quality.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3093,
+    "outputTokens": 158
+  },
+  "storedAt": "2026-10-02T07:14:00.335Z"
+}

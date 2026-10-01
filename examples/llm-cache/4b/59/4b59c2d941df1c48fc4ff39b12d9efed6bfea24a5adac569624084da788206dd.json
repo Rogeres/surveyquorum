@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about expecting the slot picker before payment and confirms that was the case."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:09.606Z"
+}

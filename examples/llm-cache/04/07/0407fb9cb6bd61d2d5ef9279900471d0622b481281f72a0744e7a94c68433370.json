@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent explicitly states they have nothing to describe, indicating no relevant data was provided."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:43:13.125Z"
+}

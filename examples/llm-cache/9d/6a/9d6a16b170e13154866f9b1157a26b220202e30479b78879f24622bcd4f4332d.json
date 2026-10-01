@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains specific requests for a dark mode and bigger tap targets on the slot picker, showing at least one concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:25.468Z"
+}

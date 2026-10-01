@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical answer ('It works well for what I need.') to four separate open-ended questions requiring distinct responses. This indicates minimal effort and failure to engage with the questions, which is clear evidence of bad faith.",
+    "panel_text": "You gave the same answer, “It works well for what I need,” to four different open questions that asked about separate tasks. This does not show genuine engagement. Answers should be specific to each question so your feedback can help improve the service.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2383,
+    "outputTokens": 118
+  },
+  "storedAt": "2026-10-01T22:23:28.100Z"
+}

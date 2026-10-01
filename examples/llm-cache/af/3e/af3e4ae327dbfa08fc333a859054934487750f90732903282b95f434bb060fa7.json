@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The respondent gave consistently short, but relevant open answers ('easy', 'nothing'). While terse, these are not obviously bad faith and fit the plain survey questions. Speed is notable but does not alone prove dishonesty, and clicking off the cohort norm is not in itself misconduct.",
+    "panel_text": "If your open answers had been empty or made no sense, or if you had copied the same long answer to multiple questions, this would be a violation. Short answers like 'easy' or 'nothing' are allowed if they fit the question, even if brief.",
+    "per_signal": {
+      "pace.consistent": "does_not_support",
+      "duplicate-open.x3": "does_not_support",
+      "firstclick-offtarget.repeated_off_density": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2536,
+    "outputTokens": 156
+  },
+  "storedAt": "2026-10-01T22:23:25.930Z"
+}

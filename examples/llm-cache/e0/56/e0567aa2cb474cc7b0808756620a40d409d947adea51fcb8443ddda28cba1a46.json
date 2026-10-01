@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about annual contracts and being locked in until next spring, which explains why they do not switch tools."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:15.117Z"
+}

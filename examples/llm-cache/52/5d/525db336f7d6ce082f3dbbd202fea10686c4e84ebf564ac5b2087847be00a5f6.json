@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Role is 'Owner or co-owner' and other involved is 'Our accountant or bookkeeper' - no incompatibility."
+      },
+      {
+        "i": 2,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Role is 'Owner or co-owner' and the respondent described a software purchase they decided on, compatible."
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Role is 'Owner or co-owner' and selected a back-office area, no incompatibility."
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Role is 'Owner or co-owner' and named paid tool 'Project management', no incompatibility."
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Role 'Owner or co-owner' and business size '2–10' are compatible."
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Business size '2–10' and other involved 'Our accountant or bookkeeper' in purchasing are compatible."
+      },
+      {
+        "i": 7,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Respondent answered Yes to deciding software and described a recent purchase they decided on, no contradiction."
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1225,
+    "outputTokens": 274
+  },
+  "storedAt": "2026-10-01T18:43:56.965Z"
+}

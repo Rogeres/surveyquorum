@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about how the respondent hears about new software (online searches when something breaks and the importance of reviews over ads)."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:14.593Z"
+}

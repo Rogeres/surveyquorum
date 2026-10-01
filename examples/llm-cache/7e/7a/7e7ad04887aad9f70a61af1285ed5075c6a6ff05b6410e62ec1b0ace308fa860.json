@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about where the respondent sees the brand Kettlebird, which shows some engagement but lacks extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:00.562Z"
+}

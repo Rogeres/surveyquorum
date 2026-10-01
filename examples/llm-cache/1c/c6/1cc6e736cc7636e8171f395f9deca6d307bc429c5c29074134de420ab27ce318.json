@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed description of the scheduling interface and the specific steps taken, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1577,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:10.635Z"
+}

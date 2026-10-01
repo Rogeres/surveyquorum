@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent clearly states multiple times in open answers that they are a student and do not own a business, which directly contradicts their declared qualifying profile as a business owner/decision-maker. This is explicit misrepresentation and meets the standard for bad faith.",
+    "panel_text": "You wrote: \"Student here, no business, no software purchases, I thought this was a general survey.\" This directly contradicts your earlier claim that you own or co-own a business and have decided on a software purchase. This is not allowed, as responses must reflect your actual experience.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2423,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:46.015Z"
+}

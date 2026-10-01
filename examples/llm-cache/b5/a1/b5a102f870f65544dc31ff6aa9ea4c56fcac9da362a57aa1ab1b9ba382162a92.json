@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is minimal and could apply to many questions, providing no specific detail about confusion with adding items to the basket."
+  },
+  "usage": {
+    "inputTokens": 1544,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:36.846Z"
+}

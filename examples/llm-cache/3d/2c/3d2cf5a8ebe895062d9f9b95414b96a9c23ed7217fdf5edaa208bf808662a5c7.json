@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed and specific description including product type, packaging, price perception, usage occasion, and recency of consumption."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:59.956Z"
+}

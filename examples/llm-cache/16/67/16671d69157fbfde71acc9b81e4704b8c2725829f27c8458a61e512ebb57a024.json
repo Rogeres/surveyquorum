@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in less than a quarter of the median cohort time with almost all questions answered with minimal effort and non-informative placeholder answers in three open questions. The card sort task was completed much faster than the rest and showed a pattern consistent with random dropping rather than thoughtful sorting.",
+    "panel_text": "You wrote \"ok\", \"dont know\", and \"nothing\" in response to questions that asked for details about software decisions, obstacles, and recommendations. These answers do not explain your experiences as the questions requested, showing that you did not provide the detail expected from genuine participants.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2497,
+    "outputTokens": 153
+  },
+  "storedAt": "2026-10-01T22:23:45.447Z"
+}

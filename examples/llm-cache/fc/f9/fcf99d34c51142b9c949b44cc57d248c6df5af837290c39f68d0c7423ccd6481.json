@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific observation about the color scheme and text contrast, providing concrete feedback."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:22.602Z"
+}

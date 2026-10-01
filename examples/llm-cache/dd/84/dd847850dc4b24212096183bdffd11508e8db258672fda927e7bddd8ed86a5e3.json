@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared themselves as an owner involved in business software decisions but explicitly stated in multiple open answers they are not a business owner and have no company. This is a clear, substantive contradiction directly related to screening.",
+    "panel_text": "You stated in your screening answers that you are an owner or co-owner of a business, but in your open responses you wrote: \"I don't actually have a company, I'm a student, so I haven't bought any business software\" and \"I wouldn't know, I'm not a business owner.\" This is a direct contradiction and undermines the purpose of the survey.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2927,
+    "outputTokens": 169
+  },
+  "storedAt": "2026-10-02T00:53:40.843Z"
+}

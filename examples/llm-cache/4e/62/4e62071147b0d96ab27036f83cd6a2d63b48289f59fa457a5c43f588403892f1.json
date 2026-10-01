@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer 'dont know' indicates the respondent does not have an answer, representing absence of data rather than laziness."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:34.873Z"
+}

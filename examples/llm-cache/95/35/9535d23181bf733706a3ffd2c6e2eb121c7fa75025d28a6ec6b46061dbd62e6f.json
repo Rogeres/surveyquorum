@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up almost instantly on all interactive tasks without any attempt (e.g., 3 s vs. 1 min+ median), and posted nearly identical, non-informative open answers on three separate questions. This is clear evidence of not engaging meaningfully with the survey.",
+    "panel_text": "On three questions asking for your experience (for example, 'Describe how you went about scheduling the delivery. What did you expect to see?'), you replied 'everything was easy'. Giving identical or template answers to detailed questions means you did not provide genuine feedback, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x3": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2629,
+    "outputTokens": 162
+  },
+  "storedAt": "2026-10-01T22:23:31.354Z"
+}

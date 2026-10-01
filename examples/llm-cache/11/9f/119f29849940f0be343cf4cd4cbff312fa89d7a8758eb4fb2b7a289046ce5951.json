@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific observation about limited availability in two shops."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 32
+  },
+  "storedAt": "2026-10-01T18:42:52.107Z"
+}

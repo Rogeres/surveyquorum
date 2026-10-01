@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the exact same short answer, 'No problems at all with this one,' to four different open questions. This is not plausible as genuine engagement across multiple distinct prompts, suggesting a lack of meaningful effort.",
+    "panel_text": "You answered four different questions with exactly the same response: \"No problems at all with this one.\" When asked for specific feedback, copying the same short phrase is not considered proper participation, as each question called for a unique answer.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2388,
+    "outputTokens": 113
+  },
+  "storedAt": "2026-10-01T22:23:28.033Z"
+}

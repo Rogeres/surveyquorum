@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent indicates the question does not apply to them, providing no substantive information about the reason for not switching."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:09.372Z"
+}

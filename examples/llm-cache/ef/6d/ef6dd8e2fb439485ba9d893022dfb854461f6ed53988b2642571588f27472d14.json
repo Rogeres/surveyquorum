@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "off_topic",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer does not address the question about how the respondent hears about new business software, but instead states a personal inapplicability, which does not answer the question asked."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 54
+  },
+  "storedAt": "2026-10-01T18:43:14.444Z"
+}

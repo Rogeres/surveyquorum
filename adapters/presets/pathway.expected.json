@@ -1,0 +1,2348 @@
+{
+  "dataset": [
+    {
+      "id": "pathway.sample",
+      "source": "link",
+      "inventory": [
+        {
+          "scope": "body",
+          "type": "choice",
+          "question": "How often do you cook dinner at home?"
+        },
+        {
+          "scope": "body",
+          "type": "choice",
+          "question": "Which Larkspur features have you used in the last month?",
+          "options": [
+            "Weekly meal plans",
+            "Grocery list",
+            "Pantry tracker",
+            "Recipe import",
+            "Other",
+            "None of the above"
+          ]
+        },
+        {
+          "scope": "body",
+          "type": "scale",
+          "question": "How satisfied are you with Larkspur overall?"
+        },
+        {
+          "scope": "body",
+          "type": "open",
+          "question": "What would make Larkspur more useful for you?"
+        },
+        {
+          "scope": "body",
+          "type": "matrix",
+          "question": "Matrix 5"
+        },
+        {
+          "scope": "body",
+          "type": "cardsort",
+          "question": "Card sort 6"
+        },
+        {
+          "scope": "body",
+          "type": "prototype",
+          "question": "Add a recipe to Saturday dinner"
+        },
+        {
+          "scope": "body",
+          "type": "website",
+          "question": "Find the pricing page on the Larkspur site"
+        },
+        {
+          "scope": "body",
+          "type": "other",
+          "question": "Where would you tap to start a new meal plan?"
+        },
+        {
+          "scope": "body",
+          "type": "open",
+          "question": "Tell us about the last time you planned meals for a week"
+        },
+        {
+          "scope": "body",
+          "type": "open",
+          "question": "What stops you from cooking more often?"
+        },
+        {
+          "scope": "body",
+          "type": "scale",
+          "question": "How likely are you to recommend Larkspur to a friend?"
+        },
+        {
+          "scope": "body",
+          "type": "other",
+          "question": "Rank these by importance"
+        },
+        {
+          "scope": "body",
+          "type": "other",
+          "question": "Where would you find your saved recipes?"
+        },
+        {
+          "scope": "body",
+          "type": "other",
+          "question": "Which home screen do you prefer?"
+        }
+      ],
+      "responses": [
+        {
+          "id": "a-0001",
+          "device": "desktop",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "A few times a week"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Weekly meal plans",
+                "Grocery list"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Let me paste a recipe link and have the ingredients added to the list automatically."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 18.42,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 23.11,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 3.12,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What was the hardest part of planning that week?"
+                },
+                {
+                  "role": "user",
+                  "text": "Finding recipes that everyone in the house would eat."
+                },
+                {
+                  "role": "assistant",
+                  "text": "Did Larkspur help with that?"
+                },
+                {
+                  "role": "user",
+                  "text": "Partly, the filters are good but the kids still said no to lentils."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Time. I get home late and ordering in is quicker."
+                },
+                {
+                  "role": "assistant",
+                  "text": "Would a shorter recipe list help?"
+                },
+                {
+                  "role": "user",
+                  "text": "Yes, under 20 minutes would be ideal."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "9"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 2,
+                "Recipe variety": 1,
+                "Ease of use": 3
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-4f1a",
+            "age": "35-44",
+            "sex": "female"
+          }
+        },
+        {
+          "id": "a-0002",
+          "device": "mobile",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Every day"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Weekly meal plans",
+                "Pantry tracker",
+                "Other: Leftover suggestions"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "5"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "\"Honestly, it is fine as it is, but the pantry tracker forgets things I scanned.\""
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Dinner": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 25.98,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 15.4,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 2.05,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Planned Sunday night with the whole family, took about twenty minutes."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Nothing really, I cook most days."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "10"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 3,
+                "Recipe variety": 2,
+                "Ease of use": 1
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-9c2d",
+            "age": "25-34",
+            "sex": "male"
+          }
+        },
+        {
+          "id": "a-0003",
+          "device": "mobile",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Rarely"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "None of the above"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "3"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "nothing"
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use"
+                ],
+                "Grocery list": [
+                  "Easy to use"
+                ],
+                "Pantry tracker": [
+                  "Easy to use"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 4.11,
+              "type": "prototype",
+              "status": "gave_up",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 3.9,
+              "type": "website",
+              "gaveUp": true
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 0.64,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "ok"
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "dont know"
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "7"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 1,
+                "Recipe variety": 2,
+                "Ease of use": 3
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Failed",
+                "selected node": "Home > Plans > This week"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "List view"
+            }
+          ],
+          "panel": {
+            "token": "tok-1e7b",
+            "age": "18-24",
+            "sex": "female"
+          }
+        },
+        {
+          "id": "a-0004",
+          "device": "desktop",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Once a week"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Grocery list",
+                "Recipe import"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "A shared list my partner can edit from her phone, and a way to mark items we already have."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 31.25,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 41.2,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 4.48,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "Walk me through how you chose the dishes."
+                },
+                {
+                  "role": "user",
+                  "text": "I just reused last month's plan and swapped two dinners."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Shopping. If the ingredients are not in the house I give up and order."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "8"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 1,
+                "Recipe variety": 3,
+                "Ease of use": 2
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-77aa",
+            "age": "45-54",
+            "sex": "male"
+          }
+        },
+        {
+          "id": "a-0005",
+          "device": "mobile",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Other: I cook lunches, not dinners"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Weekly meal plans"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Lunch-box mode: five portable lunches for the week, not just dinners."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 22.14,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 19.87,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 2.89,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Last week. I picked five dinners from the suggestions and only changed one."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Picky eaters at home, so I end up making two versions."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "8"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 2,
+                "Recipe variety": 3,
+                "Ease of use": 1
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "List view"
+            }
+          ],
+          "panel": {
+            "token": "tok-b3c9",
+            "age": "35-44",
+            "sex": "female"
+          }
+        },
+        {
+          "id": "a-0006",
+          "device": "desktop",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "A few times a week"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "5"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Cheaper annual plan."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Dinner": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 17.6,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 12.3,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 1.98,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "I planned on Saturday morning while having coffee; it took ten minutes with the app."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Nothing, I like cooking."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "9"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 1,
+                "Recipe variety": 2,
+                "Ease of use": 3
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-5d0e",
+            "age": "25-34",
+            "sex": "male"
+          }
+        },
+        {
+          "id": "a-0007",
+          "device": "desktop",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Every day"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Grocery list"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "3"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Bigger text and fewer steps to print the shopping list."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 38.8,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 5.12,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "I write my plan on paper first and then copy it into the app, which feels backwards."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Not applicable, I cook every day."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "6"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 3,
+                "Recipe variety": 1,
+                "Ease of use": 2
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Failed",
+                "selected node": "Home > Plans > This week"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "List view"
+            }
+          ],
+          "panel": {
+            "token": "tok-c8f2",
+            "age": "55-64",
+            "sex": "female"
+          }
+        },
+        {
+          "id": "a-0008",
+          "device": "mobile",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Once a week"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "None of the above"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "good app"
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use"
+                ],
+                "Grocery list": [
+                  "Easy to use"
+                ],
+                "Pantry tracker": [
+                  "Easy to use"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 6.9,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 5.1,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 0.72,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "good"
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "good"
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "8"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 1,
+                "Recipe variety": 2,
+                "Ease of use": 3
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-2a9d",
+            "age": "25-34",
+            "sex": "female"
+          }
+        },
+        {
+          "id": "a-0009",
+          "device": "desktop",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "A few times a week"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Recipe import",
+                "Other: Calorie counting"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Import from any site, not only the supported ones; half my bookmarks fail."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 20.3,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 17.65,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 2.64,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Two weeks ago. I imported four recipes and let the app fill the rest."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Energy after work. The 15-minute filter helps."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "7"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 2,
+                "Recipe variety": 1,
+                "Ease of use": 3
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-e4b1",
+            "age": "35-44",
+            "sex": "male"
+          }
+        },
+        {
+          "id": "a-0010",
+          "device": "mobile",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Rarely"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Weekly meal plans",
+                "Grocery list"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "3"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "More vegetarian options that are not just salads."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Dinner": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 28.7,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 21.4,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 3.31,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Honestly I have only planned once, for a week when friends stayed over."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "I live alone and cooking for one feels like a waste."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "6"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 1,
+                "Recipe variety": 3,
+                "Ease of use": 2
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "List view"
+            }
+          ],
+          "panel": {
+            "token": "tok-0f6c",
+            "age": "18-24",
+            "sex": "male"
+          }
+        },
+        {
+          "id": "a-0011",
+          "device": "desktop",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Every day"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Weekly meal plans",
+                "Pantry tracker"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "5"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Nothing comes to mind, maybe seasonal menus."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 19.95,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 14.2,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 2.21,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "Walk me through how you chose the dishes."
+                },
+                {
+                  "role": "user",
+                  "text": "I just reused last month's plan and swapped two dinners."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Nothing stops me; I would like more recipes from other cuisines."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "9"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 3,
+                "Recipe variety": 1,
+                "Ease of use": 2
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-3b8e",
+            "age": "45-54",
+            "sex": "female"
+          }
+        },
+        {
+          "id": "a-0012",
+          "device": "mobile",
+          "blocks": [
+            {
+              "blockId": "pw-1",
+              "question": "How often do you cook dinner at home?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "A few times a week"
+              ]
+            },
+            {
+              "blockId": "pw-2",
+              "question": "Which Larkspur features have you used in the last month?",
+              "duration": 0,
+              "type": "choice",
+              "answer": [
+                "Grocery list",
+                "Other"
+              ],
+              "options": [
+                "Weekly meal plans",
+                "Grocery list",
+                "Pantry tracker",
+                "Recipe import",
+                "Other",
+                "None of the above"
+              ]
+            },
+            {
+              "blockId": "pw-3",
+              "question": "How satisfied are you with Larkspur overall?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "pw-4",
+              "question": "What would make Larkspur more useful for you?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Sync with my supermarket so the list turns into an order."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-5",
+              "question": "Matrix 5",
+              "duration": 0,
+              "type": "matrix",
+              "answer": {
+                "Weekly meal plans": [
+                  "Easy to use",
+                  "Saves time"
+                ],
+                "Grocery list": [
+                  "Saves time"
+                ],
+                "Pantry tracker": [
+                  "Hard to find"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-6",
+              "question": "Card sort 6",
+              "duration": 0,
+              "type": "cardsort",
+              "answer": {
+                "Breakfast": [
+                  "Oatmeal",
+                  "Pancakes"
+                ],
+                "Lunch": [
+                  "Lentil soup",
+                  "Chicken wrap"
+                ],
+                "Snack": [
+                  "Fruit salad"
+                ]
+              }
+            },
+            {
+              "blockId": "pw-7",
+              "question": "Add a recipe to Saturday dinner",
+              "duration": 24.6,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 0
+            },
+            {
+              "blockId": "pw-8",
+              "question": "Find the pricing page on the Larkspur site",
+              "duration": 16.9,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "pw-9",
+              "question": "Where would you tap to start a new meal plan?",
+              "duration": 2.77,
+              "type": "other",
+              "sourceType": "firstclick"
+            },
+            {
+              "blockId": "pw-10",
+              "question": "Tell us about the last time you planned meals for a week",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "Last Sunday, mostly reusing favourites and adding one new soup."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-11",
+              "question": "What stops you from cooking more often?",
+              "duration": 0,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "assistant",
+                  "text": "What usually gets in the way?"
+                },
+                {
+                  "role": "user",
+                  "text": "Deciding what to cook; once I decide the rest is easy."
+                }
+              ]
+            },
+            {
+              "blockId": "pw-12",
+              "question": "How likely are you to recommend Larkspur to a friend?",
+              "duration": 0,
+              "type": "scale",
+              "answer": "8"
+            },
+            {
+              "blockId": "pw-13",
+              "question": "Rank these by importance",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": {
+                "Price": 2,
+                "Recipe variety": 2,
+                "Ease of use": 1
+              }
+            },
+            {
+              "blockId": "pw-15",
+              "question": "Where would you find your saved recipes?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "tree testing",
+              "rawAnswer": {
+                "status": "Succeeded",
+                "selected node": "Home > Cookbook > Saved"
+              }
+            },
+            {
+              "blockId": "pw-16",
+              "question": "Which home screen do you prefer?",
+              "duration": 0,
+              "type": "other",
+              "sourceType": "preference",
+              "rawAnswer": "Calendar view"
+            }
+          ],
+          "panel": {
+            "token": "tok-a1d4",
+            "age": "25-34",
+            "sex": "female"
+          }
+        }
+      ]
+    }
+  ],
+  "report": {
+    "rowsRead": 13,
+    "rowsConverted": 12,
+    "rowsSkipped": 1,
+    "skipped": [
+      {
+        "reason": "status \"Screened out\" is not completed",
+        "count": 1,
+        "examples": [
+          {
+            "line": 14,
+            "detail": "answer a-0013"
+          }
+        ]
+      }
+    ],
+    "surveys": 1,
+    "responses": 12,
+    "blocks": 179,
+    "blocksByType": {
+      "choice": 24,
+      "scale": 24,
+      "open": 36,
+      "matrix": 12,
+      "cardsort": 12,
+      "prototype": 11,
+      "website": 12,
+      "other": 48
+    },
+    "screeningAnswers": 0,
+    "hasDuration": true,
+    "warnings": [
+      "per-question durations are not present in Pathway exports except Figma/Live website/Click; pace is unavailable for the other blocks, whole-survey time is available as Completion time (median 346 s over 12 response(s))",
+      "prototype click counts are not present in Pathway exports; prototype-effort uses time and status only",
+      "first-click coordinates are not present in Pathway exports; firstclick-offtarget unavailable",
+      "ignored 1 AI tag column(s): \"11. AI – What stops you from cooking more often?: tags\"",
+      "block type(s) kept as \"other\": Tree testing, Preference"
+    ],
+    "detectorsAvailable": [
+      "pace",
+      "open-answer",
+      "duplicate-open",
+      "matrix-pattern",
+      "mass-select",
+      "prototype-effort",
+      "cardsort-consensus",
+      "website-bounce",
+      "positive"
+    ],
+    "detectorsUnavailable": [
+      {
+        "detector": "coherence (screening-vs-body)",
+        "reason": "no screening answers"
+      },
+      {
+        "detector": "firstclick-offtarget",
+        "reason": "no first-click tasks"
+      }
+    ]
+  }
+}

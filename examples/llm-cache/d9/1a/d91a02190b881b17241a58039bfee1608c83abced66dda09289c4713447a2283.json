@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical, non-informative answer 'I think it is pretty good overall.' to four separate open-ended questions asking for unique, specific feedback. This is a clear pattern of not engaging with the questions as required.",
+    "panel_text": "On four different questions that asked for feedback or an explanation, you replied with exactly the same sentence: \"I think it is pretty good overall.\" This does not give each question the thought and detail expected, and does not meet the quality standard for survey answers.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2378,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-01T22:23:23.903Z"
+}

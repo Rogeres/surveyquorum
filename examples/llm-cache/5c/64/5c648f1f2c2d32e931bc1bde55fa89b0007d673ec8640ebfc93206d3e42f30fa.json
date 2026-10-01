@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides a specific suggestion (a loyalty scheme) and willingness to test again, showing engagement beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:16.624Z"
+}

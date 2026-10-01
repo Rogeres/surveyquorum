@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is one isolated answer given much faster than average on a simple multiple-choice question, with all other speeds normal and open answers showing engagement. Fast response on a trivial question is not proof of bad faith.",
+    "panel_text": "You answered 'Payroll and staff admin' to the question 'Which of these back-office areas takes the most of your time each week?' faster than most, but this is a straightforward question and a quick answer is normal. No violation is present here.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2411,
+    "outputTokens": 120
+  },
+  "storedAt": "2026-10-01T22:23:50.670Z"
+}

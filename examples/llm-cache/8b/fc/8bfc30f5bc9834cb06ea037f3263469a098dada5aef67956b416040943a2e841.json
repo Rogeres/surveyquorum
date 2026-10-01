@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the respondent's method of learning about new software: online searches triggered by issues, showing concrete behavior."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:34.379Z"
+}

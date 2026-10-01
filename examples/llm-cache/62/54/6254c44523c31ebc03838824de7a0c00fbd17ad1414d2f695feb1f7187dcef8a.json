@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The repeated phrase 'Nothing specific comes to mind.' is brief but can honestly reflect a lack of concrete memory or experience in response to broad questions. Repetition of a short, natural phrase like this across two open questions does not by itself prove bad faith.",
+    "panel_text": "In two open-ended questions, you answered, 'Nothing specific comes to mind.' While this is brief, if you did not have a clear example or memory to share, such a response can be genuine. We do not find clear evidence of poor survey taking or insincerity from this repetition alone.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 2881,
+    "outputTokens": 148
+  },
+  "storedAt": "2026-10-02T00:53:39.490Z"
+}

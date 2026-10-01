@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single faster-than-average response on a routine choice question, while all other answers are detailed and show thoughtful engagement. Single fast answers on simple questions do not indicate bad faith.",
+    "panel_text": "If this case were justified, we would explain: On the question about your typical yearly budget for a software subscription, you answered much faster than other respondents (1 second versus about 9 seconds). Finishing so much more quickly could suggest you did not read the choices carefully.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2402,
+    "outputTokens": 121
+  },
+  "storedAt": "2026-10-01T22:23:47.439Z"
+}

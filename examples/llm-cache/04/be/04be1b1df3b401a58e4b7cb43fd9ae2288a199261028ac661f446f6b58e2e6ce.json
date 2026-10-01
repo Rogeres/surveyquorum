@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides specific feedback about the lack of a vegan filter and asks for simplicity, which is a concrete observation."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:42.632Z"
+}

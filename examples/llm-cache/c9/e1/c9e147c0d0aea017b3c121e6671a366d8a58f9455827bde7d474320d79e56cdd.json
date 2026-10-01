@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent explicitly states they are a student with no business and no relevant experience, which directly contradicts their declared profile as a business owner and decision maker. This is clear misrepresentation and constitutes bad faith participation.",
+    "panel_text": "You wrote: \"Student here, no business, no software purchases, I thought this was a general survey.\" This contradicts your entry as a business owner with software purchasing experience. Honest answers at screening are required for participation and payment.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2423,
+    "outputTokens": 121
+  },
+  "storedAt": "2026-10-01T22:23:46.261Z"
+}

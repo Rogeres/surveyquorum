@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about where the brand is seen and a purchasing condition, showing concrete observations."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:01.356Z"
+}

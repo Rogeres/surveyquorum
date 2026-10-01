@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the exact same answer, 'No problems at all with this one,' to four separate open questions that ask for distinct feedback about different tasks. This repetition shows a lack of engagement and does not provide meaningful input, which is strong evidence of bad faith.",
+    "panel_text": "You gave the same answer, 'No problems at all with this one,' to these questions: 'What, if anything, was confusing about adding an item to the basket?', 'Describe how you went about scheduling the delivery. What did you expect to see?', 'How did finding the missing-item instructions go? What would you change?', and 'Anything else you want to tell the Marrow team?'. Copying the same response shows you did not give genuine feedback.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2985,
+    "outputTokens": 178
+  },
+  "storedAt": "2026-10-02T00:53:24.256Z"
+}

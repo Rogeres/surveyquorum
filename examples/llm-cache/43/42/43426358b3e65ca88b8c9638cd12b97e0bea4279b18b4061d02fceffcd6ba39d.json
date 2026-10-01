@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent shows a consistent pattern of straightlining and flat responses across all matrix and scale questions. This pattern is indicative of disengaged or careless answering, as it is extremely unlikely for a genuine respondent to hold the same extreme or neutral opinion on all items. No open answers or other data contradicts or explains this pattern away.",
+    "panel_text": "Across all questions where you rated statements or features, you selected the same option every time (for example, you answered 'Agree' to every statement about Kettlebird and 'Strongly disagree' to every statement about snacking occasions). This is not considered genuine answering, as most people have different opinions about each statement.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3384,
+    "outputTokens": 164
+  },
+  "storedAt": "2026-10-02T07:56:58.763Z"
+}

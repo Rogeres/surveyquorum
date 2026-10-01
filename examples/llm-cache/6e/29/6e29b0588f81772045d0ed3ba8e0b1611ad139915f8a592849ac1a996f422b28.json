@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason related to cost during the overlap period of migration, showing concrete detail beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:16.380Z"
+}

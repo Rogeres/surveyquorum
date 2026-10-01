@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes detailed specifics about integrations with the till and bank taking months and the impact on smaller firms, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:23.834Z"
+}

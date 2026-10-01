@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates no information or data, simply 'no', which is a refusal or lack of detail representing absence of data."
+  },
+  "usage": {
+    "inputTokens": 1541,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:38.780Z"
+}

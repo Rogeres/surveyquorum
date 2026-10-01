@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a generic positive statement without any specific detail related to the requested change."
+  },
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:43:05.210Z"
+}

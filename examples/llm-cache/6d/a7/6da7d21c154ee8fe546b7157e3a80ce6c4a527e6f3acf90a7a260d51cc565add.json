@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical open answer 'Good experience, nothing to add here.' to three different free-text questions. This is clear evidence of low effort and not engaging meaningfully with the survey. The repetition is sufficient to show bad faith.",
+    "panel_text": "You wrote the same answer ('Good experience, nothing to add here.') on three different questions that asked for your thoughts or suggestions. This shows you did not give each question a genuine, individual response, which is required for the survey to count.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3293,
+    "outputTokens": 128
+  },
+  "storedAt": "2026-10-02T00:53:34.433Z"
+}

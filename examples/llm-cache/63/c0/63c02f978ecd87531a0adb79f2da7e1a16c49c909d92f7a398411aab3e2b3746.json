@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave non-answers consisting of random characters (e.g., 'hjkl', 'dfgdfg sdf', 'qwerty') to three open-ended questions that required a meaningful response. This is clear evidence of not engaging with the survey in good faith.",
+    "panel_text": "You answered three open-ended questions with random characters ('hjkl', 'dfgdfg sdf', 'qwerty') instead of a meaningful response. This does not show real engagement with the survey and goes against our rules for serious participation.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2721,
+    "outputTokens": 130
+  },
+  "storedAt": "2026-10-01T22:23:35.753Z"
+}

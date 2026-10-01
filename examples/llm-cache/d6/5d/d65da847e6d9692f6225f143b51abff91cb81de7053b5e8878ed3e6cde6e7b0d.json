@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific sources of new business software information, including an accountant and a local business group chat, which is concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:36.246Z"
+}

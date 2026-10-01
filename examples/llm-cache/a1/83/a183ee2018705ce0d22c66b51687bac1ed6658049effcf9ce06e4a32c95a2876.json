@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Four separate open-ended questions were answered with sequences of random letters, including two with identical text. These are not meaningful answers and indicate the respondent did not engage with the survey as required.",
+    "panel_text": "On the question 'Describe the last software purchase you decided on: what, why, what went wrong', the answer was 'asdkjh qwe', which is not a real answer to the question. Providing random letters or meaningless content is not allowed, as it does not help the research.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2965,
+    "outputTokens": 136
+  },
+  "storedAt": "2026-10-02T00:53:40.654Z"
+}

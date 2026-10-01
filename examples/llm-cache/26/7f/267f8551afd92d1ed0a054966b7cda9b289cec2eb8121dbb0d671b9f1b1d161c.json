@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single fast answer on question 2 (completed in 1s vs 16s cohort), but all other questions were answered at or above the typical pace, and total survey time is longer than median. A single outlier on a brand-choice question does not prove bad faith.",
+    "panel_text": "If a flag were justified, it would be because you selected snack brands on question 2 much faster (1 second) than most others (about 16 seconds). However, one fast answer is not enough to show you did not take care.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3400,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-02T00:53:34.282Z"
+}

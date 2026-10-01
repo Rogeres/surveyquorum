@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 82 seconds while the median for others was over 8.5 minutes, and was much faster than the cohort on all but a few questions. Many open text answers are non-substantive or dismissive, confirming the fast completion was done in bad faith.",
+    "panel_text": "You finished the survey in 82 seconds while most people took around 8 and a half minutes. Completing everything this quickly makes it clear you did not take the time to read and answer carefully, which is required.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3025,
+    "outputTokens": 133
+  },
+  "storedAt": "2026-10-02T00:53:25.876Z"
+}

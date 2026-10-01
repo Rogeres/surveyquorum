@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source ('bank's business portal') and method ('bundle a few tools with the account'), which is a concrete detail about how the respondent hears about software."
+  },
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 55
+  },
+  "storedAt": "2026-10-01T18:43:35.710Z"
+}

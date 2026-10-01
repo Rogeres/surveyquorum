@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent repeated the exact answer 'No problems at all with this one.' to four different open-ended questions requesting process descriptions and feedback, indicating generic, non-informative responses instead of genuine engagement.",
+    "panel_text": "You wrote the exact same answer, “No problems at all with this one.”, on four feedback questions that asked about different parts of the site or process. These questions require your own comments or a short description of your experience. Copying the same phrase is not acceptable.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2388,
+    "outputTokens": 119
+  },
+  "storedAt": "2026-10-01T22:23:28.077Z"
+}

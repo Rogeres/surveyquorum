@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 82 seconds while the typical participant needed about 520 seconds, and finished almost every question much faster than the cohort on questions that require reading, interaction, or open answers. No evidence in the answers or timing supports an honest explanation for such rapid progress.",
+    "panel_text": "You finished the survey in 82 seconds, but most people needed about 9 minutes. This means you answered far faster than would be possible if reading and completing each question properly, so your answers cannot be accepted.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3025,
+    "outputTokens": 131
+  },
+  "storedAt": "2026-10-02T00:53:25.981Z"
+}

@@ -1,0 +1,20 @@
+survey_id,response_id,block_id,question_type,question,answer,duration_sec
+demo-1,r-001,q1,choice,Which of these drinks do you buy at least monthly?,Tea;Coffee,14.2
+demo-1,r-001,q2,scale,How satisfied are you with your usual brand?,4,6
+demo-1,r-001,q3,matrix,Rate each brand on taste and price,Alpha=Good|Fair;Beta=Poor,31.5
+demo-1,r-001,q4,open,"Why did you choose that brand?","It is the only one with ""no sugar"" on the shelf, and it is cheap.",48
+demo-1,r-001,q5,firstclick,Where would you click to find the price list?,"0.42,0.71",9
+demo-1,r-001,q6,prototype,Add the item to the cart,completed;7,52
+demo-1,r-001,q7,website,Find the opening hours of the nearest store,false,40
+demo-1,r-001,q8,cardsort,Group these features,"{""Must have"":[""Search"",""Filters""],""Nice to have"":[""Dark mode""]}",66
+demo-1,r-001,q9,ranking,Rank the three brands,Alpha>Beta>Gamma,22
+demo-1,r-002,q1,choice,Which of these drinks do you buy at least monthly?,Coffee,3.1
+demo-1,r-002,q2,scale,How satisfied are you with your usual brand?,5,1.4
+demo-1,r-002,q3,matrix,Rate each brand on taste and price,Alpha=Good|Good;Beta=Good|Good,4
+demo-1,r-002,q4,open,"Why did you choose that brand?",good,2.2
+demo-1,r-002,q5,firstclick,Where would you click to find the price list?,"0.05,0.05",1.1
+demo-1,r-002,q6,prototype,Add the item to the cart,gave_up;1,3
+demo-1,r-002,q7,website,Find the opening hours of the nearest store,true,2
+demo-1,r-003,q1,choice,Which of these drinks do you buy at least monthly?,Tea|Juice|Water,11
+demo-1,r-003,q4,open,"Why did you choose that brand?","My family has bought it for years, so it is habit more than taste.",37
+demo-1,r-003,q5,firstclick,Where would you click to find the price list?,not sure,8

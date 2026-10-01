@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about 'annual contracts' and being locked in until next spring, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:18.772Z"
+}

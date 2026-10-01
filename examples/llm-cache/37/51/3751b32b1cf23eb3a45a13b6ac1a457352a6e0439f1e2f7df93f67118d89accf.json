@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer explicitly states lack of knowledge and provides no content relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1543,
+    "outputTokens": 35
+  },
+  "storedAt": "2026-10-01T18:43:02.100Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The answer 'fghj' to an open-ended question is meaningless and does not attempt to address the prompt. This is clear evidence of bad faith on at least one substantive open-ended question.",
+    "panel_text": "On the question 'What, if anything, was confusing about adding an item to the basket?', your answer was 'fghj'. This is not a real answer and does not help the research. Please use words or sentences that describe your experience when answering open questions.",
+    "per_signal": {
+      "pace.fast_cluster": "does_not_support",
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2478,
+    "outputTokens": 127
+  },
+  "storedAt": "2026-10-01T22:23:29.594Z"
+}

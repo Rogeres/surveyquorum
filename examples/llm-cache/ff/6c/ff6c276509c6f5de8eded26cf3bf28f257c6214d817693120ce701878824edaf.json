@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about allergen labeling and tiny print affecting purchase decisions."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:51.252Z"
+}

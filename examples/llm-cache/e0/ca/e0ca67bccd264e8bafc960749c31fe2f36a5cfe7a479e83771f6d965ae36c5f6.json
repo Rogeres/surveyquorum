@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 146 seconds, while others took around 8–9 minutes. Several open-ended questions were answered only with 'easy', and prototype tasks were abandoned after minimal interaction. The duplicate answers and the total time together show clear disengagement not attributable to design.",
+    "panel_text": "Your answers to open questions 3, 8, and 15 were all simply 'easy.' Giving the same brief answer to different questions suggests you did not provide thoughtful feedback. This does not meet the standards for meaningful participation in our surveys.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x3": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3133,
+    "outputTokens": 155
+  },
+  "storedAt": "2026-10-02T00:53:22.507Z"
+}

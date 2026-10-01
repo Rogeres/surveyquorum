@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical answer 'No problems at all with this one.' to three different open-ended questions, where each called for a unique and thoughtful response about different aspects of a snack brand. This is clear evidence of not engaging with the questions' intent.",
+    "panel_text": "You answered 'No problems at all with this one.' to all of these questions: 'What comes to mind when you think of Kettlebird?', 'Have you tried the new Kettlebird Sea Salt & Thyme flavour?', and 'If you could change one thing about Kettlebird, what would it be?'. Giving the same answer like this does not show real opinions or attention.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2703,
+    "outputTokens": 158
+  },
+  "storedAt": "2026-10-01T22:23:40.874Z"
+}

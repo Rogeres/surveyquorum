@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed feedback including the specific location of the basket icon, the initial confusion, and a concrete suggestion to improve usability."
+  },
+  "usage": {
+    "inputTokens": 1576,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:17.547Z"
+}

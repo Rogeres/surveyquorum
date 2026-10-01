@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey more than six times faster than the typical participant (84 s vs 520 s), including rapid completion of interactive and open-ended tasks. Open-ended responses are extremely terse, and interaction tasks were abandoned or barely attempted, indicating no genuine attempt to engage.",
+    "panel_text": "You completed the whole survey in 84 seconds, while most people needed about 9 minutes. Your free-text answers are very short and you left tasks unfinished. This shows you did not seriously attempt the survey and is not acceptable.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2496,
+    "outputTokens": 149
+  },
+  "storedAt": "2026-10-01T22:23:29.632Z"
+}

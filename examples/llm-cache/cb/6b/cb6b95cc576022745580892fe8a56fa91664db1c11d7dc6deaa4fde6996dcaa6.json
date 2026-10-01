@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about the help centre's grouping and a suggested improvement, showing concrete engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1575,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:20.721Z"
+}

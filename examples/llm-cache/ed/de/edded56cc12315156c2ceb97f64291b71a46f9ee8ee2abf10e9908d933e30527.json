@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The only repeated open-answer is 'easy enough,' which is a natural and reasonable short reply in both spots, not clear evidence of copying or template use. The repeated click location across first-click tasks is suspicious but without knowing if the clickable interface led naturally to the same location, it does not prove bad faith. No strong sign of non-genuine participation.",
+    "panel_text": "If your answers had been copied and pasted or reused across open questions, or if you had given empty answers instead of specifics, that would not have helped improve the product. In this case, your short responses ('easy enough') are valid for the questions asked.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "firstclick-offtarget.same_spot": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2432,
+    "outputTokens": 162
+  },
+  "storedAt": "2026-10-01T22:23:26.271Z"
+}

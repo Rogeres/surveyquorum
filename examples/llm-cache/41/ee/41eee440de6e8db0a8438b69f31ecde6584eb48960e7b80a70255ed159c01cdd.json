@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific source of information (word of mouth at chamber of commerce meetings) indicating some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:19.692Z"
+}

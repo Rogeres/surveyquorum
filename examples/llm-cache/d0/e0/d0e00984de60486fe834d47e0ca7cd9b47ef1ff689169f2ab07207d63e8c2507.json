@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two open-ended answers ('zxcv zxcv', 'aaaa') are keyboard mashing with no meaningful content, where the questions demanded specifics. This is clear bad faith.",
+    "panel_text": "You answered 'zxcv zxcv' and 'aaaa' to questions asking you to describe your last software purchase and how you hear about new business software. These answers give no meaningful information, which shows you did not make a genuine effort to answer as required.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2307,
+    "outputTokens": 116
+  },
+  "storedAt": "2026-10-01T22:23:49.236Z"
+}

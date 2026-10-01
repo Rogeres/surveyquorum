@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two different open-ended responses ('zxcv zxcv', 'asdkjh qwe') are clear gibberish and not related to the questions. This cannot be explained by design; it shows the respondent was not engaging meaningfully.",
+    "panel_text": "For the question 'What, if anything, was confusing about adding an item to the basket?', you answered 'zxcv zxcv'. For 'How did finding the missing-item instructions go? What would you change?', you answered 'asdkjh qwe'. These are random letters, not real answers. This does not meet the survey's requirements.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2987,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:28.970Z"
+}

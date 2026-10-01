@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "While the respondent gave neutral responses across multiple matrices and mid-scale ratings, their open answers are detailed and specific (e.g., 'yes, once at a friend's place, it tasted a bit like stuffing...' and 'The packaging looks dated, it needs a refresh.'). This shows real engagement and is inconsistent with inattentive or careless responding. The patterned matrices alone do not prove bad faith, especially given this substantive content.",
+    "panel_text": "In this case, your open answers were specific and directly relevant. For example, to 'Have you tried the new Kettlebird Sea Salt & Thyme flavour?' you wrote: \"yes, once at a friend's place, it tasted a bit like stuffing which I didn't mind.\" This detailed answer shows you were paying attention and answering honestly. No action will be taken.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 3371,
+    "outputTokens": 200
+  },
+  "storedAt": "2026-10-02T07:56:58.573Z"
+}

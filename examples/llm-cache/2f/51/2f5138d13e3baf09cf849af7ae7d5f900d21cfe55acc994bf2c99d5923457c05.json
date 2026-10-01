@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent arranged a card sort in a way that matches only half the pairs other business owners created, far lower than typical (50% vs 83%); combined with below-average speed, this indicates random or careless sorting and is strong evidence of bad faith. The repeated phrase in open answers alone would not be enough; the card sort is decisive.",
+    "panel_text": "In the card arrangement task, your groups matched only half as many pairs as other business owners, while most matched more than four out of five. This is a sign of not sorting the tools with care, which means your answers cannot be trusted in this survey.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3030,
+    "outputTokens": 164
+  },
+  "storedAt": "2026-10-02T00:53:46.196Z"
+}

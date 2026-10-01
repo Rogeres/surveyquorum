@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides multiple specific details including the orange kettle logo, strong vinegar flavor, association with pub snacks, and mentions personal experience with their kids liking the product."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:42:52.377Z"
+}

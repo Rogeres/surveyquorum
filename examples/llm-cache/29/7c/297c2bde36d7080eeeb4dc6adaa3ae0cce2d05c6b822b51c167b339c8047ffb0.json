@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided empty or non-informative answers ('nice', 'ok', 'no') to all four open-ended questions that required specifics, and completed the survey in about one-fourth the typical time. This demonstrates a clear lack of effort and failure to provide meaningful responses.",
+    "panel_text": "On the questions 'Describe the last software purchase you decided on', 'How do you usually hear about new business software?', and 'What would make you recommend a business tool to another owner?', you replied 'nice', 'ok', and 'no'. These are not meaningful answers and do not meet survey requirements.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2374,
+    "outputTokens": 148
+  },
+  "storedAt": "2026-10-01T22:23:50.115Z"
+}

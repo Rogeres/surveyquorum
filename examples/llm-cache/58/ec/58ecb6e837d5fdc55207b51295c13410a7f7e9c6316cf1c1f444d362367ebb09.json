@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "off_topic",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer does not address how the respondent hears about new business software but instead explains why they don't seek it."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:13.714Z"
+}

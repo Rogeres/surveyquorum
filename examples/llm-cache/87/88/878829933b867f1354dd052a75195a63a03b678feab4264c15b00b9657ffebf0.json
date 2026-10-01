@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific source of information (a course) and clarifies the respondent does not run a business, which is relevant detail to the question."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:43:09.458Z"
+}

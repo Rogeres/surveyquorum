@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates intention and timing ('on my list for the weekend shop'), providing a specific detail related to usage plans."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:47.878Z"
+}

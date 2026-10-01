@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is one question answered quickly, but the question was a simple one-choice item and the respondent's other timings and open answers are detailed and in line with the cohort. There is no indication of bad faith.",
+    "panel_text": "If this case had been justified, the issue would have been answering one question much faster than most people. However, this was a simple question and the rest of your answers and timings show normal care.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2411,
+    "outputTokens": 111
+  },
+  "storedAt": "2026-10-01T22:23:50.729Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a minimal, generic positive comment with no specific details."
+  },
+  "usage": {
+    "inputTokens": 1541,
+    "outputTokens": 33
+  },
+  "storedAt": "2026-10-01T18:42:41.726Z"
+}

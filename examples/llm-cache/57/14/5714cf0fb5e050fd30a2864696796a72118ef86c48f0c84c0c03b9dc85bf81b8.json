@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in about 1.5 minutes, compared to a typical time of nearly 9 minutes. Their answers are minimal, and their open-text responses do not show any engagement. This is clear evidence of not engaging with the survey in good faith.",
+    "panel_text": "You finished the survey in 1 minute 22 seconds, while most people took about 9 minutes. Rushing through without reading the questions or engaging with the tasks means your answers do not count as honest participation.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2428,
+    "outputTokens": 121
+  },
+  "storedAt": "2026-10-01T22:23:29.669Z"
+}

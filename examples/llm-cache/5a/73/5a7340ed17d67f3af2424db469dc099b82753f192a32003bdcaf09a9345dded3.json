@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The respondent spent only 1 second on a budget question that others took 9 seconds to answer, but the rest of their responses—including all open answers—are thoughtful and plausible. One fast answer on an easy question does not show bad faith.",
+    "panel_text": "If a flag were justified: You answered “What is your typical yearly budget for one business software subscription?” much faster than others (1 second vs about 9 seconds). Without enough time to consider, your answer may not reflect real experience.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2402,
+    "outputTokens": 124
+  },
+  "storedAt": "2026-10-01T22:23:47.371Z"
+}

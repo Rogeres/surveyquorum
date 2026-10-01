@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent explicitly says they don't know, which is a legitimate 'no answer' response indicating absence of data."
+  },
+  "usage": {
+    "inputTokens": 1546,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:40.587Z"
+}

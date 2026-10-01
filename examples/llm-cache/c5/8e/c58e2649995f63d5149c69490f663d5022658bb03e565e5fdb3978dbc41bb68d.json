@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about honest ingredients and a short ingredient list, indicating engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:56.977Z"
+}

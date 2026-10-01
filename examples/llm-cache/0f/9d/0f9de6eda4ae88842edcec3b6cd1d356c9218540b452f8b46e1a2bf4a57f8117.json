@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific instance of confusion (loose oranges vs. a bag) and mentions personal experience with similar apps, showing clear engagement and detailed response."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:42:11.101Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about hearing via online searches triggered by a problem, showing some engagement."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:12.308Z"
+}

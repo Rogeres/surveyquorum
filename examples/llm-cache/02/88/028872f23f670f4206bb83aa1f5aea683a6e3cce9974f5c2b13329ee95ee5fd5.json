@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered four different open-ended questions with the identical, generic text: 'I think it is pretty good overall.' This strongly indicates they did not engage with the specific content of each question and responded in bad faith.",
+    "panel_text": "On four separate questions where you were asked for details or suggestions, you answered exactly: \"I think it is pretty good overall.\" This shows you did not respond to the questions as asked. Open questions require unique and relevant answers, not the same phrase each time.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2975,
+    "outputTokens": 128
+  },
+  "storedAt": "2026-10-02T00:53:20.982Z"
+}

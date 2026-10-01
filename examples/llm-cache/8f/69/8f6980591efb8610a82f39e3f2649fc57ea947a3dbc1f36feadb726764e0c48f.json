@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about clear pricing and a proper mobile app, as well as a concrete issue with invoices, indicating engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:26.942Z"
+}

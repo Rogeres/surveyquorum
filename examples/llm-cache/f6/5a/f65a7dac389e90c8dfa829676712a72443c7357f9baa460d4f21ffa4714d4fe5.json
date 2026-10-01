@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific observations about the app's speed and product photos, plus an intention to try the product, showing concrete detail and engagement."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:12.707Z"
+}

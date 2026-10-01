@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copy-pasted the identical and generic response 'Everything was fine and easy to use.' to four different open-ended questions, each of which demands distinct, detailed answers. This is clear evidence of not engaging with the questions and answering in bad faith.",
+    "panel_text": "You wrote the exact same answer, 'Everything was fine and easy to use.', to four different questions that each asked for specific details. This shows that you did not provide meaningful answers to the survey, which is not allowed.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2295,
+    "outputTokens": 120
+  },
+  "storedAt": "2026-10-01T22:23:46.689Z"
+}

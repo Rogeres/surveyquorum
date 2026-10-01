@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the whole survey in less than a quarter of the median time (115 s vs 520 s) and rapidly gave very brief, non-substantive answers to every open-ended question. No specific factor sufficiently explains this speed, and the sparse, generic open answers reinforce a pattern of not engaging with the content.",
+    "panel_text": "You completed the entire survey in 115 seconds, while most people took about 9 minutes. This fast pace means you could not have read and answered the questions with care, so your responses cannot be accepted for this study.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3092,
+    "outputTokens": 151
+  },
+  "storedAt": "2026-10-02T07:14:00.346Z"
+}

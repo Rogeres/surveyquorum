@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about where the basket icon is located versus where the respondent expected it to be."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:13.791Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific feature request (an export button) and an explanation, providing a concrete detail relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:12.531Z"
+}

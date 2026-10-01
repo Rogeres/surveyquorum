@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed and specific reasons including data migration time and retraining staff, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1574,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:32.517Z"
+}

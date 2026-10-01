@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about associating Kettlebird with road trips and buying a bag at services, plus a concrete opinion about the price."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:43:00.438Z"
+}

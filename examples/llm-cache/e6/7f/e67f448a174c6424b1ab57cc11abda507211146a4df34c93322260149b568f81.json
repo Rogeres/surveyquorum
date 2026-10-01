@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific observation about the size of the sharing bags and a purchasing habit related to offers."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:59.620Z"
+}

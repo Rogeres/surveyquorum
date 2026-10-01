@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal positive evaluation that could apply to any question, with no specifics."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:43:04.300Z"
+}

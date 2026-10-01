@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the basket location confusion and the user's initial action, which shows engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:38.637Z"
+}

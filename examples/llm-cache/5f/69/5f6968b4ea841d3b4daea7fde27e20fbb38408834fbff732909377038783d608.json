@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is one isolated fast answer on question 18, which was a single-choice question answered in 1 second versus a typical 8 seconds. All other questions were answered at ordinary or slower-than-median pace, and total time on survey is above cohort median. One fast response on a trivial choice is not proof of bad faith.",
+    "panel_text": "You answered 'How likely are you to buy Kettlebird in the next month?' in 1 second, while others took about 8 seconds. A single quick answer on an easy question does not itself show careless or bad-faith behaviour, so your result should be accepted.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "design_artifact"
+  },
+  "usage": {
+    "inputTokens": 3377,
+    "outputTokens": 162
+  },
+  "storedAt": "2026-10-02T00:53:31.398Z"
+}

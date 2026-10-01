@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a vague approval without any specific detail about scheduling or expectations."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 34
+  },
+  "storedAt": "2026-10-01T18:42:30.786Z"
+}

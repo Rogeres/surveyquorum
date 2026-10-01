@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is polite and addresses the question but contains no specific detail or personal experience."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:32.787Z"
+}

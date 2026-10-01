@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the whole survey in 101 seconds, while the cohort median was 520 seconds. They answered 9 of 15 questions much faster than other respondents, including several that clearly require more time (prototype and website tasks). The repeated 'easy' answers do not, by themselves, prove bad faith, but the consistent, extreme speed does.",
+    "panel_text": "You finished the survey in 101 seconds, but people like you normally needed about 9 minutes. Completing it this quickly means you could not have read and answered the questions with care. This is why your response was not accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3059,
+    "outputTokens": 156
+  },
+  "storedAt": "2026-10-02T00:53:21.278Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical open-ended answer 'No problems at all with this one.' to three different, distinctly worded questions. This is a template answer that does not address the questions and signals bad faith participation.",
+    "panel_text": "You answered 'No problems at all with this one.' to three different questions asking for your thoughts on Kettlebird or its products. Reusing the same text does not give meaningful answers, and shows you did not engage with the questions as required.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2695,
+    "outputTokens": 118
+  },
+  "storedAt": "2026-10-01T22:23:35.625Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "Neither the repeated short open-answer nor the use of placeholder or generic group names in the card sort is strong evidence of bad faith. The respondent may genuinely not recall specifics for the open questions, and short or default names are common in sorting tasks. No substantive violation is present.",
+    "panel_text": "If this flag were justified, it would be because the same short answer (“Nothing specific comes to mind.”) appeared in response to two different open-ended questions. This alone does not prove a lack of genuine effort; sometimes no specific answer comes to mind.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.unnamed_categories": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2389,
+    "outputTokens": 146
+  },
+  "storedAt": "2026-10-01T22:23:49.276Z"
+}

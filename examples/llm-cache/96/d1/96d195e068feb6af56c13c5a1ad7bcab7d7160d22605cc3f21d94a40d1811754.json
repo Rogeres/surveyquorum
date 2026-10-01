@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific feedback about the search results and suggests a concrete improvement for the help home page, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:19.065Z"
+}

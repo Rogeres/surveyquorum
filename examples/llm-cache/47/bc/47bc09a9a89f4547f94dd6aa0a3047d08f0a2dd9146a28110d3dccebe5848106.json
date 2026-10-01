@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 1,
+        "explanation": ""
+      },
+      {
+        "i": 2,
+        "contradicts": true,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner; Q2=I don't actually have a company, I'm a student, so I haven't bought any business software"
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 1,
+        "explanation": ""
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 1,
+        "explanation": ""
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 1,
+        "explanation": ""
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 1,
+        "explanation": ""
+      },
+      {
+        "i": 7,
+        "contradicts": true,
+        "confidence": 5,
+        "explanation": "Q1=Yes (personally decided on business software purchase); Q2=I don't actually have a company, I'm a student, so I haven't bought any business software"
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1211,
+    "outputTokens": 199
+  },
+  "storedAt": "2026-10-01T18:44:01.435Z"
+}

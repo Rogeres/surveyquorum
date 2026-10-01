@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "All three first-click tasks—on different topics—landed at exactly the same spot, which is very unlikely if the respondent attempted each task seriously. This strongly suggests they did not read or engage with the instructions for those questions.",
+    "panel_text": "On three questions asking you to click for different things, you clicked exactly the same spot every time. This is not how people answer when they are reading and thinking about each question, so your responses do not look genuine.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3020,
+    "outputTokens": 124
+  },
+  "storedAt": "2026-10-02T00:53:28.596Z"
+}

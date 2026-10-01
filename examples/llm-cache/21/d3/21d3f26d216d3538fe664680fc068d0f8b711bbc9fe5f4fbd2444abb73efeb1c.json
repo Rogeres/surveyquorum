@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Four open-ended answers contain only random characters (e.g., 'lkjlkj', 'sdfsdf', 'dfgdfg sdf', 'fghj'), which are not valid or meaningful responses. This clearly shows the respondent did not engage with the survey in good faith.",
+    "panel_text": "On four open questions (for example: 'Describe the last software purchase you decided on', 'How do you usually hear about new business software?'), your answers were random letters such as 'lkjlkj' and 'sdfsdf'. These are not real answers, and giving such responses is not allowed.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2906,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:39.295Z"
+}

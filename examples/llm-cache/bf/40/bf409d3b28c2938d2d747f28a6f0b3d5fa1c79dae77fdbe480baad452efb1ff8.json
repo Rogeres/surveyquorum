@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source (chamber of commerce meetings) and a preference (reviews over ads), which shows concrete information."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:32.736Z"
+}

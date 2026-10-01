@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the search result confusion and suggests adding screenshots, showing engagement with the question but not extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:15.169Z"
+}

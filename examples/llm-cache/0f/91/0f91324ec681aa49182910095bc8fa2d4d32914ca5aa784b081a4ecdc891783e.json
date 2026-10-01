@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains specific details about packaging style, imagery, and brand positioning, showing some concrete observations about Kettlebird."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:50.192Z"
+}

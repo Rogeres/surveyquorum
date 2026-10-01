@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific behavior detail about hearing new software through online searches triggered by problems, showing some insight into the respondent's process."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:40.664Z"
+}

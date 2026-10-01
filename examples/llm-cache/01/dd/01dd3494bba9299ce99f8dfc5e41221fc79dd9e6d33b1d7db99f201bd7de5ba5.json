@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed observations about the scheduling interface and the confirmation screen, indicating clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1579,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:23.620Z"
+}

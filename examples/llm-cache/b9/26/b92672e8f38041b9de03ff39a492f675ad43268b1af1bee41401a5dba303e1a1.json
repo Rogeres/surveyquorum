@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a brief but specific detail about the process (two clicks from the help home page) and a concrete suggestion (make the search box bigger)."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:42:31.919Z"
+}

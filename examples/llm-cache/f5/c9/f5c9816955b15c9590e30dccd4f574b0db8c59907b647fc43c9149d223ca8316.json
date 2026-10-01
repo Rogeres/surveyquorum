@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the quantity picker and a suggestion for a confirmation toast, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:19.201Z"
+}

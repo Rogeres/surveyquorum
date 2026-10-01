@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about the checkout button appearing only after scrolling, showing insight into the user experience."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:20.576Z"
+}

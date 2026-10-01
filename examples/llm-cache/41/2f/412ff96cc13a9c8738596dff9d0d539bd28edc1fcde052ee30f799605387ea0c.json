@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The answer 'fghj' to an open question that required a substantive explanation is pure gibberish, not a valid response. This alone is clear evidence of bad faith. The fast pace supports but is not required for the verdict.",
+    "panel_text": "On the question 'What, if anything, was confusing about adding an item to the basket?', you answered 'fghj'. This is not a real answer and does not attempt to share your experience or feedback, so we cannot accept your response.",
+    "per_signal": {
+      "pace.fast_cluster": "supports",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3075,
+    "outputTokens": 137
+  },
+  "storedAt": "2026-10-02T07:13:59.912Z"
+}

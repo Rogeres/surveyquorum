@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about a desirable feature (being able to cancel monthly) that would make the respondent recommend a business tool."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:33.078Z"
+}

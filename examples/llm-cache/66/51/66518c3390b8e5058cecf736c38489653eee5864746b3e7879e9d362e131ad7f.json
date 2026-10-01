@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent selected the exact same response option for every statement in all three matrix questions, and also picked the same score (4) for every single scale question regarding Kettlebird attributes. This flat pattern, maintained across multiple rating grids and scales, is a strong indicator of inattentive or disengaged answering, matching the definition for straightlining. There is no evidence in open answers or timing to contradict this pattern.",
+    "panel_text": "In every question where multiple statements or ratings were shown, you picked the same answer each time, for example, 'Disagree' for every part about Kettlebird and 'Neither agree nor disagree' for every packaging and snacking occasion statement. Giving all statements the same answer over and over is not meaningful feedback and suggests you did not consider each one.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3378,
+    "outputTokens": 190
+  },
+  "storedAt": "2026-10-02T07:57:00.646Z"
+}

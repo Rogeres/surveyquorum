@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared themselves an owner/co-owner and a business software decision maker, but their answers repeatedly state they are a student and not a business owner, with no business purchases. This is a clear profile misrepresentation and multiple non-informative open answers. This is unmistakable bad faith.",
+    "panel_text": "You declared in the screening that you are a business owner and decision maker, but in your answers, you wrote: “I'm studying at the moment and don't own anything, the last thing I bought was a games console.” Misrepresenting your profile to enter the survey is not allowed.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3010,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:39.215Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The response provides detailed specific feedback about using the chat button and suggests a concrete improvement for the help home page, demonstrating clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1574,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:33.797Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided the identical answer, 'Everything was fine and easy to use,' to four different open-ended questions where substantive, specific replies were expected; this is clear evidence of answering without care or intent.",
+    "panel_text": "You gave the exact same answer, 'Everything was fine and easy to use,' to four questions that each asked for different details about your experiences. This shows you did not answer with genuine care or attention, which is not allowed.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2287,
+    "outputTokens": 111
+  },
+  "storedAt": "2026-10-01T22:23:42.212Z"
+}

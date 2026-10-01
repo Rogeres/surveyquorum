@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copied the exact same answer, 'No problems at all with this one.', to three different open questions that each ask for a distinct response. This is a clear sign of not engaging with the survey in good faith.",
+    "panel_text": "You gave the exact same answer, \"No problems at all with this one.\", to three different questions that asked for your thoughts about different topics. Answering this way shows you did not give meaningful feedback as expected.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2695,
+    "outputTokens": 113
+  },
+  "storedAt": "2026-10-01T22:23:35.626Z"
+}

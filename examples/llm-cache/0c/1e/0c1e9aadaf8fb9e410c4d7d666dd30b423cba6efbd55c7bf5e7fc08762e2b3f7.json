@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "gibberish",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is clearly nonsense and does not provide any meaningful response to the question."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:49.700Z"
+}

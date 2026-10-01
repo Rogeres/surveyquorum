@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey much faster than almost everyone else (63 seconds vs a median of 329 seconds), straightlined matrices, and gave several low-effort open answers ('easy', 'yes', 'fine') to substantive questions. This shows they did not attempt to answer thoughtfully or read the survey.",
+    "panel_text": "The survey was finished in 63 seconds when most others took about 5 and a half minutes. Finishing so quickly means the questions could not have been read and answered with care, which is against the rules for honest participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2840,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:35.765Z"
+}

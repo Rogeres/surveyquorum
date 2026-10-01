@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific change suggestion (resealable bags) and a concrete reason (crisps go soft before finishing), showing engagement but not detailed facts or examples."
+  },
+  "usage": {
+    "inputTokens": 1569,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:42:53.218Z"
+}

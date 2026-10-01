@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about packaging, imagery, and positioning, along with a personal purchasing condition, indicating some engagement without extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:06.040Z"
+}

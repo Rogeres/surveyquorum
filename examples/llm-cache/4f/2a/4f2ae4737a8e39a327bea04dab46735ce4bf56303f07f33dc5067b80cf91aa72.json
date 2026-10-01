@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent submitted the identical open-ended answer 'I like it and would use it again.' to three separate questions that each called for a specific, differentiated response. This is clear evidence of bad faith and cannot be reasonably explained by question design or survey error.",
+    "panel_text": "You wrote 'I like it and would use it again.' as your answer to three different questions that each asked for something unique. Providing the same answer like this suggests you did not read or respond to each question properly, which is not acceptable for this type of survey.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3281,
+    "outputTokens": 136
+  },
+  "storedAt": "2026-10-02T00:53:35.640Z"
+}

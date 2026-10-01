@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer minimally responds to the question with a vague opinion but no specific detail."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 35
+  },
+  "storedAt": "2026-10-01T18:42:23.943Z"
+}

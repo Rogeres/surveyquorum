@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific suggestion about making the bags resealable and explains why, which is a concrete detail related to the product."
+  },
+  "usage": {
+    "inputTokens": 1569,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:00.074Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the substitution toggle appearing before checkout and mentions experience with a similar app, showing concrete observation and engagement."
+  },
+  "usage": {
+    "inputTokens": 1570,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:30.458Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided empty or meaningless answers to several open-ended questions, such as 'nice', 'ok', and 'no', which do not address the content required. Additionally, the entire survey was completed much faster than the cohort, supporting the finding of bad faith.",
+    "panel_text": "On the question 'Describe the last software purchase you decided on: what, why, what went wrong.', you answered 'nice'. Answers like this do not explain your decision or give useful information. Giving answers that ignore what is asked is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2971,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-02T00:53:45.808Z"
+}

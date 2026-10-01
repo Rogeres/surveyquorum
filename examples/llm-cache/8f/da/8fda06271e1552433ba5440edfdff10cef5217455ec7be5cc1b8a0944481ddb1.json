@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave gibberish (nonsense) answers to three open-ended questions, e.g., 'hjkl', which have no meaning and do not address the survey questions. This demonstrates bad faith and a lack of intent to provide useful feedback.",
+    "panel_text": "You answered 'hjkl', 'dfgdfg sdf', and 'qwerty' to open-ended questions that asked for your thoughts about Kettlebird. These are not real answers and show you did not fill in the survey properly. This kind of response means we cannot accept your submission.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2721,
+    "outputTokens": 137
+  },
+  "storedAt": "2026-10-01T22:23:35.802Z"
+}

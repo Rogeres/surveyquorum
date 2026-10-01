@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared never ordering groceries online, directly contradicting the recruiting target requirement. Additionally, they spent far less time than typical, gave up instantly on interactive tasks, and gave brief or repeated non-substantive open answers. The combination indicates bad faith completion (likely just clicking through).",
+    "panel_text": "You answered 'Never' to 'How often do you order groceries online?', but this survey is for people who have ordered groceries online at least once in the last year. This misrepresentation means your responses aren't valid for this study.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2625,
+    "outputTokens": 152
+  },
+  "storedAt": "2026-10-01T22:23:34.148Z"
+}

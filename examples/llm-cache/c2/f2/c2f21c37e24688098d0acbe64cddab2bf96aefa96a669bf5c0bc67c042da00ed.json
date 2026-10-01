@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail (mature cheddar flavour) linked to a personal preference, showing some engagement with the question but without elaboration."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:54.594Z"
+}

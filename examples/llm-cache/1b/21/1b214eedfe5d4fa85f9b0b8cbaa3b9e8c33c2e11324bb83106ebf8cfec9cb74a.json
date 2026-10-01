@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about needing to log in and suggests adding screenshots, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1566,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:21.328Z"
+}

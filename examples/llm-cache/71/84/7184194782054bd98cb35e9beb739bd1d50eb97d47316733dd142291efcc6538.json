@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific observation about finding a chat button before the article and a concrete suggestion for improvement (a direct link from the order)."
+  },
+  "usage": {
+    "inputTokens": 1572,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:24.903Z"
+}

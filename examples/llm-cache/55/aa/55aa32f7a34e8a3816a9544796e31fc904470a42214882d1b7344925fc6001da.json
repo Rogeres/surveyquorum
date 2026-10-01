@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The respondent answered quickly and gave brief answers, but their responses are on-topic, plausible, and internally coherent. The repeated use of 'easy' on open questions is terse but matches the type of questions asked, and the lack of engagement is not enough to prove bad faith. The off-target first clicks are weak, as I can't see the prototype and their answers are not implausible. Pace alone does not show bad faith given small sample size and the nature of the tasks.",
+    "panel_text": "If the flag were justified, it would be because the answers to several open questions are extremely short and repetitive (\"easy\") rather than detailed feedback. This can be a sign of not engaging with the survey properly when responses are expected to be specific and individual.",
+    "per_signal": {
+      "pace.consistent": "does_not_support",
+      "duplicate-open.x3": "does_not_support",
+      "firstclick-offtarget.repeated_off_density": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2536,
+    "outputTokens": 196
+  },
+  "storedAt": "2026-10-01T22:23:26.239Z"
+}

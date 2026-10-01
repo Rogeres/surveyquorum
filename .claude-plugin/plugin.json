@@ -1,0 +1,5 @@
+{
+  "name": "surveyquorum",
+  "version": "0.1.0",
+  "description": "Consensus screening of survey respondents (open beta). Five skills: screener-design (audience difficulty, behavior-first screener, honeypots, verifier for narrow audiences), survey-review (questionnaire body before field: is there anything verifiable for the audience, which constructions make honest respondents look like junk), quorum-import (any export into the input contract), quorum-screen (run the engine, judge in agent mode, walk the review queue), panel-complaint (one-ground complaints panels accept)."
+}

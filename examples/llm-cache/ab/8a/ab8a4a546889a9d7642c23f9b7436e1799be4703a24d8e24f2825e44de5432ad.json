@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific reason involving integration with the till and bank system setup, which is a concrete detail explaining why the respondent is reluctant to switch."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:17.261Z"
+}

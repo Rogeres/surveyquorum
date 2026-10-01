@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copy-pasted the same generic sentence into four different open-ended questions which require distinct, context-specific answers. This is clear evidence of not engaging with the survey content in good faith.",
+    "panel_text": "On four different questions that each ask for a specific experience or opinion, you entered exactly the same answer: \"Everything was fine and easy to use.\" A genuine response would be different for each. This shows you did not properly answer the questions.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2294,
+    "outputTokens": 111
+  },
+  "storedAt": "2026-10-01T22:23:48.146Z"
+}

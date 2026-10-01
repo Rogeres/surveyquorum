@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives specific details about confusion with the search results and suggests a concrete improvement involving animation of the basket badge, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1572,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:21.605Z"
+}

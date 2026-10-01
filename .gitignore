@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.surveyquorum/
+surveyquorum.config.json
+.env
+.env.*
+.DS_Store
+coverage/
+.local/

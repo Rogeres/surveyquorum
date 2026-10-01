@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific observation about prices being higher than usual supermarkets, which provides a concrete reason relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:19.160Z"
+}

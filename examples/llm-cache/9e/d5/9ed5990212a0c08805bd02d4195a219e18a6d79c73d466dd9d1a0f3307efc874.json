@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the respondent's actions and what they expected to see (default of tomorrow), indicating some engagement with the question but lacking extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1570,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:42:32.752Z"
+}

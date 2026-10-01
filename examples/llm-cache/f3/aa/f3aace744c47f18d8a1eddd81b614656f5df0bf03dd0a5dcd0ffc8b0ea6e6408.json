@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about seeing Kettlebird in the premium aisle and a particular issue with the bag's resealability, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 54
+  },
+  "storedAt": "2026-10-01T18:42:48.434Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed, specific feedback about the checkout button being hidden and a suggestion to animate the basket badge, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1570,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:32.363Z"
+}

@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 2,
+        "contradicts": true,
+        "confidence": 5,
+        "explanation": "Role is 'Owner or co-owner' but respondent says 'I don't have a company so nothing to describe here, sorry.'"
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 4,
+        "explanation": ""
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 4,
+        "explanation": ""
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 2,
+        "explanation": ""
+      },
+      {
+        "i": 7,
+        "contradicts": true,
+        "confidence": 5,
+        "explanation": "Respondent answered 'Yes' to having decided on a software purchase but then says 'I don't have a company so nothing to describe here, sorry.'"
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1188,
+    "outputTokens": 191
+  },
+  "storedAt": "2026-10-01T18:43:51.985Z"
+}

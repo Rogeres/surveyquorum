@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific context about not buying business software but purchasing a laptop for university, thus giving a concrete detail despite not directly describing software purchase."
+  },
+  "usage": {
+    "inputTokens": 1569,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:09.312Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical answer 'Good experience, nothing to add here.' to three distinct open-ended questions that clearly ask for different, substantive feedback. This is strong evidence of low-effort or non-genuine participation.",
+    "panel_text": "You wrote the same answer ('Good experience, nothing to add here.') for three different questions that asked for your thoughts on Kettlebird. Each question is meant to get your detailed opinions, and repeating the same text suggests you did not give genuine feedback.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2696,
+    "outputTokens": 120
+  },
+  "storedAt": "2026-10-01T22:23:39.324Z"
+}

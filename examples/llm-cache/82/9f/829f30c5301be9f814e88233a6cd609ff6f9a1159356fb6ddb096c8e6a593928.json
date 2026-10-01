@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete concern about potential problems with a new tool and mentions that smaller firms are especially affected, showing a specific reason for not switching."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:25.161Z"
+}

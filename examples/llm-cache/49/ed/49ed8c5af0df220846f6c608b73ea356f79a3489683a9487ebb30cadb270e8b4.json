@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The bulk of the evidence is the respondent's speed, but many questions are trivially short or allow for quick answering; the open answers 'easy' are short but plausible given the question type. The duplication is natural language, not a template. No definite bad faith is established.",
+    "panel_text": "If a block were justified, it would be because you finished the survey much faster (101 seconds) than most others (about 9 minutes) and wrote short answers. However, your responses are brief but do address the questions, so there is no clear evidence of a violation.",
+    "per_signal": {
+      "pace.consistent": "does_not_support",
+      "duplicate-open.x2": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2462,
+    "outputTokens": 147
+  },
+  "storedAt": "2026-10-01T22:23:24.658Z"
+}

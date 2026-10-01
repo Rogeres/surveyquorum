@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey much faster than the rest of the cohort (90s vs 329s), with 13 of 18 questions answered more than 2 standard deviations faster. The open answers ('good', 'ok', 'no') are non-informative, and rating grids are flat, supporting a conclusion of disengagement and bad faith completion.",
+    "panel_text": "You answered the entire survey in 90 seconds, while others needed about 5 and a half minutes. This is far below what is needed to read and consider each question, which means your responses were not accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3458,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:34.616Z"
+}

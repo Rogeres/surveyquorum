@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent gives a specific detail about tapping the picture and expecting an item to be added, but it opened a detail page instead."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:18.568Z"
+}

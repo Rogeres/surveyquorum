@@ -1,0 +1,20 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent immediately gave up on all interactive tasks with zero interaction, finished the survey in about 2.3 minutes while the median was 8.7 minutes, and gave multiple low-effort, repeated open text answers. The behaviour demonstrates clear bad faith: no real attempt was made.",
+    "panel_text": "You spent 2 minutes 19 seconds on the survey, while others needed around 8 minutes 40 seconds. For example, you gave up instantly on all interactive tasks, without a single click or attempt. This shows you did not try to answer or complete the tasks as required.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3212,
+    "outputTokens": 202
+  },
+  "storedAt": "2026-10-02T00:53:23.114Z"
+}

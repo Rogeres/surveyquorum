@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent submitted the identical generic phrase 'No problems at all with this one.' to three distinct open-ended questions that asked for personal thoughts, experiences, and suggestions—this is clear evidence of not engaging with the specific question prompts.",
+    "panel_text": "You entered the same answer, 'No problems at all with this one.', to three different questions asking for your thoughts, experience, and suggestions about Kettlebird. Each question called for a specific response, but you repeated the same phrase, which does not show genuine participation.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2703,
+    "outputTokens": 126
+  },
+  "storedAt": "2026-10-01T22:23:40.364Z"
+}

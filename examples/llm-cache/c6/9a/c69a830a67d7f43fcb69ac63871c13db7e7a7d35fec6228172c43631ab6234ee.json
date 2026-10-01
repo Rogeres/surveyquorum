@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the full survey in only 61 seconds versus a typical time of 329 seconds for others. The open answers are minimal and uninformative, and patterned straightlining is consistent with the survey being rushed without real engagement.",
+    "panel_text": "You completed the survey in 61 seconds, while others typically needed about 5 minutes and 30 seconds. Finishing this much faster than everyone else suggests you did not read or consider the questions properly, which is required for a valid response.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2871,
+    "outputTokens": 129
+  },
+  "storedAt": "2026-10-01T22:23:37.047Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source (social media ads) and an observation about price lists, showing engagement with the question and a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:26.858Z"
+}

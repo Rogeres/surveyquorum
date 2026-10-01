@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The repeated open answer, 'Nothing specific comes to mind', is not enough to prove bad faith since it plausibly fits both questions. The card sort group's labels and content are coherent and plausible, and although the agreement with the cohort is lower, there is no evidence the respondent acted randomly or without care; the response overall is internally consistent and detailed.",
+    "panel_text": "If there had been a violation, it would be: The answer 'Nothing specific comes to mind' was given on two different open-ended questions. This would only be a problem if it showed the person was not reading or engaging with the questions, but here both answers are plausible and fit the questions.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.random_sort": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2433,
+    "outputTokens": 168
+  },
+  "storedAt": "2026-10-01T22:23:51.524Z"
+}

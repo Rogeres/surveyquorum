@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source ('bank's business portal') and additional context about bundled tools, which is a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:20.793Z"
+}

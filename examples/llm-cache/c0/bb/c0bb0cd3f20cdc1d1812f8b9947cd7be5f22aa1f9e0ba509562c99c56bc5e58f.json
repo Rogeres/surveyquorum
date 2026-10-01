@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The response provides a detailed reason with a specific example about the importance of reliability and its impact on business operations, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:28.231Z"
+}

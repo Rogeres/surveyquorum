@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared themselves as a business owner in screening, but repeatedly stated they are not an owner and are actually a student throughout multiple open answers, invalidating their initial profile. This is direct misrepresentation.",
+    "panel_text": "You stated at the start that you are a business owner, but in your answers you wrote things like \"I don't actually have a company, I'm a student\" and \"No company here so this doesn't apply to me.\" Filling surveys meant for business owners while not being one is not allowed.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2331,
+    "outputTokens": 124
+  },
+  "storedAt": "2026-10-01T22:23:42.241Z"
+}

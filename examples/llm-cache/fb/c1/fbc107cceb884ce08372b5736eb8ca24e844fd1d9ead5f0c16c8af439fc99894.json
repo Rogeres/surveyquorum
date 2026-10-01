@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared they are a business owner in screening but repeatedly states they do not own a company and are a student in open answers, directly contradicting the target criteria. This is a clear case of misrepresentation.",
+    "panel_text": "You answered at screening that you own or co-own a business, but later wrote things like: \"I don't actually have a company, I'm a student\" and \"I'm not a business owner.\" Claiming owner status to enter but denying it in your answers is not allowed.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2928,
+    "outputTokens": 153
+  },
+  "storedAt": "2026-10-02T00:53:37.707Z"
+}

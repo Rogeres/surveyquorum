@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete detail about the time windows being two-hour blocks at odd hours and the action taken in response, showing engagement with the scheduling process."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:42:26.422Z"
+}

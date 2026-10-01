@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "needs_human",
+    "confidence": 3,
+    "reason": "The system flags all three first clicks for landing in exactly the same spot, but I cannot see the images the respondent was shown. It's possible the clickable area is the same or visually dominant in each. Without seeing those screens, I can't fairly judge intent.",
+    "panel_text": "If this flag were justified, we would cite: \"On three questions where you were asked to click on different things, you clicked in exactly the same spot each time, which suggests you may not have read or followed the instructions carefully.\"",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2423,
+    "outputTokens": 130
+  },
+  "storedAt": "2026-10-01T22:23:33.022Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason related to cost during the overlap period when migrating tools, which is a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:29.516Z"
+}

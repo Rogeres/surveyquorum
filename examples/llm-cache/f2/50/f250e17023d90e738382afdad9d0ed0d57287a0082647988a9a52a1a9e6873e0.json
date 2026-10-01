@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides two specific criteria that matter to the respondent: saving measurable time weekly and responsive support, showing some engagement and detail."
+  },
+  "usage": {
+    "inputTokens": 1566,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:38.707Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a concrete feature (export button with usable data) and a specific reason (shows respect to customers)."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:23.925Z"
+}

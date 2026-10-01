@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific process describing how the respondent found the instructions and mentions the time taken, providing concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:35.822Z"
+}

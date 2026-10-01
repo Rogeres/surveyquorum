@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete reason involving staff pushback and team resistance to learning new tools, which is a specific obstacle."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:19.670Z"
+}

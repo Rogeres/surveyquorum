@@ -1,0 +1,1202 @@
+{
+  "ux-001": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-002": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-003": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-004": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-005": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-006": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-007": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-008": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-009": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-010": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-011": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "ux-012": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "ux-013": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-014": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "ux-015": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "ux-016": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "ux-017": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-018": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-019": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-020": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "ux-021": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-022": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-023": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-024": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-025": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "ux-026": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "ux-027": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-028": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-029": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-030": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-031": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-032": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-033": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-034": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-035": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-036": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-037": {
+    "persona": "same_spot_clicker",
+    "label": "bad_content"
+  },
+  "ux-038": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-039": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-040": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-041": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-042": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "ux-043": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-044": {
+    "persona": "give_upper",
+    "label": "bad_content"
+  },
+  "ux-045": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-046": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-047": {
+    "persona": "give_upper",
+    "label": "bad_content"
+  },
+  "ux-048": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "ux-049": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-050": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-051": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "ux-052": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-053": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-054": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-055": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "ux-056": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-057": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-058": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "ux-059": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-060": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "ux-061": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-062": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-063": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-064": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "ux-065": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-066": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-067": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-068": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "ux-069": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-070": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "ux-071": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "ux-072": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-073": {
+    "persona": "same_spot_clicker",
+    "label": "bad_content"
+  },
+  "ux-074": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-075": {
+    "persona": "give_upper",
+    "label": "bad_content"
+  },
+  "ux-076": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-077": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "ux-078": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-079": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-080": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-081": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-082": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-083": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-084": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "ux-085": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-086": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-087": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-088": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-089": {
+    "persona": "same_spot_clicker",
+    "label": "bad_content"
+  },
+  "ux-090": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-091": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-092": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "ux-093": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-094": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "ux-095": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-096": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-097": {
+    "persona": "give_upper",
+    "label": "bad_content"
+  },
+  "ux-098": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-099": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "ux-100": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-001": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-002": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "co-003": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-004": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-005": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-006": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "co-007": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-008": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "co-009": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-010": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "co-011": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-012": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-013": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-014": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-015": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "co-016": {
+    "persona": "mass_selector",
+    "label": "bad_content"
+  },
+  "co-017": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-018": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-019": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-020": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-021": {
+    "persona": "mass_selector",
+    "label": "bad_content"
+  },
+  "co-022": {
+    "persona": "mass_selector",
+    "label": "bad_content"
+  },
+  "co-023": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "co-024": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-025": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-026": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "co-027": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-028": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "co-029": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-030": {
+    "persona": "straightliner",
+    "label": "bad_content"
+  },
+  "co-031": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-032": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-033": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-034": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-035": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "co-036": {
+    "persona": "straightliner",
+    "label": "bad_content"
+  },
+  "co-037": {
+    "persona": "straightliner",
+    "label": "bad_content"
+  },
+  "co-038": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "co-039": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "co-040": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-041": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-042": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-043": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-044": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-045": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-046": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-047": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-048": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-049": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-050": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-051": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-052": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-053": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-054": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-055": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-056": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-057": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-058": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-059": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-060": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-061": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "co-062": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "co-063": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "co-064": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-065": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-066": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-067": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-068": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-069": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "co-070": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-071": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-072": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-073": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-074": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-075": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-076": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-077": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "co-078": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-079": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-080": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-081": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-082": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-083": {
+    "persona": "straightliner",
+    "label": "bad_content"
+  },
+  "co-084": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-085": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-086": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "co-087": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "co-088": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-089": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-090": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-091": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-092": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-093": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-094": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-095": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-096": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "co-097": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "co-098": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "co-099": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "co-100": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-001": {
+    "persona": "imposter",
+    "label": "bad_coherence"
+  },
+  "b2b-002": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-003": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-004": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-005": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-006": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-007": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-008": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "b2b-009": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "b2b-010": {
+    "persona": "imposter",
+    "label": "bad_coherence"
+  },
+  "b2b-011": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-012": {
+    "persona": "imposter",
+    "label": "bad_coherence"
+  },
+  "b2b-013": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-014": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-015": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-016": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-017": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "b2b-018": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-019": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-020": {
+    "persona": "random_sorter",
+    "label": "bad_content"
+  },
+  "b2b-021": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-022": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-023": {
+    "persona": "imposter",
+    "label": "bad_coherence"
+  },
+  "b2b-024": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-025": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-026": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-027": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-028": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-029": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-030": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-031": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-032": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "b2b-033": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "b2b-034": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-035": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-036": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-037": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-038": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-039": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-040": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-041": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "b2b-042": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-043": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-044": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-045": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-046": {
+    "persona": "imposter",
+    "label": "bad_coherence"
+  },
+  "b2b-047": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "b2b-048": {
+    "persona": "imposter",
+    "label": "bad_coherence"
+  },
+  "b2b-049": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-050": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-051": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "b2b-052": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "b2b-053": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-054": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-055": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-056": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-057": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "b2b-058": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-059": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-060": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-061": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-062": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-063": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-064": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-065": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-066": {
+    "persona": "copy_paster",
+    "label": "bad_content"
+  },
+  "b2b-067": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-068": {
+    "persona": "random_sorter",
+    "label": "bad_content"
+  },
+  "b2b-069": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-070": {
+    "persona": "gibberish",
+    "label": "bad_content"
+  },
+  "b2b-071": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-072": {
+    "persona": "random_sorter",
+    "label": "bad_content"
+  },
+  "b2b-073": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-074": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-075": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-076": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-077": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-078": {
+    "persona": "random_sorter",
+    "label": "bad_content"
+  },
+  "b2b-079": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-080": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-081": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-082": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-083": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-084": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-085": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-086": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-087": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-088": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-089": {
+    "persona": "honest_dont_know",
+    "label": "good"
+  },
+  "b2b-090": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-091": {
+    "persona": "speedster",
+    "label": "bad_content"
+  },
+  "b2b-092": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-093": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-094": {
+    "persona": "honest_single_outlier",
+    "label": "good"
+  },
+  "b2b-095": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-096": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-097": {
+    "persona": "honest_profane",
+    "label": "good"
+  },
+  "b2b-098": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-099": {
+    "persona": "honest",
+    "label": "good"
+  },
+  "b2b-100": {
+    "persona": "random_sorter",
+    "label": "bad_content"
+  }
+}

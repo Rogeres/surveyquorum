@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about the time windows being two-hour blocks at odd hours and the slot picker feeling cramped, indicating at least one concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1576,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:42:28.755Z"
+}

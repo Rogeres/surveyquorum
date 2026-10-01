@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared being a business owner, but in multiple open answers stated explicitly that they do not have a company, which directly contradicts the screening profile and indicates misrepresentation. The open response is not the main ground—coherence is decisive.",
+    "panel_text": "You wrote that you do not have a company in several answers, but at the start you stated you are an owner or co-owner. This is not allowed: only people who really own or run a business may take this survey.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3009,
+    "outputTokens": 134
+  },
+  "storedAt": "2026-10-02T00:53:37.950Z"
+}

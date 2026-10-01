@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about the software purchase, including the reason for replacement, the issue encountered, and the corrective action."
+  },
+  "usage": {
+    "inputTokens": 1577,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:22.816Z"
+}

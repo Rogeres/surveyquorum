@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed feedback on the process, specifically mentioning the checkout button's appearance after scrolling and suggesting a confirmation toast, indicating clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:42:36.107Z"
+}

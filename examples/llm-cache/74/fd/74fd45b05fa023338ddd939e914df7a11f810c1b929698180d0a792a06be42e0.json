@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the 'paprika flavour' and the amount of salt, indicating engagement with the product and a concrete suggested change."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:03.107Z"
+}

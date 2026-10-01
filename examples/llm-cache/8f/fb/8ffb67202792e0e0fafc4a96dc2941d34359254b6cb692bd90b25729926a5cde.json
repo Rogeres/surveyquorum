@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in less than a quarter of the time taken by others and gave very short, non-informative answers to open-ended questions, with one answer duplicated verbatim. This strongly indicates the survey was not answered in good faith.",
+    "panel_text": "You completed the survey in 1 minute 14 seconds, while others usually needed about 6 minutes. This is much faster than normal and suggests the questions were not read or answered with care, which is against the rules for earning rewards.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2391,
+    "outputTokens": 141
+  },
+  "storedAt": "2026-10-01T22:23:47.964Z"
+}

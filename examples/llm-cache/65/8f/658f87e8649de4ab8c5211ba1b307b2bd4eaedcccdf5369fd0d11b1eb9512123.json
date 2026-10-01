@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific change suggestion (smaller single-serve bags for lunchboxes), showing some engagement and detail."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:02.136Z"
+}

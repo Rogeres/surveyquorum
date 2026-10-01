@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason (staff pushback and team resistance) and an observation about smaller firms, which shows some engagement beyond minimal effort."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:41.521Z"
+}

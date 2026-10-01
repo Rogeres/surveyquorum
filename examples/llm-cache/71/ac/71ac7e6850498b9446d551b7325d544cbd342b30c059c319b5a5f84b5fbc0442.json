@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about integration with accounting software, which is a concrete reason for recommending a business tool."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:19.944Z"
+}

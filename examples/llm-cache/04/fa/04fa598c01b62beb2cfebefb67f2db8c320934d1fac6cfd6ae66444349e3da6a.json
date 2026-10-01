@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a minimal, general response without any specific detail about Kettlebird."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:43:01.929Z"
+}

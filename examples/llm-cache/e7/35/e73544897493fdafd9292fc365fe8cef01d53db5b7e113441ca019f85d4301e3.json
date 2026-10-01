@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about integration with accounting software and a related observation, showing concrete engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:30.723Z"
+}

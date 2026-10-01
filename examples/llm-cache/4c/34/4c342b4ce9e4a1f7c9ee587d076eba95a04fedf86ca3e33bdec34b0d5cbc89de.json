@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "off_topic",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer does not address how the respondent hears about new business software but instead states they do not have a company or look for such software, missing the question's intent."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 53
+  },
+  "storedAt": "2026-10-01T18:43:27.442Z"
+}

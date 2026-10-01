@@ -1,0 +1,53 @@
+{
+  "json": {
+    "pairs": [
+      {
+        "a": 1,
+        "b": 10,
+        "relation": "mutually_exclusive",
+        "rule": "If Q1=Not currently employed or Student, Q10=Not applicable must be selected"
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "relation": "mutually_exclusive",
+        "rule": "If Q1=Not currently employed or Student, Q6 should not describe any business software purchase"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "relation": "mutually_exclusive",
+        "rule": "If Q1=Not currently employed or Student, Q4=None of these / not applicable must be selected"
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "relation": "mutually_exclusive",
+        "rule": "If Q1=Not currently employed or Student, Q7=None of these must be selected"
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "relation": "mutually_exclusive",
+        "rule": "If Q2=Just me, Q1 must not be Employee without a purchasing role or Senior manager"
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "relation": "mutually_exclusive",
+        "rule": "If Q2=Just me, Q10=I decide alone must be selected"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "relation": "mutually_exclusive",
+        "rule": "If Q3=No, Q6 should not describe a software purchase the respondent decided on"
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1191,
+    "outputTokens": 377
+  },
+  "storedAt": "2026-10-01T18:43:47.174Z"
+}

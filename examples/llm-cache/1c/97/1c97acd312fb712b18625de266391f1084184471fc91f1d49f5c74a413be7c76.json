@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a brief positive opinion without any specific detail about the product or experience."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:43:05.301Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent wrote the identical phrase 'I like it and would use it again.' as their answer to three different, conceptually distinct open-ended questions. This is a strong sign of not engaging with the questions meaningfully.",
+    "panel_text": "You wrote the same answer, 'I like it and would use it again.', to three different questions that asked for your thoughts or suggestions. Giving the same answer where the questions request your own ideas or experiences does not meet the standards for thoughtful feedback expected by this survey.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3281,
+    "outputTokens": 129
+  },
+  "storedAt": "2026-10-02T00:53:35.980Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal effort positive comment that does not provide any specific detail about the software purchase."
+  },
+  "usage": {
+    "inputTokens": 1546,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:31.018Z"
+}

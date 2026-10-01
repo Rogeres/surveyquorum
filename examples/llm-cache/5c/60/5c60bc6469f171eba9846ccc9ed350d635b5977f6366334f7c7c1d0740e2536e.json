@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal, vague positive statement without any specific detail about why the respondent does not switch tools."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:28.577Z"
+}

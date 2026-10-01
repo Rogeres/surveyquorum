@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific criterion ('a fair price for a company of our size, not enterprise rates'), which is a concrete detail relevant to recommending a business tool."
+  },
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:25.922Z"
+}

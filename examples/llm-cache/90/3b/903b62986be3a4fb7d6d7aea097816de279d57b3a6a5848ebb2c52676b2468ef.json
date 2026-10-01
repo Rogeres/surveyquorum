@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent stated in multiple answers that they are not a business owner and do not have a company, directly contradicting their screening responses. This is clear misrepresentation of their eligibility.",
+    "panel_text": "You stated at screening that you are an owner or co-owner of a business, but in the survey you wrote: \"I don't actually have a company, I'm a student\" and \"I'm not a business owner.\" This is a direct contradiction and misrepresentation of your profile.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2331,
+    "outputTokens": 126
+  },
+  "storedAt": "2026-10-01T22:23:42.185Z"
+}

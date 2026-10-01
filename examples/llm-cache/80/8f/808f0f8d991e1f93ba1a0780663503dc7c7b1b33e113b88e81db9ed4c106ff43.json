@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent honestly states they have not tried the flavor, which is an absence of data rather than laziness or non-engagement."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:54.148Z"
+}

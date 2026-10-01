@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about a spinner and loading issue during the scheduling task, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:25.092Z"
+}

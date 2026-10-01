@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent repeated an identical, relatively generic answer to three different open-ended questions that seek distinct, specific feedback. This pattern indicates that the questions were not considered and is consistent with bad-faith responding.",
+    "panel_text": "You wrote exactly the same answer, \"I like it and would use it again,\" to three different open questions meant to get your genuine thoughts. Copying the same response into multiple questions shows that you did not provide the real feedback asked for.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2684,
+    "outputTokens": 113
+  },
+  "storedAt": "2026-10-01T22:23:40.133Z"
+}

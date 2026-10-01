@@ -1,0 +1,20 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent reported never ordering groceries online, giving open answers of very low effort (repetitive, barely more than 'it was easy') and abandoned all prototype and website tasks instantly, without any attempt. Total completion time was over three times faster than the cohort with confirmed instant give-ups. This pattern reflects clear bad faith.",
+    "panel_text": "You were shown an interactive shopping task but pressed 'Give Up' after only 4 seconds without trying to add an item. Others spent about 75 seconds on this. Leaving key tasks without interacting does not fulfill the survey requirements.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3222,
+    "outputTokens": 198
+  },
+  "storedAt": "2026-10-02T00:53:29.722Z"
+}

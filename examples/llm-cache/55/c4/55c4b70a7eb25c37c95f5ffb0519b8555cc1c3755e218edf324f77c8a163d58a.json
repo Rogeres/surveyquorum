@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 74 seconds, while the cohort took about 6 minutes, and gave non-informative, minimal open answers. Their behavior shows they did not engage thoughtfully with the survey.",
+    "panel_text": "You finished the whole survey in 74 seconds, while other business owners took about 6 minutes. Rushing through without giving thoughtful answers shows you did not engage with the questions as intended. This is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2391,
+    "outputTokens": 117
+  },
+  "storedAt": "2026-10-01T22:23:47.620Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about fair pricing relative to company size and the fact the respondent recommended two tools over ten years."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:21.836Z"
+}

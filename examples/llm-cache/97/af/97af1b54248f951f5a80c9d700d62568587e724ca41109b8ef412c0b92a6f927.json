@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent explicitly states they do not know, indicating absence of data rather than laziness or refusal."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:15.493Z"
+}

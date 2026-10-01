@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent rushed through the survey drastically faster than others (84 s vs 368 s median), filled multiple open-ended questions with empty or placeholder responses, and performed the card sort in a way far outside cohort norms—all three support that they did not engage meaningfully.",
+    "panel_text": "You completed the survey in about 1 minute 24 seconds, while most others needed around 6 minutes. Important open questions like 'Describe the last software purchase you decided on: what, why, what went wrong.' were answered with only 'ok'. Such answers do not show meaningful engagement with the survey.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2497,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-01T22:23:45.095Z"
+}

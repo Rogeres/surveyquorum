@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The open-text answers are specific, on-topic, and indicate engagement with the survey content. The matrix and scale answers show varied evaluations and are consistent with the open answers. The presence of a pattern across rating questions is not inherently evidence of bad faith when the content demonstrates substantive engagement.",
+    "panel_text": "Your answers such as 'rustic packaging, farmer imagery' and 'Add a baked or lower-fat option for people who want a lighter snack' show specific feedback. Giving the same or similar ratings across questions is allowed if it reflects your real views, as long as you answer thoughtfully, which you did.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 3372,
+    "outputTokens": 157
+  },
+  "storedAt": "2026-10-02T07:57:00.230Z"
+}

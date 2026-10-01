@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific confusion about whether the price is per bag or per kilo, a concrete detail related to adding an item to the basket."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:20.053Z"
+}

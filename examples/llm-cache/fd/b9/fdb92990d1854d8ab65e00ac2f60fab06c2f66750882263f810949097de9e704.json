@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed account including what software was replaced, why, what went wrong, and a lesson learned, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1583,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:18.680Z"
+}

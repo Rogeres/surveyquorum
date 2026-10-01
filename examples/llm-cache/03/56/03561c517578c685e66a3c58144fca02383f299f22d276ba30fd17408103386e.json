@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "Neither the repeated text nor the generic card sort category names are strong evidence of bad faith. The repeated text ('Nothing specific comes to mind.') is a plausible, candid response when the respondent has no strong memory for either question. The card sort group names are adequate and the sorting itself is substantive.",
+    "panel_text": "You answered “Nothing specific comes to mind.” on two different questions. If you had no particular example or answer for both, this is allowed as long as you answered honestly and did not leave the questions blank or fill them with irrelevant text.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.unnamed_categories": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 2986,
+    "outputTokens": 157
+  },
+  "storedAt": "2026-10-02T00:53:44.124Z"
+}

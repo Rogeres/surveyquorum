@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 83 seconds, far below the cohort's 368 seconds, with very short or placeholder open answers like 'ok', 'nothing', and 'dont know' across multiple questions. This shows systematic lack of engagement and is consistent with bad-faith participation.",
+    "panel_text": "You finished the survey in 83 seconds; most others needed about 6 minutes. On open questions like 'Describe the last software purchase you decided on: what, why, what went wrong.', your answer was just 'ok'. This is not enough detail for a genuine response, so your answers have been rejected.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2972,
+    "outputTokens": 157
+  },
+  "storedAt": "2026-10-02T00:53:37.939Z"
+}

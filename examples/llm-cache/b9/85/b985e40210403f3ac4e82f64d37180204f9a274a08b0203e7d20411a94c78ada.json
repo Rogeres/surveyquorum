@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source of information (podcasts aimed at small business owners) and a concrete follow-up action (looking up the sponsors), indicating some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 55
+  },
+  "storedAt": "2026-10-01T18:43:37.618Z"
+}

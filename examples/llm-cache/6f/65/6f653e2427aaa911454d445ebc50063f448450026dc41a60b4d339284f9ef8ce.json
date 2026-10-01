@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The respondent gave up instantly on all interactive tasks, spending just seconds where others took over a minute each time, with zero clicks and no attempt to engage. This is strong evidence of intentional non-participation, not just a misunderstanding or technical issue.",
+    "panel_text": "On the interactive task 'Using the Marrow prototype, add a bag of oranges to your basket and proceed to checkout,' you left the page almost immediately (4 seconds), while others spent about 1 minute 15 seconds. Not trying the task is not acceptable participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "does_not_support",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2625,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-01T22:23:34.161Z"
+}

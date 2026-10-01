@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent specifies the software type (rota and time-off app), its use case (restaurant), and a specific problem encountered (payroll integration not syncing hours)."
+  },
+  "usage": {
+    "inputTokens": 1575,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:43:13.893Z"
+}

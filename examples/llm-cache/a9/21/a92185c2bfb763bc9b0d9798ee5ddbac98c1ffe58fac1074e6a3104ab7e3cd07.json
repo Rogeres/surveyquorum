@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific suggested change about allergen labels and the print size, showing engagement with the question and a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:06.791Z"
+}

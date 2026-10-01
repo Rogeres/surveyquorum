@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered meaningless text ('hjkl', 'qwerty', 'dfgdfg sdf') in all three open-ended questions that require a genuine, thoughtful answer. This is clear evidence of bad faith as there is no substantive content that addresses any of the questions.",
+    "panel_text": "On three questions that ask for your thoughts about Kettlebird (for example: 'What comes to mind when you think of Kettlebird?'), you replied with random text like 'hjkl' and 'qwerty'. Answers like these are not allowed because they do not give any meaningful feedback.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3331,
+    "outputTokens": 151
+  },
+  "storedAt": "2026-10-02T00:53:32.775Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about good onboarding involving personal setup rather than just help articles, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:23.751Z"
+}

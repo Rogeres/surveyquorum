@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about making the bags resealable and explains the issue of crisps going soft, showing engagement with the product feature."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:47.196Z"
+}

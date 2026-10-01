@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent claimed in screening to be a business owner who purchased software, but answered open-ended questions by saying they are a student, do not own anything, and have not made business software purchases. This is a direct contradiction and clear misrepresentation.",
+    "panel_text": "You stated in the screening questions that you own a business and have purchased software for it, but later wrote: \"I'm studying at the moment and don't own anything, the last thing I bought was a games console.\" This contradicts your original answers and means you do not qualify for the survey.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2413,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:43.486Z"
+}

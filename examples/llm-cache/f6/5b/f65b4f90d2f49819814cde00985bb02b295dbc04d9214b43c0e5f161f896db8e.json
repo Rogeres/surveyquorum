@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent honestly states they do not know, which is a lack of data rather than laziness or fake engagement."
+  },
+  "usage": {
+    "inputTokens": 1543,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:21.748Z"
+}

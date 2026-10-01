@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason ('Annual contracts') that prevents switching tools, which is a concrete detail beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:25.730Z"
+}

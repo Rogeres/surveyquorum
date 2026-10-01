@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provided a specific observation about the delivery scheduling interface not loading and their subsequent action, which is a concrete detail relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:16.579Z"
+}

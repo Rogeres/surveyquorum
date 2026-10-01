@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=An IT contractor involved are not mutually exclusive roles."
+      },
+      {
+        "i": 2,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2 describing a software purchase are compatible."
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=Marketing time spent are compatible."
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner paying for project management tools is compatible."
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and business employs 2–10 people are compatible."
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Business employs 2–10 and Q2=An IT contractor involved in software buying are compatible."
+      },
+      {
+        "i": 7,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Yes decided on software purchase and Q2=described software purchase are compatible."
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1227,
+    "outputTokens": 261
+  },
+  "storedAt": "2026-10-01T18:44:12.521Z"
+}

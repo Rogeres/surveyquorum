@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared being a business owner and decision maker but states in multiple answers that they are a student and do not own a business, directly contradicting their screener responses. This contradiction is clear, substantive, and cannot be explained away by survey design or ambiguous questions.",
+    "panel_text": "You stated at the start that you own a business and make software decisions, but then wrote: \"I'm studying at the moment and don't own anything, the last thing I bought was a games console.\" This directly contradicts your profile and means your answers do not match the requirements for this survey.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3024,
+    "outputTokens": 152
+  },
+  "storedAt": "2026-10-02T00:53:39.243Z"
+}

@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey extremely quickly (84 seconds vs cohort median 368 seconds), provided placeholder or non-informative answers on all open-ended questions, and produced a random card sort. These independent, strong signals together indicate bad faith participation.",
+    "panel_text": "Your answers were completed much faster than other respondents (84 seconds, others about 6 minutes), and several required written answers were non-informative ('ok', 'nice', 'dont know', 'nothing'). This shows the survey was not completed with full attention, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3094,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:40.941Z"
+}

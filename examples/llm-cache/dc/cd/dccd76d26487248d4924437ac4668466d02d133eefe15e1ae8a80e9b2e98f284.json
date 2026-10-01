@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "While the system flagged patterned matrix answers, the responses overall are plausibly considered and consistent—for example, the open answers show specific, relevant content about Kettlebird and the scale runs are not extreme or self-contradictory. Pattern evidence alone does not demonstrate bad faith when substantive open answers are present.",
+    "panel_text": "If the result were justified, you would be flagged for always giving the same or alternating ratings across several blocks—for example, similar scores on taste, value, packaging, and so on. This usually shows a person isn't really reading the questions. However, your written answers here are specific and thoughtful.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 3372,
+    "outputTokens": 162
+  },
+  "storedAt": "2026-10-02T07:56:59.931Z"
+}

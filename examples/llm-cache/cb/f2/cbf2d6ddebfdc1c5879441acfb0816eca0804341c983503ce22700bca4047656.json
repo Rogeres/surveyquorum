@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The answer 'asdkjh qwe' to an open-ended question is random characters and provides no meaningful response. This is classic gibberish, showing no attempt to provide a genuine answer.",
+    "panel_text": "To the question 'If you could change one thing about Kettlebird, what would it be?', you answered: 'asdkjh qwe'. This is not a meaningful answer to the question and shows no genuine attempt to respond.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2717,
+    "outputTokens": 113
+  },
+  "storedAt": "2026-10-01T22:23:38.558Z"
+}

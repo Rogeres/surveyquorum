@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about the checkout button only appearing after scrolling and the need for clearer labels, showing engagement and specificity."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:40.463Z"
+}

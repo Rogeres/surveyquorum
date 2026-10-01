@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific product detail and preference about packaging (multipacks versus sharing bags)."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:58.070Z"
+}

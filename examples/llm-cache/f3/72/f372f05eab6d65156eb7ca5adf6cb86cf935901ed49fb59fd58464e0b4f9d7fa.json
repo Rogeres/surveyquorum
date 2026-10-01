@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific feature (ability to cancel monthly) as a reason to recommend, showing concrete detail beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:20.746Z"
+}

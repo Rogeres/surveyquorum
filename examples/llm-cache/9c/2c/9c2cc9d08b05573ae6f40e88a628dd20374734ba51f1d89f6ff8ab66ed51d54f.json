@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent pasted the identical, vague phrase 'I think it is pretty good overall' as their answer to four different open-ended questions that each invite specific, contextual replies. This is strong evidence of bad faith and not engaging with the questions.",
+    "panel_text": "On four open-ended questions, you answered exactly “I think it is pretty good overall.” Answers need to match each question—the others gave specific replies. Copying the same generic phrase multiple times is not genuine participation and does not help the research.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2881,
+    "outputTokens": 128
+  },
+  "storedAt": "2026-10-02T00:53:42.266Z"
+}

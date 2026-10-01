@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "A single, isolated fast answer (1 second) on a budget choice question is not evidence of bad faith, especially since per-question times and substantive open answers are otherwise normal. The question is simple and easily answered quickly.",
+    "panel_text": "If your answer to 'What is your typical yearly budget for one business software subscription, in your local currency?' had not matched the others' pace, and the rest of your answers had not been detailed and relevant, this could have led to a penalty. No action will be taken.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "design_artifact"
+  },
+  "usage": {
+    "inputTokens": 2999,
+    "outputTokens": 137
+  },
+  "storedAt": "2026-10-02T00:53:42.359Z"
+}

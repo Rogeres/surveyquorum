@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided the exact same open-ended response ('Good experience, nothing to add here.') to three different questions that invite specific input. This indicates a lack of genuine engagement and is clear evidence of bad faith.",
+    "panel_text": "You wrote exactly the same answer (“Good experience, nothing to add here.”) to three different questions that asked for your thoughts. Copying answers across different questions shows you did not try to give a real response each time.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3293,
+    "outputTokens": 118
+  },
+  "storedAt": "2026-10-02T00:53:34.481Z"
+}

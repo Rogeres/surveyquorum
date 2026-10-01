@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about the 'add' label being tiny and suggests a confirmation toast, showing concrete engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:11.772Z"
+}

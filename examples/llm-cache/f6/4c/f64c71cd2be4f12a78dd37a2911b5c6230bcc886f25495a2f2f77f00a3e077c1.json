@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent clicked exactly the same spot on three different image-based tasks where the majority of others clicked different locations each time. This repeating behavior, with no context to justify it, indicates a lack of genuine engagement. The repeated short open answer is weak on its own but the first-click pattern constitutes clear bad faith.",
+    "panel_text": "You clicked the same spot on the screen for all three questions asking where you would find different features. Most other people clicked different places each time. This suggests you did not try to find the right answer for each question, which is not acceptable.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "firstclick-offtarget.same_spot": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3029,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:22.615Z"
+}

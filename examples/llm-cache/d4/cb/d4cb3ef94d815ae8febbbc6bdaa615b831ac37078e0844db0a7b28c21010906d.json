@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Both the extremely short overall survey time (69s vs 368s) and the random, very fast card sort together indicate that the respondent did not read or consider the questions meaningfully. Open answers are also minimal or not informative, consistent with rapid skipping.",
+    "panel_text": "You finished the survey in 69 seconds, while other business owners needed about 6 minutes. This is far faster than is possible while reading and answering thoughtfully, so your responses do not count as genuine.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2439,
+    "outputTokens": 125
+  },
+  "storedAt": "2026-10-01T22:23:48.376Z"
+}

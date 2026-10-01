@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete detail about finding the instructions quickly via the search bar and notes the article's length and placement of steps, showing specific observation."
+  },
+  "usage": {
+    "inputTokens": 1569,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:42:15.714Z"
+}

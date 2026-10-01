@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about browsing the orders section and using search, indicating some engagement with the question and a concrete process described."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:35.244Z"
+}

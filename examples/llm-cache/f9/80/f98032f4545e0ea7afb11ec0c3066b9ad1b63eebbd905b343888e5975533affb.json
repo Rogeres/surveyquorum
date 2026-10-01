@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific sources (podcasts aimed at small business owners) and an observation about price lists, showing some level of detail and engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:43:17.654Z"
+}

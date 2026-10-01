@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason for hesitation about switching tools, indicating the respondent's thoughtful concern about paying twice due to new problems."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:20.868Z"
+}

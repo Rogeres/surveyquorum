@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed explanation including specific integrations and a personal condition for switching, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:43:32.868Z"
+}

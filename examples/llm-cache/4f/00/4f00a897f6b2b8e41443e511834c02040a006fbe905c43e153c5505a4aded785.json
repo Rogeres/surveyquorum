@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific sources—accountant and local business group chat—indicating concrete ways the respondent hears about software."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:16.003Z"
+}

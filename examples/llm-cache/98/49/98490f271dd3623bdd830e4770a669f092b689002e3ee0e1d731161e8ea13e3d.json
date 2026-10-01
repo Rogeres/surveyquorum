@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The repeated phrase 'Nothing specific comes to mind' is short, but it plausibly addresses both questions and does not on its own show bad faith. The rest of the answers are fluent and specific, showing engagement. This repetition does not meet the burden for a violation.",
+    "panel_text": "We would flag an answer only when the same long or elaborate text is copied into several questions. In this case, the repeated phrase was brief and reasonably fit both questions, so there is no clear sign of misuse.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 2881,
+    "outputTokens": 134
+  },
+  "storedAt": "2026-10-02T00:53:39.514Z"
+}

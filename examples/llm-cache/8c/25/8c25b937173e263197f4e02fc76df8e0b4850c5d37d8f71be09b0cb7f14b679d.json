@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared being a business owner and a decision maker at screening, but in their open answers stated they are a student, do not own anything, and have no experience with business software purchases. This is a clear contradiction and misrepresentation, validating the system's flag.",
+    "panel_text": "You said you own a business in the screening, but in the survey wrote: “I'm studying at the moment and don't own anything, the last thing I bought was a games console.” This is a contradiction and means you are not eligible for this survey.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3010,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-02T00:53:39.034Z"
+}

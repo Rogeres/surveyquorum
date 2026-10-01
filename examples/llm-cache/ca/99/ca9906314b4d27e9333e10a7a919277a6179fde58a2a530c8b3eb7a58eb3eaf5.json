@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer suggests a specific change (a baked or lower-fat option) which is a concrete detail relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:55.643Z"
+}

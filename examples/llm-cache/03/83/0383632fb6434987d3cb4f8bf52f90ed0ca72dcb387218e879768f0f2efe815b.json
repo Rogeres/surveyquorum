@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Three open-ended answers ('hjkl', 'qwerty', 'dfgdfg sdf') are gibberish or meaningless, providing no information in response to substantive questions. This is clear evidence of bad faith survey completion.",
+    "panel_text": "For the question 'What comes to mind when you think of Kettlebird?', you answered 'hjkl,' and for 'Have you tried the new Kettlebird Sea Salt & Thyme flavour?', you answered 'qwerty.' Answering with random letters or meaningless text does not provide usable feedback and violates the survey rules.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3331,
+    "outputTokens": 147
+  },
+  "storedAt": "2026-10-02T00:53:32.666Z"
+}

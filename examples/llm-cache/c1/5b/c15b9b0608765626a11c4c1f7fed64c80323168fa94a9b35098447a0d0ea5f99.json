@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed a 15-question, task-based survey in just 82 seconds versus a median of 520 seconds for others, with nearly all questions answered far faster than the cohort. The pattern is consistent and cannot be explained by high familiarity alone, especially as required open-text answers and interactive tasks received minimal, non-specific effort.",
+    "panel_text": "You finished the entire survey in 82 seconds, while most people needed about 9 minutes. This is much faster than expected, and the answers suggest you did not spend enough time to read and respond with care. Survey responses should reflect thoughtful participation.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2428,
+    "outputTokens": 139
+  },
+  "storedAt": "2026-10-01T22:23:31.080Z"
+}

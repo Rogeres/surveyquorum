@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about expecting a calendar on the checkout page and that slots were on a separate screen behind 'delivery details'."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:24.744Z"
+}

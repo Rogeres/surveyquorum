@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific obstacle (staff pushback), an explanation (team hates learning new tools), and an observation about smaller firms, providing concrete details relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 54
+  },
+  "storedAt": "2026-10-01T18:43:17.762Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey dramatically faster than the median (69s vs 368s, with 9/11 answers at least 2 standard deviations faster), and in the card sort, their grouping pattern was far out of consensus with the cohort. These are strong, independent indicators of answering without engagement.",
+    "panel_text": "You finished the survey in 69 seconds, while most others needed about 6 minutes. Finishing this much faster than nearly everyone else means you could not have read and considered the questions properly, so your responses do not count as valid data.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3036,
+    "outputTokens": 150
+  },
+  "storedAt": "2026-10-02T00:53:44.214Z"
+}

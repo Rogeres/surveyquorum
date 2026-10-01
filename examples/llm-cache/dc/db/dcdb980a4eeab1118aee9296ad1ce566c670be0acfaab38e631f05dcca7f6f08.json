@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal expression of satisfaction without any specific details about the instructions or what might be changed."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:31.163Z"
+}

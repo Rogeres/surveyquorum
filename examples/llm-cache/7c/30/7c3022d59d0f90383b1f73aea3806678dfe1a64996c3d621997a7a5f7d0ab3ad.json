@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed specifics about the software purchased, the reason for purchase, the issue encountered, and the respondent's continued preference, showing engagement."
+  },
+  "usage": {
+    "inputTokens": 1587,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:10.459Z"
+}

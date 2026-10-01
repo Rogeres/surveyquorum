@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about expecting the slot picker before payment and suggests a default preference, indicating some engagement with the scheduling process."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:17.000Z"
+}

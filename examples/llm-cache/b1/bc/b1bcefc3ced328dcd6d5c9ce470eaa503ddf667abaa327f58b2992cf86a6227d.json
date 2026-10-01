@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the delivery scheduling process not loading and the respondent's action to give up due to no clickable options."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:40.811Z"
+}

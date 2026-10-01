@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two open-ended responses ('zxcv zxcv', 'asdkjh qwe') are clear gibberish, consisting of random keystrokes and not relevant to the questions asked. This demonstrates responding without intent to provide meaningful answers.",
+    "panel_text": "For the question 'What, if anything, was confusing about adding an item to the basket?', you answered 'zxcv zxcv', and for 'How did finding the missing-item instructions go? What would you change?', you answered 'asdkjh qwe'. These are random characters and do not address the questions, which violates participation requirements.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2987,
+    "outputTokens": 153
+  },
+  "storedAt": "2026-10-02T00:53:29.021Z"
+}

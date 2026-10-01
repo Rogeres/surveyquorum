@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent rushed through the survey, completing it in 59 seconds compared to a cohort median of 329 seconds—far too fast to meaningfully read and answer. Multiple rating grids were filled in an uninformative pattern at high speed, and open answers were extremely terse and repeated. This clearly indicates bad faith.",
+    "panel_text": "You completed the entire survey in 59 seconds, while most others took about 5 and a half minutes. This is too fast to thoughtfully read and answer each question, which means your responses cannot be trusted as sincere.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2917,
+    "outputTokens": 147
+  },
+  "storedAt": "2026-10-01T22:23:37.310Z"
+}

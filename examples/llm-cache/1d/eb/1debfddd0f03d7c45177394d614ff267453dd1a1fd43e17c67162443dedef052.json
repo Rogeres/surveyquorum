@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer expresses a general feeling about inertia and frustration but lacks any specific examples or concrete details."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:43:15.681Z"
+}

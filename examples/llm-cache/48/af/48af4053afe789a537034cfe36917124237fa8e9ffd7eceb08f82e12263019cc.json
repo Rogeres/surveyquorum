@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Three open-answer responses contain only random or meaningless text ('asdkjh qwe', 'hjkl', 'zxcv zxcv'), which are not valid answers to the respective questions and demonstrate disregard for the survey's intent.",
+    "panel_text": "You entered answers like 'asdkjh qwe', 'hjkl', and 'zxcv zxcv' to questions requiring a real explanation or opinion. Entering random text does not show honest effort, and responses like these cannot be accepted.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2983,
+    "outputTokens": 131
+  },
+  "storedAt": "2026-10-02T00:53:21.043Z"
+}

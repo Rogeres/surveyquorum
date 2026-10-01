@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer confirms trying the flavor but gives no details or specifics beyond a simple yes."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:45.082Z"
+}

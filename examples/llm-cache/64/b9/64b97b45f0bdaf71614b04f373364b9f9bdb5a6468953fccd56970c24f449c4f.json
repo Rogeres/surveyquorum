@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes the specific detail that the respondent hears about software from their bookkeeper and considers contract length, showing engagement beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:35.749Z"
+}

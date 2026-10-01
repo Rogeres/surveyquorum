@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent finished the survey in 71 seconds versus the cohort median of 329 seconds (nearly 5 times faster), and straightlined three matrices with nearly no reading time. This pace and uniform pattern do not reflect normal, attentive participation.",
+    "panel_text": "You completed the entire survey in 71 seconds, while most people took around 5 minutes and 30 seconds. This is much faster than normal and suggests you could not have read or considered the questions properly.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2820,
+    "outputTokens": 124
+  },
+  "storedAt": "2026-10-01T22:23:40.698Z"
+}

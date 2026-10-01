@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a concrete observation about the 'add' label being tiny on the phone, which is a specific detail about the user experience."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:26.993Z"
+}

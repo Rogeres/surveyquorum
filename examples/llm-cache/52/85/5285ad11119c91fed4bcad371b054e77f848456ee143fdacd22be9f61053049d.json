@@ -1,0 +1,20 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent claimed to never have ordered groceries online, which contradicts the recruiting target. They instantly gave up on all interactive tasks (prototype and website) without making any attempt, completing these in a few seconds where the cohort took over a minute. Total time spent was about 144 seconds versus a cohort median of 520 seconds. This behavior is consistent with not engaging in the survey tasks or providing meaningful feedback.",
+    "panel_text": "You gave up and made no attempt on all interactive tasks. For example, on 'Using the Marrow prototype, add a bag of oranges to your basket and proceed to checkout,' you pressed 'give up' in 4 seconds, while others spent about 1 minute 15 seconds. This shows you did not try to complete the tasks, which violates survey rules.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3222,
+    "outputTokens": 211
+  },
+  "storedAt": "2026-10-02T00:53:29.835Z"
+}

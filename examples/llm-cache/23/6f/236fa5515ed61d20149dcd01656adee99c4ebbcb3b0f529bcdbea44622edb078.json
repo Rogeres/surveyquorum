@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared themselves an owner/co-owner and decision-maker on software but repeatedly stated in open answers that they do not have a company, directly contradicting their profile and making their participation invalid.",
+    "panel_text": "You stated in your profile that you own or co-own a business but wrote in several questions, such as 'Describe the last software purchase you decided on,' that you do not have a company. This contradicts your profile and means your answers do not fit the requirements for this survey.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2412,
+    "outputTokens": 127
+  },
+  "storedAt": "2026-10-01T22:23:42.260Z"
+}

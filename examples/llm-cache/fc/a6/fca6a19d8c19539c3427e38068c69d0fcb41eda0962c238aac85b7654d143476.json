@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about clear pricing and a mobile app, plus personal experience recommending two tools over ten years, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:33.531Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical answer ('Everything was fine and easy to use.') to four different open-ended questions that asked about distinctly different aspects of business software. This is a repeated template rather than genuine, relevant content.",
+    "panel_text": "You wrote the same answer ('Everything was fine and easy to use.') to four different questions that asked about tools, decisions, and recommendations. This shows you did not answer the specific questions as asked. The other participants wrote specific replies to each.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2891,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-02T00:53:43.638Z"
+}
