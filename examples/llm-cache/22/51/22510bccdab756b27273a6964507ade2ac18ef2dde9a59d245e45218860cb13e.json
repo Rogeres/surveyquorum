@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a brief description of the steps taken and a concrete suggestion to improve the help page, which includes specific observations and a recommendation."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:20.324Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides a detailed description including the software used, the purpose, the issue encountered, and the current status, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1585,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:19.680Z"
+}

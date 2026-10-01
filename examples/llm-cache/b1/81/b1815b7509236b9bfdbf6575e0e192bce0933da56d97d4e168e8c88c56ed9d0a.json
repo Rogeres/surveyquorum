@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about the delivery scheduling process including choosing a time slot and a confirmation screen, showing some engagement and concreteness."
+  },
+  "usage": {
+    "inputTokens": 1574,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:17.436Z"
+}

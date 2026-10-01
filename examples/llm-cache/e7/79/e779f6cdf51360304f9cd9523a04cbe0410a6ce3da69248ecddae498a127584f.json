@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete detail about seeing loose oranges and a bag in search results, which caused confusion."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:14.753Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer is a minimal effort response that could fit many questions and does not provide any specific detail."
+  },
+  "usage": {
+    "inputTokens": 1543,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:34.673Z"
+}

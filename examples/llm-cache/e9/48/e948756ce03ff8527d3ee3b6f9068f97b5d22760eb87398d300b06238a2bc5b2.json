@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the paprika flavour having too much salt, which is concrete feedback for improvement."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:48.998Z"
+}

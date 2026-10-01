@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two open answers ('zxcv zxcv' and 'asdkjh qwe') are clear gibberish, showing no intent to provide meaningful feedback to questions that require it. This is strong evidence of bad faith.",
+    "panel_text": "On the question 'What, if anything, was confusing about adding an item to the basket?', your answer 'zxcv zxcv' is just random letters and does not address the question. This shows you did not try to provide a real answer, which is not allowed.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2390,
+    "outputTokens": 129
+  },
+  "storedAt": "2026-10-01T22:23:32.923Z"
+}

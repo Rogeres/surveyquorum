@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains detailed specifics about the software, the reason for switching, the specific problem encountered, and a learned lesson, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1585,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:43:20.786Z"
+}

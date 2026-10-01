@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": true,
+    "reason": "The respondent provides specific confusion about the search result showing loose oranges and a bag, and difficulty spotting the button, with mild profanity expressing frustration."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:35.251Z"
+}

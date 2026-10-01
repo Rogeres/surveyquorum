@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the flavor being 'a bit too herby' and a preference for plain sea salt, indicating some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:42:55.148Z"
+}

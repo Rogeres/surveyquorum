@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The respondent answered 'fine i guess' as the entire open response to two different questions that require specific, thoughtful answers. This is template behavior and does not satisfy the expectation of genuine, thoughtful participation by a business decision-maker.",
+    "panel_text": "On two questions that require different answers, you replied with the same short phrase: 'fine i guess'. This does not show real effort or attention, and does not answer what was actually asked about your software decisions. Honest answers are required to be paid.",
+    "per_signal": {
+      "pace.consistent": "does_not_support",
+      "duplicate-open.x2": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2375,
+    "outputTokens": 128
+  },
+  "storedAt": "2026-10-01T22:23:50.037Z"
+}

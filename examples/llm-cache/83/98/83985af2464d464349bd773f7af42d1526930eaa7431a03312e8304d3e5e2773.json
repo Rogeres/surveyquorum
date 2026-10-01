@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source, 'word of mouth at the chamber of commerce meetings,' which is a concrete detail related to how the respondent hears about business software."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:12.305Z"
+}

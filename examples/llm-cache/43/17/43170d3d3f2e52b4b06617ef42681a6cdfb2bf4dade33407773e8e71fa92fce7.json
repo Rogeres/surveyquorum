@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a concrete detail about not having seen the product in the local shop and willingness to try it if found, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:43:05.122Z"
+}

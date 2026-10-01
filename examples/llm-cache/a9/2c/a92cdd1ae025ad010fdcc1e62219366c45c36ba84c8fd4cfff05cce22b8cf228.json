@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal, generic response that does not include any specific detail relevant to recommending a business tool."
+  },
+  "usage": {
+    "inputTokens": 1543,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:31.398Z"
+}

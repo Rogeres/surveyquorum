@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed description of the software type, usage context, specific issue with SMS reminders, and a complaint about support, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1578,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:23.591Z"
+}

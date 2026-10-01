@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the size of the sharing bags and personal experience finishing one, showing some engagement."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:58.571Z"
+}

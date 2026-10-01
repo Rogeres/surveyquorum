@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal acknowledgement without any specifics or details, suitable as a very brief positive response."
+  },
+  "usage": {
+    "inputTokens": 1541,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:10.421Z"
+}

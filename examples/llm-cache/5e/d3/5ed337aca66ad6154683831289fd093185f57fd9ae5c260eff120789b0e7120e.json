@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about the software (expense app), the reason for choosing it (receipts piling up), and problems encountered (card feed broke, slow support), showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 57
+  },
+  "storedAt": "2026-10-01T18:43:21.567Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only basis for the flag is a single question (Q10) answered very quickly, but total survey time is above the cohort median and all other paces are normal. Q10 is a one-click question and can legitimately be answered in one second, so the speed does not indicate bad faith.",
+    "panel_text": "If the outcome were justified, the panel would be told: 'You answered 'More than 5,000' to 'What is your typical yearly budget for one business software subscription, in your local currency?' in 1 second, while others took about 9 seconds. This is extremely fast and suggests you may not have considered your answer.'",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "design_artifact"
+  },
+  "usage": {
+    "inputTokens": 2999,
+    "outputTokens": 166
+  },
+  "storedAt": "2026-10-02T00:53:42.466Z"
+}

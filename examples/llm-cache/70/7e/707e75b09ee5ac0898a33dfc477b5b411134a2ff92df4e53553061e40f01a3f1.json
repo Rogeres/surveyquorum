@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed explanation about the checkout button behavior and personal experience using a similar app weekly, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:37.763Z"
+}

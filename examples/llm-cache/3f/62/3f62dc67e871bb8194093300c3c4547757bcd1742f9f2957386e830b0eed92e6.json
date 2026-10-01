@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave flat, patterned responses (all Disagree in one matrix, all 4s on multiple rating scales, all 'Neither agree nor disagree' in other matrices) across every grid and scale. This is a classic indicator of not reading or considering questions, especially when such patterning is sustained over different topics in the survey.",
+    "panel_text": "On several questions you chose the same answer for every item (for example, all 'Disagree' or all 'Neither agree nor disagree'), and rated every aspect a '4' throughout. This repeated pattern strongly suggests you did not read or consider the individual statements as intended.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3378,
+    "outputTokens": 156
+  },
+  "storedAt": "2026-10-02T07:57:00.213Z"
+}

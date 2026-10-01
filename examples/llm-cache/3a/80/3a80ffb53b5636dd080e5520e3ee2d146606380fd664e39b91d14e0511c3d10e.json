@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The independent signals of a random card sort (statistically far from group consensus) and duplicated, non-informative open answers indicate inattentive response behavior. The card sort z-score strongly suggests random sorting, and the repeated phrase in open answers shows little effort to answer thoughtfully.",
+    "panel_text": "On the task where you grouped twelve business tools by similarity, your grouping matched only about half of how others grouped them, while most matched over 80%, suggesting the cards may have been sorted without much thought. This is required to answer meaningfully.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3030,
+    "outputTokens": 146
+  },
+  "storedAt": "2026-10-02T07:14:12.514Z"
+}

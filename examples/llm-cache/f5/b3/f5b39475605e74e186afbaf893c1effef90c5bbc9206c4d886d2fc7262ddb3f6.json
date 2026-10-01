@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details including the source (chamber of commerce meetings) and a behavior (trialing two software options before choosing), showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 53
+  },
+  "storedAt": "2026-10-01T18:43:21.116Z"
+}

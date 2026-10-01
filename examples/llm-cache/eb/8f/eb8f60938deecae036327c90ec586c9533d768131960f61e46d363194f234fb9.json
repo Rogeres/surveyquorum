@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a preference detail about herb flavours and salt and vinegar, providing a specific reason related to taste preference."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:02.550Z"
+}

@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up instantly on both prototype tasks without any attempt (0 clicks in 3-4 seconds) and left the website task after just 4 seconds, all while the cohort took over a minute on each. Total survey time was under 3 minutes versus nearly 9 for others. No answer shows substantive engagement with the tasks, so this is clear bad faith.",
+    "panel_text": "You left the interactive tasks almost immediately without trying (for example, you spent 4 seconds where others spent about 1 minute 15 seconds, and made no clicks). This shows you did not attempt to complete the required actions, which does not meet the survey’s expectations.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3175,
+    "outputTokens": 178
+  },
+  "storedAt": "2026-10-02T00:53:23.427Z"
+}

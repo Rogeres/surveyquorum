@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Four open answers consist of random characters or gibberish with no attempt to answer the questions. This indicates the respondent did not provide genuine responses and completed these questions in bad faith.",
+    "panel_text": "On four open-ended questions, your answers were just strings like “asdkjh qwe” and “kjhkjh lkj”, which do not answer the questions asked. This shows you did not provide real responses. Honest answers are required for payout and reputation on the platform.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2368,
+    "outputTokens": 126
+  },
+  "storedAt": "2026-10-01T22:23:45.168Z"
+}

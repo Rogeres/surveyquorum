@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the packaging looking dated and needing a refresh."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 35
+  },
+  "storedAt": "2026-10-01T18:42:56.236Z"
+}

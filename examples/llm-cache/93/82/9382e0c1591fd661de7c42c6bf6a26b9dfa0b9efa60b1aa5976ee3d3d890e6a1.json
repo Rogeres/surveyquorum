@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The response gives a concrete reason (fear of paying twice due to new problems) explaining why the respondent does not switch tools."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:31.593Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer is a general statement about staff adoption without providing any specific detail or example."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:43:14.597Z"
+}

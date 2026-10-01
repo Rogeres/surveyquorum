@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer specifies a concrete, relevant factor (cost during overlap period) that prevents switching, showing specific insight without extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:39.807Z"
+}

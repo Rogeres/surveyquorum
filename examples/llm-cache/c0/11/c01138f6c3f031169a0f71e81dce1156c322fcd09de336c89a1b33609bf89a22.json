@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared never having ordered groceries online, which directly contradicts the recruiting criteria. Additionally, they abandoned both prototype and website tasks almost instantly, without interacting or attempting completion, and their open answers are minimal and avoid meaningful feedback. Their entire participation lacks reasonable effort.",
+    "panel_text": "You answered 'Never' to 'How often do you order groceries online?', but the survey is for people who have ordered online at least once in the last year. Taking part despite not matching the requirements is not allowed, as it affects the results.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2578,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-01T22:23:26.266Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a concrete reason involving the accountant's adaptation and impact on smaller firms, showing specific detail beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:13.712Z"
+}

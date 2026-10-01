@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Both the extremely rapid completion (63s vs 329s, with 15/18 questions completed far faster than peers) and straight-lining across multiple matrices, completed in a fraction of the typical time, show clear signs of not reading or engaging with the survey. There are no substantive open answers to contradict this. The evidence is both strong and independent.",
+    "panel_text": "You completed the entire survey in 63 seconds, while most respondents needed about 5 and a half minutes. This is far too fast to reflect genuine, thoughtful answers, and indicates the survey was not taken with care.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3437,
+    "outputTokens": 156
+  },
+  "storedAt": "2026-10-02T00:53:31.402Z"
+}

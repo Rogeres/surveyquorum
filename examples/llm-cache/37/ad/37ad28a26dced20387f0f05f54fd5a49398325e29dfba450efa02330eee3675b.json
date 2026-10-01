@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about the software purchase, including the product type, the reason for switching, a problem encountered, and the respondent's personal resolution."
+  },
+  "usage": {
+    "inputTokens": 1590,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:43:31.802Z"
+}

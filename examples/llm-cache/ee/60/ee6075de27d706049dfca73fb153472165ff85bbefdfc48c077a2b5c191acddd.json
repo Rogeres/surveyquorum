@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains specific details about the scheduling steps and time slot selected, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:13.363Z"
+}

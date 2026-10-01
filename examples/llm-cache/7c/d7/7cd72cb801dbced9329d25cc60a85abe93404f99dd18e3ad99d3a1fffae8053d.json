@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copied the exact same 32-character phrase into four separate open questions that asked for specific observations about their experience. This is a textbook case of repeating a template answer instead of genuinely providing feedback.",
+    "panel_text": "You entered the exact same answer, \"No problems at all with this one.\", to four different questions asking for your experience, suggestions, or feedback. This shows you did not genuinely respond to each question, which is required for participation.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2368,
+    "outputTokens": 112
+  },
+  "storedAt": "2026-10-01T22:23:32.397Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the exact same generic answer to four open-ended questions that clearly demand different, specific responses. This strongly indicates that they did not engage with the questions in good faith.",
+    "panel_text": "You wrote exactly the same answer (“Everything was fine and easy to use.”) on four different questions that required specific, personal responses. Copying the same generic answer shows you did not respond honestly to each question, which is not allowed.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2295,
+    "outputTokens": 108
+  },
+  "storedAt": "2026-10-01T22:23:46.648Z"
+}

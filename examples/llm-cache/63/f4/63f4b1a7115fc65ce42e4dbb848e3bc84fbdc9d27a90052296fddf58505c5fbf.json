@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed description including the product type, reason for purchase, an issue encountered, and a personal judgment, clearly engaging with the question."
+  },
+  "usage": {
+    "inputTokens": 1586,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:17.029Z"
+}

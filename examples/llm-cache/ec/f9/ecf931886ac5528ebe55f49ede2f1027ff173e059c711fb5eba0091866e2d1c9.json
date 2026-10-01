@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent indicates they have no specifics to add, which is a lack of data rather than laziness."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:43:41.684Z"
+}

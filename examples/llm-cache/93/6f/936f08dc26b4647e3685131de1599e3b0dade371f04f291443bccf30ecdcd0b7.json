@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific mention of the plus button on the product card and a suggestion for animating the basket badge, showing some concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1569,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:28.732Z"
+}

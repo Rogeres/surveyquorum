@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent clicked the exact same spot for three different first-click tasks where the relevant UI elements would normally appear in different locations; this strongly suggests guessing or not engaging with the prototype. The repeated short phrase in open answers on two questions is not, by itself, strong, but the click pattern is clear evidence of bad faith.",
+    "panel_text": "For the three questions asking where you would click first to change your address, find yesterday's order, and apply a promo code, you clicked the exact same spot each time. Most people clicked different places. This suggests you did not interact meaningfully with these tasks.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "firstclick-offtarget.same_spot": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3029,
+    "outputTokens": 161
+  },
+  "storedAt": "2026-10-02T07:14:00.047Z"
+}

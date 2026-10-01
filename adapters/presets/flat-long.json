@@ -1,0 +1,12 @@
+{
+  "name": "flat-long",
+  "description": "Generic long layout: one row per (respondent, question). Header: survey_id,response_id,block_id,question_type,question,answer,duration_sec",
+  "layout": "long",
+  "surveyId": "survey_id",
+  "responseId": "response_id",
+  "blockId": "block_id",
+  "questionType": "question_type",
+  "question": "question",
+  "answer": "answer",
+  "durationSec": "duration_sec"
+}

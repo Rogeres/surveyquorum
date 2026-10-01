@@ -1,0 +1,17 @@
+# The case
+
+Survey: {survey}
+Recruiting target: {target}
+
+{response}
+
+# The system's decision under review
+
+Outcome: {outcome} (score {score})
+
+Evidence:
+{evidence}
+
+# Task
+
+Give an independent decision by the rules above. Write `reason` in English and `panel_text` in {panel_lang}. Return only JSON.

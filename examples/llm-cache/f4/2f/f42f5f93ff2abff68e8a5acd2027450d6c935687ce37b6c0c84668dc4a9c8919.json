@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer describes specific details about the scheduling interface, including the clarity of day tabs, the unusual two-hour time blocks, and the delivery fee per slot, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1579,
+    "outputTokens": 57
+  },
+  "storedAt": "2026-10-01T18:42:42.288Z"
+}

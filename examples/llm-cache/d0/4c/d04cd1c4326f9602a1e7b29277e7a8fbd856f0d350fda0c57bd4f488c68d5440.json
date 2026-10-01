@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer honestly states 'no', indicating no experience with the flavour, which is a valid no_answer response."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:48.987Z"
+}

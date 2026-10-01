@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The repeated phrase 'Nothing specific comes to mind.' is plausible and situational for both questions, especially given the context. Unnamed or generic card sort categories are only weak evidence, especially when the grouping is otherwise reasonable.",
+    "panel_text": "You wrote 'Nothing specific comes to mind.' for two different questions. This is sometimes suspicious, but in your case both answers fit the questions asked and other answers are detailed. No action will be taken against your account.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.unnamed_categories": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2389,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:49.259Z"
+}

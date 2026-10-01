@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about buying two bags and consuming them quickly, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:46.155Z"
+}

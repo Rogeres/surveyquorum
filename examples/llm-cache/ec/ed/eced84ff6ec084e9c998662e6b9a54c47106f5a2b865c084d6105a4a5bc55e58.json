@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed description of the scheduling interface and the respondent's interaction, including specific elements like 'days across the top', 'time windows below', 'tomorrow' and 'evening slot' selection, as well as an evaluation of the process."
+  },
+  "usage": {
+    "inputTokens": 1576,
+    "outputTokens": 71
+  },
+  "storedAt": "2026-10-01T18:42:39.813Z"
+}

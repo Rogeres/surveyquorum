@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 84 seconds versus the cohort median of 520 seconds. This is a dramatic outlier (over six times faster), across multiple question types—including open answers and prototype tasks that others took more than a minute on each. The brief, generic open responses further support the finding: these could not plausibly be substantive answers provided with genuine effort.",
+    "panel_text": "You completed the entire survey in just 84 seconds, while most people took about 9 minutes. This is far faster than reasonable for reading and answering these questions, including tasks that normally take much longer, so your responses cannot be accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3093,
+    "outputTokens": 164
+  },
+  "storedAt": "2026-10-02T00:53:25.212Z"
+}

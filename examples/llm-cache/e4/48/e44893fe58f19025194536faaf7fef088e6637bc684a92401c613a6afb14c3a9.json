@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "There are two independent indications of bad faith: the respondent provided the identical answer 'Nothing specific comes to mind.' to two distinct open questions demanding different reflections, and their card-sorting grouped items in ways statistically consistent with random assignment, completed much faster than the cohort. This fits the definition of answering without intent to provide meaningful content.",
+    "panel_text": "You answered 'Nothing specific comes to mind.' to both 'How do you usually hear about new business software?' and 'What would make you recommend a business tool to another owner?', despite these being different questions. This shows you did not provide meaningful answers as required.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3030,
+    "outputTokens": 159
+  },
+  "storedAt": "2026-10-02T07:14:12.161Z"
+}

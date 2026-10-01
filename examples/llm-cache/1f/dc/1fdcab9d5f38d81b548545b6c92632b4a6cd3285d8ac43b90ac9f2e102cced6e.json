@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "On three open-ended questions, the respondent gave non-words or random characters as answers, showing no intent to provide meaningful information. This is clear evidence of bad faith participation, justifying the system's verdict.",
+    "panel_text": "You answered three open-ended questions with random characters or meaningless text (for example, 'hjkl' for 'What comes to mind when you think of Kettlebird?'). This does not provide real feedback and is not acceptable on this platform.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2734,
+    "outputTokens": 118
+  },
+  "storedAt": "2026-10-01T22:23:36.903Z"
+}

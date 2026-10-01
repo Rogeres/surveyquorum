@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason (fear of new problems and cost of switching) and a condition (if someone did the migration) showing some engagement beyond a minimal answer."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 53
+  },
+  "storedAt": "2026-10-01T18:43:37.743Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer expresses uncertainty and provides no useful information about the confusion, indicating absence of data rather than laziness or evasiveness."
+  },
+  "usage": {
+    "inputTokens": 1546,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:31.895Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about hearing recommendations from staff with previous experience and trying two trials before choosing, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:32.160Z"
+}

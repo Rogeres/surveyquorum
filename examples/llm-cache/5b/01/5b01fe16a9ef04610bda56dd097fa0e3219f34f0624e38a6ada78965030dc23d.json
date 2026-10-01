@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey dramatically faster than the cohort, with most questions answered in a fraction of the ordinary time including tasks that require meaningful engagement (prototypes, websites, open-ended). There is no evidence of technical failure, skip logic, or survey design causing this speed. This is strong evidence of bad faith.",
+    "panel_text": "You finished the survey in 96 seconds, while most people needed about 9 minutes. This is far faster than expected, even on tasks that require reading or interacting. Answering so rapidly suggests you did not give the questions proper attention, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3019,
+    "outputTokens": 147
+  },
+  "storedAt": "2026-10-02T00:53:21.143Z"
+}

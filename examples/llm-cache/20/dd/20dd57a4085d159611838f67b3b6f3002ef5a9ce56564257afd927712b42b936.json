@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed reasons including data migration time and retraining, and insight about small firms being impacted, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:33.468Z"
+}

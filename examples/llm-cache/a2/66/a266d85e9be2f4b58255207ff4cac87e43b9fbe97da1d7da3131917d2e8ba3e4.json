@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific comparative detail about pricing relative to the supermarket's own brand, showing concrete feedback."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:46.016Z"
+}

@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Straightline patterns across all grids and rating scales, given at high speed, together with multiple non-informative open answers, indicate a respondent who did not engage with the questions meaningfully. These are independent, strong signals of bad faith.",
+    "panel_text": "You answered three open questions with only 'ok', 'no', or 'nothing', and for every grid or scoring question, you chose the same answer quickly. This shows you did not read or consider the questions, which is not allowed on this platform.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3492,
+    "outputTokens": 146
+  },
+  "storedAt": "2026-10-02T00:53:32.884Z"
+}

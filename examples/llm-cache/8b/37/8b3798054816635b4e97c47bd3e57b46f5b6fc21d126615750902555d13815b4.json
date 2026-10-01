@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about tapping the delivery address and expecting to see the time which shows engagement with the scheduling process."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:10.657Z"
+}

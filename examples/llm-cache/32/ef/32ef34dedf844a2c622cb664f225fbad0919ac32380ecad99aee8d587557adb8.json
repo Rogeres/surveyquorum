@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes two specific criteria for recommendation: clear pricing and a proper mobile app, which are concrete details rather than vague opinions."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:15.881Z"
+}

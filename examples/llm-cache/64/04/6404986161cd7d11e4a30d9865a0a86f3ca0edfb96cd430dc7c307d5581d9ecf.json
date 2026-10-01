@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about using online searches triggered by problems and a concern about long contracts, showing some engagement beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:32.113Z"
+}

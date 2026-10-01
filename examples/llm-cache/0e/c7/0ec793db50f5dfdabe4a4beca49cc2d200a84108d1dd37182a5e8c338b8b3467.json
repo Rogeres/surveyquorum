@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent did not attempt any of the interactive tasks, giving up instantly without engagement, and completed the entire survey in under 140 seconds when most others took over 8 minutes. The open answers are minimal and repeat the same phrase, showing no genuine engagement.",
+    "panel_text": "You completed the whole survey in 2 minutes and 19 seconds, while others took about 9 minutes. On all interactive tasks, you pressed 'give up' right away without trying. This shows you did not genuinely attempt to answer the questions or interact with the tasks as required.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2615,
+    "outputTokens": 157
+  },
+  "storedAt": "2026-10-01T22:23:26.159Z"
+}

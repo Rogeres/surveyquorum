@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in about 61 seconds, compared to a cohort median of 329 seconds, which is far too fast to read, consider, and answer meaningfully. There are also clear straightlining patterns on all matrix and scale questions, filled at speed. The response pattern is typical of bad faith completion, not honest effort.",
+    "panel_text": "You completed the whole survey in 61 seconds, while most people needed about 5 and a half minutes. This is much faster than is possible if reading, considering, and answering all questions with real attention. Surveys must be answered thoughtfully to be valid.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2871,
+    "outputTokens": 153
+  },
+  "storedAt": "2026-10-01T22:23:37.252Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is very brief and vague, offering general words that could apply to many questions without any specific detail about how they hear about new business software."
+  },
+  "usage": {
+    "inputTokens": 1541,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:34.308Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides two specific details about the product—its chilli flavour's heat level and the difficulty in resealing the bag—showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:42:58.201Z"
+}

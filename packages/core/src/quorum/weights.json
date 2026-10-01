@@ -1,0 +1,140 @@
+{
+  "version": "1.1.0",
+  "provenance": "Initial calibration from arbiter-confirmed production bans, Jul–Sep 2026 (one panel-research platform; quorum/arbiter confirmation, a few hundred cases double-reviewed by humans). Each weight is a log-likelihood ratio LLR = logit(precision) − logit(prior), capped at ±4.5 so that no single signal can block. Entries marked \"assumed\" are placeholders for signals without a production measurement. Refit on your own labels with `npm run calibration:fit`. Thresholds: block only at posterior ≥ 0.95 — a block is meant to be a near-certain call that needs no second look; review at ≥ 0.20 — review is cheap, so a signal whose production precision is 20–30 % (e.g. gibberish) still asks for a second look. Everything between 0.20 and 0.95 goes to the review layer (arbiter, then a person). v1.1.0 adds matrix-pattern.straightline_full and widens the heavy_pattern / random_sort routes so that a pattern spanning the whole survey (the long-string / insufficient-effort index of Curran 2016 and Meade & Craig 2012) counts as strong evidence on its own, not only when it is also fast.",
+  "prior": 0.0225,
+  "defaults": {
+    "strong": 3.418,
+    "weak": 2.119,
+    "positive": -1.4
+  },
+  "weights": {
+    "pace.consistent": {
+      "llr": 4.5,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; ≥3 blocks z≤−2 or median z≤−1.5; raw LLR 5.16 capped at 4.5; precision 0.8"
+    },
+    "pace.fast_cluster": {
+      "llr": 2.876,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.29"
+    },
+    "pace.single_outlier": {
+      "llr": 3.571,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; isolated μ−3σ block with a normal total; precision 0.45"
+    },
+    "pace.whole_survey_fast": {
+      "llr": 0.827,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; total < 1/3 of median with no fast blocks — mostly short branches; precision 0.05"
+    },
+    "duplicate-open.x3": {
+      "llr": 3.972,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.55"
+    },
+    "duplicate-open.x2": {
+      "llr": 2.924,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.3"
+    },
+    "duplicate-open.empty_repeat": {
+      "llr": 2.385,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.2"
+    },
+    "open-answer.fake": {
+      "llr": 3.449,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.42"
+    },
+    "open-answer.gibberish": {
+      "llr": 2.619,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.24"
+    },
+    "open-answer.wrong_language": {
+      "llr": 2.924,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.3"
+    },
+    "open-answer.bad_language": {
+      "llr": 2.827,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; measured before the label semantics changed — expected higher after refit; precision 0.28"
+    },
+    "open-answer.off_topic": {
+      "llr": 0.593,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; near the base rate, corroborating only; precision 0.04"
+    },
+    "coherence.contradiction": {
+      "llr": 3.571,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.45"
+    },
+    "coherence.possible_contradiction": {
+      "llr": 2.563,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.23"
+    },
+    "prototype-effort.instant_give_up": {
+      "llr": 3.152,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.35"
+    },
+    "prototype-effort.zero_click_give_up": {
+      "llr": 2.321,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.19"
+    },
+    "prototype-effort.low_effort": {
+      "llr": 2.673,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.25"
+    },
+    "website-bounce.repeated_bounce": {
+      "llr": 3.152,
+      "source": "assumed: prototype-effort analogue (instant_give_up); precision 0.35"
+    },
+    "website-bounce.bounce": {
+      "llr": 2.037,
+      "source": "assumed: prototype-effort analogue; precision 0.15"
+    },
+    "matrix-pattern.straightline_fast": {
+      "llr": 3.571,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.45"
+    },
+    "matrix-pattern.straightline_full": {
+      "llr": 3.771,
+      "source": "assumed: whole-survey long-string index (≥3 patterned units covering ≥75% of the respondent's rating units); to be measured; precision 0.5"
+    },
+    "matrix-pattern.straightline": {
+      "llr": 1.574,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.1"
+    },
+    "mass-select.heavy_pattern": {
+      "llr": 3.152,
+      "source": "assumed: from a third-judge review of overturned bans; precision 0.35"
+    },
+    "mass-select.pattern": {
+      "llr": 1.779,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.12"
+    },
+    "cardsort-consensus.random_sort": {
+      "llr": 3.771,
+      "source": "assumed; precision 0.5"
+    },
+    "cardsort-consensus.low_consensus": {
+      "llr": 2.385,
+      "source": "assumed; precision 0.2"
+    },
+    "cardsort-consensus.single_pile": {
+      "llr": 2.037,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.15"
+    },
+    "cardsort-consensus.unnamed_categories": {
+      "llr": 1.329,
+      "source": "measured: arbiter-confirmed production bans, Jul–Sep 2026; precision 0.08"
+    },
+    "firstclick-offtarget.same_spot": {
+      "llr": 3.771,
+      "source": "assumed; precision 0.5"
+    },
+    "firstclick-offtarget.repeated_off_density": {
+      "llr": 2.037,
+      "source": "assumed; precision 0.15"
+    },
+    "open-answer.rich_open_answers": {
+      "llr": -1.4,
+      "source": "measured: confirm rate 0.068 among flagged respondents with ≥2 rich open answers vs 0.23 across all flagged, Jul–Sep 2026; LLR = ln(0.068/0.23 × 0.77/0.932)"
+    }
+  },
+  "thresholds": {
+    "block": 0.95,
+    "review": 0.2
+  }
+}

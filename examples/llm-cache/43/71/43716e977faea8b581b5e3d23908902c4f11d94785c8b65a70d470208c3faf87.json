@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent pasted an identical sentence, 'Everything was fine and easy to use,' into four distinct open-ended questions that each called for a different substantive answer. This clearly indicates disengagement and a lack of sincere effort to answer the survey properly.",
+    "panel_text": "On four different questions that asked you for details about software decisions or recommendations, you wrote exactly the same reply: “Everything was fine and easy to use.” Repeating the same sentence on questions that ask for different explanations is not acceptable and shows you did not answer sincerely.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2287,
+    "outputTokens": 126
+  },
+  "storedAt": "2026-10-01T22:23:42.224Z"
+}

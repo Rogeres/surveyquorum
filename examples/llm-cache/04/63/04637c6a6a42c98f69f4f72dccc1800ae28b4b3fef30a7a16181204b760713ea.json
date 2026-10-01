@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave one-word or placeholder answers ('nice', 'ok', 'no') to open-ended questions that required specific detail. The whole survey was also completed much faster than other respondents (90 s vs 368 s), and the speed aligns with the lack of thoughtful input.",
+    "panel_text": "On the open question 'Describe the last software purchase you decided on: what, why, what went wrong.', your answer was 'nice'. This answer does not address the question, which asks for details. Answers like this suggest you did not engage honestly with the survey.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2374,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:50.176Z"
+}

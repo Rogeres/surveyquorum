@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer gives a specific criterion (staff adoption without complaining) that would influence recommendation, providing a concrete detail beyond a generic statement."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:10.757Z"
+}

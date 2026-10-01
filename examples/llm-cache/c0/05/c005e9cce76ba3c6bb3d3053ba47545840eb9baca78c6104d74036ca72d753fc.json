@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details like locations where the brand is seen and that the respondent's kids like the product, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:01.574Z"
+}

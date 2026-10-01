@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single question answered quickly (1s vs 9s for the cohort), with ordinary times and thorough, relevant open answers elsewhere. A fast answer to one straightforward choice question does not prove bad faith.",
+    "panel_text": "If a case were justified, you would be flagged for answering \"Which of these back-office areas takes the most of your time each week?\" in 1 second when most needed 9. However, one quick answer alone is not a violation.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3008,
+    "outputTokens": 129
+  },
+  "storedAt": "2026-10-02T00:53:46.210Z"
+}

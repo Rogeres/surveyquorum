@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is minimal and vague, providing a generic positive opinion without any specific details about the new flavour."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:51.647Z"
+}

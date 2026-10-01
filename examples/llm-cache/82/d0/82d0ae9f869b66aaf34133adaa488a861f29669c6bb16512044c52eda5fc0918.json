@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific suggestion to add a reorder feature, showing concrete engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:42:17.484Z"
+}

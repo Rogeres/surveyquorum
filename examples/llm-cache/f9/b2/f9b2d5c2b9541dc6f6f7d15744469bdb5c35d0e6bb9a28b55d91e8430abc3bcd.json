@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a general preference but no specific detail or example related to recommending a business tool."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:43:18.861Z"
+}

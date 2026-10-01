@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific usability issue and personal experience which clearly engages with the question."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:10.900Z"
+}

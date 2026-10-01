@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The exact same non-informative sentence 'Everything was fine and easy to use.' was copy-pasted into 4 separate, distinct open-ended questions that require specific and individualized responses; this indicates bad faith participation.",
+    "panel_text": "You wrote the same answer, 'Everything was fine and easy to use.', to four different questions asking about different experiences. Each question required a different, detailed response in your own words. This is not allowed and suggests you did not answer the questions properly.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2892,
+    "outputTokens": 125
+  },
+  "storedAt": "2026-10-02T00:53:42.318Z"
+}

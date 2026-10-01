@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason 'inertia' and the detail of likely continuing to use it 'another year', showing some engagement and specificity beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:37.675Z"
+}

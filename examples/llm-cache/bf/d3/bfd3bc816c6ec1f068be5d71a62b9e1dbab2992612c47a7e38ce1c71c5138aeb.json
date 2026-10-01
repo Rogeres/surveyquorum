@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two open-ended questions received nonsensical or meaningless responses ('zxcv zxcv' and 'aaaa'), which are clear evidence of not participating in good faith. This is a textbook case of bad faith input and would not be justified by misunderstanding or brevity.",
+    "panel_text": "On the question 'Describe the last software purchase you decided on: what, why, what went wrong?', your answer was 'zxcv zxcv', which does not provide any useful information. Answers like this do not help understand your experience and are not accepted.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2307,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-01T22:23:49.597Z"
+}

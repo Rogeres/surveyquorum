@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about cancellation policies making a tool recommendable, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:09.375Z"
+}

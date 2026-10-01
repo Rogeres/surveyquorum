@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the plus button on the product card and a suggestion for a confirmation toast, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:42.771Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered the identical, non-substantive response ('No problems at all with this one.') to four separate open-ended questions requiring reflection on different tasks. This is clear evidence of low effort and not engaging with the survey content.",
+    "panel_text": "You gave the exact same answer to four different open questions: \"No problems at all with this one.\" Each question was about a different part of the survey and required a separate response. Copying the same answer like this is not allowed and means you did not provide genuine feedback.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2965,
+    "outputTokens": 134
+  },
+  "storedAt": "2026-10-02T00:53:27.588Z"
+}

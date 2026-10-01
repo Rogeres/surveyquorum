@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed information about the software change, reasons for replacement, and a specific issue encountered with the first tax return, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1577,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:43:27.829Z"
+}

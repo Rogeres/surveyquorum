@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific reason about bad export options preventing switching, which is a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:43:30.433Z"
+}

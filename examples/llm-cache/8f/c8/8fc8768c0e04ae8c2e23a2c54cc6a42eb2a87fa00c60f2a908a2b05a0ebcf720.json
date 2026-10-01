@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides a specific detail about the prototype never loading and seeing a grey screen, indicating engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:38.510Z"
+}

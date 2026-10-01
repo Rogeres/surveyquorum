@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a clear expectation about UI behavior and a suggestion for improvement, showing engagement and specificity."
+  },
+  "usage": {
+    "inputTokens": 1569,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:23.668Z"
+}

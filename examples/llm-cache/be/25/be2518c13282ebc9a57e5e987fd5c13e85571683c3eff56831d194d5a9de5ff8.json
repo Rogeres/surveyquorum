@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific description of the product's taste and positioning, giving a concrete detail beyond a general impression."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:57.126Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about how the search bar was used and a suggestion to make it bigger."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:13.689Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed step-by-step description of how the respondent scheduled delivery, mentioning specific actions and a concrete delivery time option."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:19.603Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about broken crisps at the bottom of the bag and a personal opinion, which shows concrete feedback."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:04.929Z"
+}

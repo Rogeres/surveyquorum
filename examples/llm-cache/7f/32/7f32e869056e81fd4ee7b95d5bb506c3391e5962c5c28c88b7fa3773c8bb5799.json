@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 59 seconds when most needed about 5.5 minutes and gave flat, likely unconsidered answers (e.g., 'nice', 'nothing'), with multiple matrix questions answered instantly and in a straight line. This is clear evidence of bad faith or disengaged response.",
+    "panel_text": "You completed the entire survey in 59 seconds, while most people took about 5 and a half minutes. Completing so quickly means you could not have read and considered the questions properly, so your answers do not meet the survey's standards.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "does_not_support",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2917,
+    "outputTokens": 152
+  },
+  "storedAt": "2026-10-01T22:23:37.311Z"
+}

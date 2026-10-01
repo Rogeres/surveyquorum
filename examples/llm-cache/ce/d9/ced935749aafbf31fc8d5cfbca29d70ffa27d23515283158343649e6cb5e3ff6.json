@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes concrete details about the expected calendar location and delivery fee display, showing engagement with the question but without extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1575,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:12.553Z"
+}

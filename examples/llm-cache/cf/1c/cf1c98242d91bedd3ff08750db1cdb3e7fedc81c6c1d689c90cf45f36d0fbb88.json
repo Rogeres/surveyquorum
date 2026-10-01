@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent gives a specific confusion about price per bag or kilo and mentions screen size, providing concrete details."
+  },
+  "usage": {
+    "inputTokens": 1566,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:31.131Z"
+}

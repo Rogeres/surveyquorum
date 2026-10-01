@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal effort acknowledgment with no specific detail, suitable for valid_low."
+  },
+  "usage": {
+    "inputTokens": 1546,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:39.661Z"
+}

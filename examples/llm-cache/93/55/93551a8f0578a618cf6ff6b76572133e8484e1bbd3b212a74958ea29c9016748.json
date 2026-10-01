@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific suggestion about multipacks and a reason, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:46.384Z"
+}

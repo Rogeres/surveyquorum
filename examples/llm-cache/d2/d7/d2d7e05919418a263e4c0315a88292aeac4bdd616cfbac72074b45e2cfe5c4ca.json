@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete and specific feature request, showing engagement with the product but without detailed explanation or example."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:20.208Z"
+}

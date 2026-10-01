@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Nine of eleven questions were answered much faster than other respondents (total 74 s vs. 368 s median), with minimal and repetitive content in open answers. The respondent did not provide substantive feedback; 'nice', 'fine', and 'it was ok' across different questions are non-informative, confirming bad faith.",
+    "panel_text": "You answered the entire survey in 74 seconds, while most people needed about 6 minutes. For example, 'Describe the last software purchase you decided on' was answered with just 'nice,' and two other open questions received short, recycled replies. This does not meet the standard expected for survey participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2988,
+    "outputTokens": 163
+  },
+  "storedAt": "2026-10-02T00:53:42.866Z"
+}

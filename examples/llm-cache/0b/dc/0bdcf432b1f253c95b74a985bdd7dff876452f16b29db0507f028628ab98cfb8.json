@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific observation about Kettlebird's ingredients and packaging, which shows genuine engagement and a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1567,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:56.181Z"
+}

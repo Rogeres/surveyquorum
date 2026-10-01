@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific behavior about how and when they learn about new software and their trial process, showing concrete details though not very detailed."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:24.781Z"
+}

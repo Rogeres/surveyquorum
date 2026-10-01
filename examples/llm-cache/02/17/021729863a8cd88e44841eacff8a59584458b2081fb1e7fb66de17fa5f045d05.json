@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey much faster than the cohort (84s vs 520s), including very brief times on complex tasks and consistently minimal open-text answers. This pattern is sufficient evidence for bad faith completion by itself.",
+    "panel_text": "You completed the survey in 84 seconds, while most participants spent about 9 minutes. This is far faster than normal for this many questions and tasks, so your answers do not appear to reflect genuine participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2496,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-01T22:23:29.540Z"
+}

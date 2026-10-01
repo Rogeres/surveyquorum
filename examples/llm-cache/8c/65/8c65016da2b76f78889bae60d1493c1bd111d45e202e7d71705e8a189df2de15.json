@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific source for hearing about business software — recommendations from staff with prior experience, which is a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1548,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:31.709Z"
+}

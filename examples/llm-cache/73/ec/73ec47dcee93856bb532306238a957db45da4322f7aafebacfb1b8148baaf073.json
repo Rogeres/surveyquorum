@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey almost six times faster than the cohort median (59s vs 329s), with near-instant answers on multiple lengthy questions (grids and open). Flat patterns in matrices and repeated 'nice' in open questions further support disengagement. The behaviour shows clear bad-faith response.",
+    "panel_text": "You finished the survey in 59 seconds while others needed about 5 and a half minutes, and you gave extremely short answers like “nice” on questions where others wrote much more. This shows the survey was not answered carefully, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3514,
+    "outputTokens": 161
+  },
+  "storedAt": "2026-10-02T00:53:33.052Z"
+}

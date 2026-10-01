@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 2,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      },
+      {
+        "i": 7,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": ""
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1248,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-01T18:43:57.611Z"
+}

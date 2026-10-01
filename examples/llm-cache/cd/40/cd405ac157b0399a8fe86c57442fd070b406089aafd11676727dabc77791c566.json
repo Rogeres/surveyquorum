@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered three different open questions with non-words: 'hjkl', 'dfgdfg sdf', and 'qwerty'. These responses are random strings with no meaning in context, providing no substantive content where such is explicitly required, which constitutes clear bad faith participation.",
+    "panel_text": "For the question 'What comes to mind when you think of Kettlebird?', you answered: 'hjkl.' This is not a meaningful response and shows you did not engage with the question. Open questions must have relevant, thoughtful answers to be accepted.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3318,
+    "outputTokens": 142
+  },
+  "storedAt": "2026-10-02T00:53:31.348Z"
+}

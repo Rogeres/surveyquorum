@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The answer to 'If you could change one thing about Kettlebird, what would it be?' is 'asdkjh qwe', which is random letters and not a meaningful response to the question. This is clear evidence of bad faith on an open-ended question that demands substance.",
+    "panel_text": "To the question 'If you could change one thing about Kettlebird, what would it be?', you answered 'asdkjh qwe'. This response is not meaningful or relevant, which shows that you did not answer this question in good faith.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3314,
+    "outputTokens": 142
+  },
+  "storedAt": "2026-10-02T00:53:34.309Z"
+}

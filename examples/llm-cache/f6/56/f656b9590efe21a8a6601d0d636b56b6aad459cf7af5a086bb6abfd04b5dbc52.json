@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific description of the steps taken (checking account then checkout) and a concrete observation about the process having more steps than expected."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:37.284Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The open answer 'fghj' to 'What, if anything, was confusing about adding an item to the basket?' is pure gibberish with no relevance to the question. This is a clear instance of answering without intent to provide meaningful feedback, which constitutes bad faith regardless of time spent or other answers.",
+    "panel_text": "In response to 'What, if anything, was confusing about adding an item to the basket?', you answered 'fghj'. This is not a meaningful answer to the question and shows that you did not provide genuine feedback, which breaches the survey's requirements.",
+    "per_signal": {
+      "pace.fast_cluster": "supports",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3075,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:25.830Z"
+}

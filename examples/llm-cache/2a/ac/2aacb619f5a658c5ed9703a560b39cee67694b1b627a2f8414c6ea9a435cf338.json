@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific channels (industry newsletters, webinars) and a reason for caution, showing some engagement but no detailed examples or personal experience."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:38.310Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details such as 'trade shows once a year' and the importance of 'reviews over ads', showing concrete observations about how the respondent hears about new business software."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 55
+  },
+  "storedAt": "2026-10-01T18:43:09.791Z"
+}

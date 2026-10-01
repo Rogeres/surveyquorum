@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the basket's location (top right vs. bottom bar) making it specific enough for valid_medium."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:35.256Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is that one question (Q18) was answered much faster than the cohort, but the rest of the survey was completed at a normal or even slower pace. One isolated fast click, especially on a simple single-choice question, does not substantiate bad faith.",
+    "panel_text": "If there were a problem, it would be because the last question ('How likely are you to buy Kettlebird in the next month?') was answered much faster than most people. However, this question only asks for a quick choice, so answering quickly does not mean you did anything wrong.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2780,
+    "outputTokens": 142
+  },
+  "storedAt": "2026-10-01T22:23:35.615Z"
+}

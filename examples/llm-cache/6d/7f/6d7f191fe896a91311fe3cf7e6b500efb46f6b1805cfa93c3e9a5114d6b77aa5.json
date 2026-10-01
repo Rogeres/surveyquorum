@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent explicitly states they would not change anything, indicating no answer to the question about changes."
+  },
+  "usage": {
+    "inputTokens": 1546,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:43:03.850Z"
+}

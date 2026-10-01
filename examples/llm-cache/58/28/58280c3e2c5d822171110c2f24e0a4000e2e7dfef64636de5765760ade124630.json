@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer offers a specific detail about the paprika flavor, indicating a concrete change suggestion."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:43:01.009Z"
+}

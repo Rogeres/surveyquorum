@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the checkout button being hidden under the basket summary and scrolling twice, showing engagement with the issue."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:12.823Z"
+}

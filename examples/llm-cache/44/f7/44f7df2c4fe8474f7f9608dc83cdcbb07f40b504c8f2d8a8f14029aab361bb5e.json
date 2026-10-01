@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific suggestion to offer multipacks instead of sharing bags, which is a concrete detail about the product."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:50.377Z"
+}

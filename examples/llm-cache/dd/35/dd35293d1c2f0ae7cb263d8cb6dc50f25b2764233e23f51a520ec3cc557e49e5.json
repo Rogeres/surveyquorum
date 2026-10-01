@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific sources and a personal behavior related to the question, showing clear engagement and detail."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:40.802Z"
+}

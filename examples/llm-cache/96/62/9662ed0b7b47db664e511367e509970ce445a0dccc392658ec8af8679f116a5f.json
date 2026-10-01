@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in about a third of the time taken by others, with multiple complex questions (matrices) answered in a flat pattern at high speed. Open responses are placeholders. The totality strongly indicates the survey was not seriously attempted.",
+    "panel_text": "You completed the survey in 104 seconds, while most people needed about 5 and a half minutes. Quick answers are not a problem, but this speed across the full set of questions means there was not enough time to read and answer thoughtfully.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2895,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:37.550Z"
+}

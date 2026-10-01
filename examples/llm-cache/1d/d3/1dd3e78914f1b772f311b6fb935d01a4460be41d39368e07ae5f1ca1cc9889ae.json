@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source (chamber of commerce meetings) and a concrete observation about price lists, showing at least one specific detail."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:35.518Z"
+}

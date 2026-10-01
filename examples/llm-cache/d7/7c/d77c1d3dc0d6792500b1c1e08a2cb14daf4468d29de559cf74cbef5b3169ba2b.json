@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "All multi-select questions plausibly allowed for many real options to be selected. The respondent's choices are consistent with the questionnaire design and their detailed open answers, and there is no evidence of random or thoughtless selection. Selecting many options is not, by itself, proof of bad faith when the selections fit the question type.",
+    "panel_text": "You selected many options on four different questions, but each question allowed for several real answers (for example: 'Which snack brands have you bought in the last three months?' and 'Where do you usually buy snacks?'). This is not evidence of a violation when your answers fit the question.",
+    "per_signal": {
+      "mass-select.heavy_pattern": "does_not_support"
+    },
+    "overturn_category": "design_artifact"
+  },
+  "usage": {
+    "inputTokens": 3467,
+    "outputTokens": 159
+  },
+  "storedAt": "2026-10-02T07:56:58.603Z"
+}

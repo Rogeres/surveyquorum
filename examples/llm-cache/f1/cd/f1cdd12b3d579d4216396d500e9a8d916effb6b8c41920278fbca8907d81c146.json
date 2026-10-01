@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 96 seconds while the cohort median was 520 seconds, with 10 of 15 questions answered more than two standard deviations faster than peers, including several open-ended and interactive tasks. Such a pace is not plausible for honest, engaged participation.",
+    "panel_text": "You finished the whole survey in 96 seconds, while most people needed about 9 minutes. This is much faster than normal and did not allow enough time to read and answer thoughtfully, which is required for participation and payment.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2422,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-01T22:23:24.022Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent explicitly states they have no specific information to provide, indicating absence of data rather than engagement."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:18.012Z"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "surveyquorum-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Consensus screening of survey respondents: signal detectors, weighted evidence, optional LLM arbiter.",
+  "license": "Apache-2.0",
+  "author": "George Strunin <rogeres@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rogeres/surveyquorum.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "tsc -b",
+    "build": "tsc -b",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "check": "npm run lint && npm run typecheck && npm run test",
+    "surveyquorum": "tsx packages/cli/src/cli.ts",
+    "examples:generate": "tsx examples/generate.ts",
+    "examples:expected": "tsx examples/write-expected.ts",
+    "calibration:fit": "tsx calibration/fit-weights.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

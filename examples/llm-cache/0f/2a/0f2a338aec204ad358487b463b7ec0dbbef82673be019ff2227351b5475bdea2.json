@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific suggestion to lower the price and a reason related to competition with supermarket brands, indicating at least one concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1570,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:00.495Z"
+}

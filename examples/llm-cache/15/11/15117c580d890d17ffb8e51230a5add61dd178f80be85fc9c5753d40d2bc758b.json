@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about the chilli flavour and its uniqueness, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:58.152Z"
+}

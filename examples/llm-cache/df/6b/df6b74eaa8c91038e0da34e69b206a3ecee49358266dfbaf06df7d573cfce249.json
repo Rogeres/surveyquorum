@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific observation about product ingredients and a personal detail about the respondent's kids liking the product."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:07.059Z"
+}

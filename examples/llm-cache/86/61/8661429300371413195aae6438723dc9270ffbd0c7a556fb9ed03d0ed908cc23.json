@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates no information or opinion is given (no data), which qualifies as no_answer."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:42:51.985Z"
+}

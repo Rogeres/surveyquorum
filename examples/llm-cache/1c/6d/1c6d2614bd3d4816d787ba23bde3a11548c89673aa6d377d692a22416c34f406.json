@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 71 seconds compared to a median of 329 seconds for others. They straightlined three matrix grids in very short times; open answers are 'no', 'easy', and 'good', which add little substance. This pattern and extreme speed cannot be explained by survey design or a technical issue.",
+    "panel_text": "You completed the entire survey in 71 seconds, while most others needed about 5 and a half minutes. That is much faster than it is possible to read and answer the questions with care. Rushed answers like this are not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3417,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:36.257Z"
+}

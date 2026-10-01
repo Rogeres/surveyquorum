@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific sources like 'industry newsletters' and 'webinars' plus a clear preference for reviews over ads, providing concrete details."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:11.408Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the search results mixing missing deliveries with missing items, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:10.863Z"
+}

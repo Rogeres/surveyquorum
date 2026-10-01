@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about reducing salt in the paprika flavour, showing concrete feedback on one aspect of Kettlebird."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:48.003Z"
+}

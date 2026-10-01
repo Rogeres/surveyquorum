@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific source of information (recommendations from staff at previous jobs) and an evaluative preference (reviews matter more than ads), thus providing concrete details."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 53
+  },
+  "storedAt": "2026-10-01T18:43:22.801Z"
+}

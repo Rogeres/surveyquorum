@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared business ownership and recent software purchase at screening but answered multiple questions stating they are a student and do not own a company. This is a clear and direct contradiction, manifesting as misrepresentation in screening and the body.",
+    "panel_text": "In the introduction you said you are an owner or co-owner of a business and have bought business software, but later wrote: “I'm studying at the moment and don't own anything, the last thing I bought was a games console.” This contradiction means your declared profile does not match your answers.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3024,
+    "outputTokens": 143
+  },
+  "storedAt": "2026-10-02T00:53:39.497Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey 6 times faster than the median cohort, with 9 of 15 questions answered at a pace that does not allow for reading and meaningful input, including long prototype and open questions. Both speed and shallow, terse open answers point to non-engagement. The off-target firstclicks add to the pattern but are not decisive on their own.",
+    "panel_text": "You completed the survey in 1 minute 24 seconds, while most people needed about 9 minutes. Many questions, including those requiring longer actions or written answers, were completed far too fast to have been read and considered. This does not meet the standards for fair participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3093,
+    "outputTokens": 170
+  },
+  "storedAt": "2026-10-02T00:53:25.214Z"
+}

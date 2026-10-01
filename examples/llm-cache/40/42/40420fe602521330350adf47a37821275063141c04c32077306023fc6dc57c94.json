@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason involving the accountant's familiarity and adaptation to current tools, indicating a concrete barrier to switching."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:28.713Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about using the search bar and the article's length and structure, showing concrete engagement with the instructions."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:16.629Z"
+}

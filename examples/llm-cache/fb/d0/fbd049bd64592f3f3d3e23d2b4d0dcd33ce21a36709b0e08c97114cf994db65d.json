@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The same generic phrase is repeated verbatim on four open-ended questions that ask for different, experience-based answers. This indicates the respondent did not provide genuine responses and did not engage with the questions meaningfully.",
+    "panel_text": "You gave the same answer, \"Everything was fine and easy to use,\" to these questions: \"Describe the last software purchase you decided on,\" \"How do you usually hear about new business software?\", \"What stops you from switching a tool you are unhappy with?\", and \"What would make you recommend a business tool to another owner?\" This does not reflect genuine engagement.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2884,
+    "outputTokens": 149
+  },
+  "storedAt": "2026-10-02T00:53:37.643Z"
+}

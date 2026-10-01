@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered four open-ended questions with random strings such as 'lkjlkj' and 'sdfsdf', which are gibberish and provide no meaningful content. This is clear evidence of answering without any intention to provide useful data.",
+    "panel_text": "You answered several open-ended questions with random letters (for example: 'Describe the last software purchase you decided on: what, why, what went wrong.' — 'lkjlkj'). Answers like this do not give any information, and show that you did not try to complete the survey honestly.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2309,
+    "outputTokens": 135
+  },
+  "storedAt": "2026-10-01T22:23:43.688Z"
+}

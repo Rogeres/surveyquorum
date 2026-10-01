@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific channels—industry newsletters and webinars—demonstrating a clear source of information."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:23.885Z"
+}

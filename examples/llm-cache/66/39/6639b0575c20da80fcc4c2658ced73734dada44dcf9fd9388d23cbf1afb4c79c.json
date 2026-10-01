@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 61 seconds, while the cohort median was 329 seconds, and gave patterned, non-informative matrix answers at high speed. The open responses ('no', 'easy', 'it was ok') are minimal and do not show engagement. There is no factual basis to explain these patterns as genuine.",
+    "panel_text": "You completed the whole survey in 61 seconds, while most people took about 5 and a half minutes. Answers were given almost instantly, with several questions answered nearly five times faster than the typical respondent. This pace means it is not possible you read and considered each question as required.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3468,
+    "outputTokens": 165
+  },
+  "storedAt": "2026-10-02T00:53:32.963Z"
+}

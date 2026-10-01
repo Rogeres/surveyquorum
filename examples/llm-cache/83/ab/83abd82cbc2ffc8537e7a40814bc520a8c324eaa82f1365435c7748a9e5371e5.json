@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates the respondent has not tried the flavour, providing no specific information or engagement beyond 'No.'"
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:58.882Z"
+}

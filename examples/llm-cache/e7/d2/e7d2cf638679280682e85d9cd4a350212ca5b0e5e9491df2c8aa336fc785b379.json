@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific concrete reason (lack of time to evaluate alternatives) explaining why the respondent does not switch, which is more than minimal effort."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:39.638Z"
+}

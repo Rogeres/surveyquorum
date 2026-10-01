@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives specific sources of information: the accountant and a local business group chat, which are concrete details. "
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:11.128Z"
+}

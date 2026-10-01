@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "Answer gives detailed description including the product type (CRM), the reason for purchase, the pricing issue, and a limitation in support, showing clear engagement and specifics."
+  },
+  "usage": {
+    "inputTokens": 1581,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:43:16.115Z"
+}

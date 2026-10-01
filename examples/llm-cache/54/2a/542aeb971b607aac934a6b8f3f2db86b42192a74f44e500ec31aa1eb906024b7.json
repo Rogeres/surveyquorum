@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific activity (road trips) and a concrete detail (grabbing a bag at the services), showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:03.230Z"
+}

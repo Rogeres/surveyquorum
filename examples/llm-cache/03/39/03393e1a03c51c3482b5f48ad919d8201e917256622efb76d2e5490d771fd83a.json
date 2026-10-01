@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives two specific features that would influence recommendation: stable pricing when adding users and a proper mobile app, showing engagement and concreteness."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:26.456Z"
+}

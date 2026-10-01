@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two independent signals: a cardsort performed with card placements nearly at random and much faster than the rest, and duplicate open answers on conceptual questions. The cardsort deviation is significant and cannot be explained by survey design; demonstrates non-engagement.",
+    "panel_text": "On the cardsorting question, your groupings of the 12 business tools matched only half of the pairings that other business owners made, while most people agreed 83% of the time. Finishing much faster than others, this suggests you sorted the tools without considering their purpose or meaning.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3030,
+    "outputTokens": 147
+  },
+  "storedAt": "2026-10-02T00:53:46.229Z"
+}

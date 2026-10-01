@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copied the identical phrase 'Everything was fine and easy to use' verbatim into four different open-ended questions requiring substantive, separate content. This is not good-faith survey taking and would justify a penalty.",
+    "panel_text": "On four separate questions asking for different experiences or opinions, you gave the exact same answer: 'Everything was fine and easy to use.' Giving the same non-specific response across multiple questions does not show real effort to answer and is not allowed.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2294,
+    "outputTokens": 115
+  },
+  "storedAt": "2026-10-01T22:23:48.385Z"
+}

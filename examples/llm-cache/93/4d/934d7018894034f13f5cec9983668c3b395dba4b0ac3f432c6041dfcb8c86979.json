@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The respondent selected the same response option for every row in all presented matrices and gave the lowest rating for every Kettlebird scale item, demonstrating uniform patterns across all grid and scale questions. This is a classic marker of inattention or careless responding not plausibly explained by substance.",
+    "panel_text": "You gave the same response for every statement in the rating questions, such as agreeing with every statement about Kettlebird and marking every aspect as poor. When people answer thoughtfully, their opinions usually vary at least some. This pattern suggests the answers were not considered carefully.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3384,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-02T07:56:58.196Z"
+}

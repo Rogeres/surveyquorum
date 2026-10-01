@@ -1,0 +1,15 @@
+{
+  "asOf": "2026-10-01",
+  "unit": "USD per million tokens",
+  "note": "Plausible list prices by model class, filled in by hand from vendor pricing pages at the asOf date. Prices change often: verify against your provider before trusting an estimate. The CLI prints estimates for budgeting only; it never bills anything. Unknown models fall back to the `generic` row.",
+  "models": {
+    "openai-mini": { "match": ["gpt-.*mini", "o\\d-mini"], "input": 0.4, "output": 1.6 },
+    "openai-flagship": { "match": ["^gpt-\\d", "^gpt-4"], "input": 2.5, "output": 10 },
+    "anthropic-haiku": { "match": ["haiku"], "input": 1, "output": 5 },
+    "anthropic-sonnet": { "match": ["sonnet"], "input": 3, "output": 15 },
+    "anthropic-opus": { "match": ["opus"], "input": 15, "output": 75 },
+    "qwen": { "match": ["qwen"], "input": 0.3, "output": 1.2 },
+    "local": { "match": ["llama", "mistral", "gemma", "phi", "ollama"], "input": 0, "output": 0 },
+    "generic": { "match": [], "input": 1, "output": 4 }
+  }
+}

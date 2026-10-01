@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent selected nearly every option on all four multi-select questions, and did so faster than the rest of the group. This pattern shows little genuine thought and points to clicking through quickly without serious engagement.",
+    "panel_text": "On four questions where you could pick several answers, you selected almost every option each time, often in about half the time others spent. This is not realistic and suggests you were not giving careful answers.",
+    "per_signal": {
+      "mass-select.heavy_pattern": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3454,
+    "outputTokens": 135
+  },
+  "storedAt": "2026-10-02T07:56:58.115Z"
+}

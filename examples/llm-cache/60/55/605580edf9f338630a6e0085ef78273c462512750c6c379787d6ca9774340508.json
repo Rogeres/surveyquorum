@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 74 seconds compared to a cohort median of 368 seconds, answering almost every question far faster than peers. Multiple open-response questions were given non-informative answers ('nice', 'fine', 'it was ok'), showing minimal effort throughout. The duplicate open-text on separate questions adds to the evidence but is not required for the verdict.",
+    "panel_text": "You finished the survey in 74 seconds, while others took about 6 minutes. For example, your answers included 'nice', 'fine', and 'it was ok' on questions where others wrote detailed responses. This is not enough care or detail for a valid survey submission.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2988,
+    "outputTokens": 167
+  },
+  "storedAt": "2026-10-02T00:53:42.991Z"
+}

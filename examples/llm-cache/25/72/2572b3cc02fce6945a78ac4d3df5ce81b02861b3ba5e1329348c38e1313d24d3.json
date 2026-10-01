@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about what makes a business tool recommendable: good onboarding with personal setup help rather than just help articles."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:22.683Z"
+}

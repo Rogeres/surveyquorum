@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The repetition of 'nothing specific comes to mind' on two open questions is a plausible, natural response given their very general prompts. The card sort result may indicate an unusual or less structured approach, but it does not alone indicate bad faith, especially with thoughtful responses elsewhere.",
+    "panel_text": "If a response repeats the same detailed answer to different open-ended questions, it may indicate inattention. However, answering 'Nothing specific comes to mind.' to two different broad questions is reasonable if truly nothing comes to mind for the respondent.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.random_sort": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2433,
+    "outputTokens": 139
+  },
+  "storedAt": "2026-10-01T22:23:51.416Z"
+}

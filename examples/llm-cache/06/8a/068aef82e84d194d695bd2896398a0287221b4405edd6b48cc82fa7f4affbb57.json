@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up instantly on all interactive tasks, spending only 5 seconds where others spent over a minute, and submitted minimal, repeated open-text responses ('it was easy', 'easy') in places that required specific feedback. This pattern shows clear non-engagement and bad faith.",
+    "panel_text": "On the task 'Using the Marrow prototype, add a bag of oranges to your basket and proceed to checkout,' you gave up after only 5 seconds without any attempt, while others typically tried for over 1 minute. This shows you did not genuinely try to complete the task as requested.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2615,
+    "outputTokens": 163
+  },
+  "storedAt": "2026-10-01T22:23:26.244Z"
+}

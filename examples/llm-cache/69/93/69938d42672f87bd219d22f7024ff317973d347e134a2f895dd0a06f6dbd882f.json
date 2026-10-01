@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copied the exact same answer, 'No problems at all with this one.', to four distinct open-ended questions that request descriptive feedback or suggestions. This indicates they did not engage with the questions or provide meaningful answers, which is clear evidence of bad faith participation.",
+    "panel_text": "You wrote the exact same answer (“No problems at all with this one.”) to four different questions that asked for feedback or suggestions. Ignoring what each question asks and copying answers is not allowed. Each question must be answered in your own words, with specifics.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2965,
+    "outputTokens": 137
+  },
+  "storedAt": "2026-10-02T00:53:27.645Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 90 seconds versus a cohort median of 329 seconds, with 13 of 18 questions answered much faster than other respondents. This speed is not explained by shorter branches; almost all pages were visited and even open answers are one-word or non-informative. The matrix straightline pattern further supports low effort.",
+    "panel_text": "You completed the survey in 90 seconds, while others needed about 5 and a half minutes. This is much faster than typical and includes several questions where your answer time was two seconds or less. Finishing so quickly means the questions were not read or considered with enough care, which is not acceptable.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3458,
+    "outputTokens": 169
+  },
+  "storedAt": "2026-10-02T00:53:34.762Z"
+}

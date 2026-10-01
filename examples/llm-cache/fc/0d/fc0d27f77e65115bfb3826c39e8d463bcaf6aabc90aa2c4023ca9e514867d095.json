@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides detailed information about the software purchase, including reasons for replacement, issues encountered, and a reflection on the decision, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1588,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:30.679Z"
+}

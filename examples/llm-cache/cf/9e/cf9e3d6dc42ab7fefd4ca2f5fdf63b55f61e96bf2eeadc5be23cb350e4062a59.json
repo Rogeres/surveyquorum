@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "All 3 first clicks landed in exactly the same spot on different tasks, which strongly suggests random or non-engaged clicking regardless of the content shown. The repeated 'easy enough' is minor alone but does reinforce the concern. There is no substantive answer or technical explanation to override this pattern.",
+    "panel_text": "On three different screens where you were asked to click first to perform different actions, you clicked exactly the same spot every time. Most others chose different spots for each question. This is a sign that you may not have engaged with the tasks as required.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "firstclick-offtarget.same_spot": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3029,
+    "outputTokens": 149
+  },
+  "storedAt": "2026-10-02T07:14:00.875Z"
+}

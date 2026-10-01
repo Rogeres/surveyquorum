@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about being a student and not paying for business tools, explaining why they don't switch tools."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:14.660Z"
+}

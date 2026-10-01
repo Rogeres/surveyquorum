@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared being an owner who has made software purchases, but in the body of the survey states they are a student and have not bought any business software. This is a clear, self-admitted misrepresentation and invalidates their participation.",
+    "panel_text": "You stated at the start that you are an owner and make software decisions for a business, but answered in the survey: “I'm studying at the moment and don't own anything, the last thing I bought was a games console.” This contradicts your claim and means you do not meet the survey requirements.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2427,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:44.036Z"
+}

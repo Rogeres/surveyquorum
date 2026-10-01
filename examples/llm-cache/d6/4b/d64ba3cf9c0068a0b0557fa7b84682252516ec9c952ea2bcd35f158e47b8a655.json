@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "The repeated answer 'nothing specific comes to mind' is plausible for both questions as written; it is a natural response, not templated bad faith. Two occurrences of a short phrase is not enough to prove a violation.",
+    "panel_text": "If your responses to different open-ended questions had been exactly the same and not related to the questions—for example, copying a single sentence repeatedly with no real answer—that would break the rules. In your case, your answers fit the questions.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2284,
+    "outputTokens": 118
+  },
+  "storedAt": "2026-10-01T22:23:44.355Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about finding a chat button first and a likely behavior change, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:42:17.551Z"
+}

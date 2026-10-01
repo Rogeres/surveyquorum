@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed and specific steps of the scheduling process and a clear observation about the slot picker interface."
+  },
+  "usage": {
+    "inputTokens": 1576,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:27.324Z"
+}

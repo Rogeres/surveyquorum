@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about recommendations from staff at previous jobs, which is a concrete source of information."
+  },
+  "usage": {
+    "inputTokens": 1548,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:25.551Z"
+}

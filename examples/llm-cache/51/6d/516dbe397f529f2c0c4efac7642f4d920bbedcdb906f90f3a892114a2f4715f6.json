@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains specific conditions (saving measurable time and support responsiveness) which give concrete criteria for recommendation."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:17.862Z"
+}

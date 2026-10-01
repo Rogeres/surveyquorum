@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer 'dont know' expresses a lack of information and does not provide any specific reason or detail."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:43:10.467Z"
+}

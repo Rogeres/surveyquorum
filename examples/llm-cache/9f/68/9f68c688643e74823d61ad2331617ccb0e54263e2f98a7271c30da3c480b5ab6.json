@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific reason involving an accountant's workflow which is a concrete detail about what stops switching tools."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:10.657Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey at extreme speed (63 seconds vs. a cohort median of 329 seconds), with almost all answers marked by straightlining in matrices and minimal, non-informative open answers (e.g., 'easy', 'fine', 'yes'). The combination of speed and patterned, unelaborated responses demonstrates clear bad faith.",
+    "panel_text": "You completed the entire survey in 63 seconds, while most people needed about 5 and a half minutes. This shows you did not spend enough time reading and answering the questions. Rushing through a survey in a fraction of the typical time is not acceptable.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3437,
+    "outputTokens": 162
+  },
+  "storedAt": "2026-10-02T00:53:31.520Z"
+}

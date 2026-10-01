@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The respondent completed the survey in 90 seconds compared to a cohort median of 329 seconds, with nearly every question answered much faster than the cohort. Several open answers are single-word or non-responsive ('good', 'ok', 'no'), indicating minimal engagement. Speed is extreme and the answer quality suggests bad faith.",
+    "panel_text": "You finished the entire survey in 90 seconds, but most people needed about 5 and a half minutes. This is not enough time to read and answer the questions carefully. Your responses were rejected because they do not show real engagement.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2861,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-01T22:23:38.995Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "off_topic",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer talks about a games console purchase instead of describing the last software purchase as requested."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:43:13.969Z"
+}

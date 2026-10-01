@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the plus button on the product card working as expected, showing some engagement and specificity."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:41.338Z"
+}

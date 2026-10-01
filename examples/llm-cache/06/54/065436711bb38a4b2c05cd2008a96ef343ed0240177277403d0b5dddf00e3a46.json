@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent copied the same sentence, 'Everything was fine and easy to use,' verbatim on four different open questions where unique, specific answers were expected. This repetition is clear evidence of not engaging with the questions in good faith.",
+    "panel_text": "The same answer, “Everything was fine and easy to use,” was entered word for word on four different questions that asked about different experiences. This shows you did not give separate answers for each question as expected.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2884,
+    "outputTokens": 119
+  },
+  "storedAt": "2026-10-02T00:53:37.642Z"
+}

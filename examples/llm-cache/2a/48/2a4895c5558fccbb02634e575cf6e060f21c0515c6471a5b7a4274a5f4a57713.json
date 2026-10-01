@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific observation about the onboarding process and an overall impression, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:09.688Z"
+}

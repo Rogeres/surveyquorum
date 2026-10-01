@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the absence of a vegan filter, showing engagement with the product."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:30.234Z"
+}

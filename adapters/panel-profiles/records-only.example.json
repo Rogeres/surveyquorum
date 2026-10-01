@@ -1,0 +1,6 @@
+{
+  "id": "records-only",
+  "name": "A crowdsourcing marketplace without a complaint channel (example)",
+  "acceptedGrounds": [],
+  "note": "No complaint channel exists. The CSV is for the client's own records and reports; blocked respondents stay blocked in the client's data only."
+}

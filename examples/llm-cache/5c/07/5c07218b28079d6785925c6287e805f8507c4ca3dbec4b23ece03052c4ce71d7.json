@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific source (bookkeeper) and a concrete criterion (integration with her systems) for learning about new business software."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:15.463Z"
+}

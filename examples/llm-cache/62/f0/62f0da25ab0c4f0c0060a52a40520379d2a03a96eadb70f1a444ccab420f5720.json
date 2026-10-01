@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner is not mutually exclusive with Q2=An IT contractor involved in buying software."
+      },
+      {
+        "i": 2,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=ok (description of a software purchase) are compatible."
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=Bookkeeping and invoices (most time spent) are compatible."
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=Inventory management paid tool are compatible."
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=11–50 employees are compatible."
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=11–50 employees and Q2=IT contractor involved in purchase are compatible."
+      },
+      {
+        "i": 7,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Yes (decided on software purchase) and Q2=ok (description of purchase) are compatible."
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1164,
+    "outputTokens": 278
+  },
+  "storedAt": "2026-10-01T18:43:55.552Z"
+}

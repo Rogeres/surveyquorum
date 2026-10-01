@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about tapping the delivery address and the steps taken, showing concrete experience though not highly detailed."
+  },
+  "usage": {
+    "inputTokens": 1574,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:11.843Z"
+}

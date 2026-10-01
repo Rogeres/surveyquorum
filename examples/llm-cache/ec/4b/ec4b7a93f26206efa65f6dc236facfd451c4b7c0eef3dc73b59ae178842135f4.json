@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer includes a specific suggestion (a loyalty scheme) and a preference (keep it simple), providing concrete feedback beyond a generic response."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:10.755Z"
+}

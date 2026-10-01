@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent re-used the non-informative answer 'fine i guess' on two open questions that required specific details about their business and experience. This is direct evidence of bad faith and meets the criteria for a non-engaged response, sufficient on its own regardless of speed.",
+    "panel_text": "You wrote 'fine i guess' as your answer to both 'Describe the last software purchase you decided on' and 'What stops you from switching a tool you are unhappy with?' These questions called for personal details. Copying a short generic answer to different questions shows you did not give meaningful responses.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2375,
+    "outputTokens": 145
+  },
+  "storedAt": "2026-10-01T22:23:49.918Z"
+}

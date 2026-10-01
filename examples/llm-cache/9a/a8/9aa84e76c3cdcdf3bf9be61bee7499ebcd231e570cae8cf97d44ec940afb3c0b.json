@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific observation about prices being higher than usual, which addresses the question with concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:20.617Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about word of mouth at chamber of commerce meetings and a practice of trialing two software products before choosing, showing clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:10.441Z"
+}

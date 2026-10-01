@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "needs_human",
+    "confidence": 3,
+    "reason": "The evidence is three firstclick questions all with identical coordinates, but I cannot see the images in question. If the clickable areas overlapped or there was design reuse, this could be reasonable behavior. Judging intent without seeing the UI is not possible.",
+    "panel_text": "On three questions asking where you would click first (to change address, find yesterday's order, and apply a promo code), you clicked in exactly the same spot each time. If these were different screens, this would not make sense and suggests you may not have paid close attention. If not, please explain what happened.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2411,
+    "outputTokens": 145
+  },
+  "storedAt": "2026-10-01T22:23:31.120Z"
+}

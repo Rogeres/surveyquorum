@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent chose nearly every option on all four multi-select questions and answered each of these faster than the cohort average. This consistent, maximal pattern, especially on diverse questions, indicates low effort and bad faith. There is no evidence in the answers or timings to explain this away.",
+    "panel_text": "On every question where you could pick several answers, you selected almost every option, and you did this on all four such questions. Most people took more time to make their choices. This is not credible as real behaviour and shows answers given without care.",
+    "per_signal": {
+      "mass-select.heavy_pattern": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3454,
+    "outputTokens": 160
+  },
+  "storedAt": "2026-10-02T07:56:58.335Z"
+}

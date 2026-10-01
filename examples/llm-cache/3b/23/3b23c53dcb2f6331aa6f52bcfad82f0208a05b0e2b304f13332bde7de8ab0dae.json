@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided random characters ('hjkl', 'dfgdfg sdf', 'qwerty') as answers to three open-ended questions that clearly demand meaningful responses. This pattern demonstrates bad faith and cannot be explained by survey design or other benign causes.",
+    "panel_text": "You answered 'hjkl', 'dfgdfg sdf', and 'qwerty' to open questions that asked for your thoughts or suggestions. These show you did not give real answers to questions meant for your honest opinion, which is not allowed.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3318,
+    "outputTokens": 135
+  },
+  "storedAt": "2026-10-02T00:53:31.418Z"
+}

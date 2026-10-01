@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about 'broken crisps at the bottom of the bag', indicating an actual aspect of the product to improve."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:04.321Z"
+}

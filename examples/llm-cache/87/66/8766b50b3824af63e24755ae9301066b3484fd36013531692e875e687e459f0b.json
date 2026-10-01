@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific ways the respondent hears about new business software: trade shows once a year and supplier reps visits."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:43:17.012Z"
+}

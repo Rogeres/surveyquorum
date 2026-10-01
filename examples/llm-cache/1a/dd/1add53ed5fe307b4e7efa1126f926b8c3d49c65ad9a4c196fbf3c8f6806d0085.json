@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal acknowledgement ('ok') that does not provide any specific detail about the new flavor."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:43:04.047Z"
+}

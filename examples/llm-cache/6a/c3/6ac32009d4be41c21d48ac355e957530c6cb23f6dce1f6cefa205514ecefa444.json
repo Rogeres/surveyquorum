@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific criterion (staff adoption without complaining) for recommending a tool, showing engagement with the question but lacks detailed examples or quantification."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:37.892Z"
+}

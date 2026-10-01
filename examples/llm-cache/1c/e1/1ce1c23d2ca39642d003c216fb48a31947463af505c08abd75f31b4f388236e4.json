@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the help centre requiring login, indicating engagement with the question and a concrete aspect that was annoying."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:26.118Z"
+}

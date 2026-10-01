@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 96 seconds, compared to a cohort median of 520 seconds, with 10 of 15 questions answered more than two standard deviations faster than peers. The speed is extreme, and also covers open text and interactive prototype tasks which physically require more time. There is no visible justification in the answers for this pace.",
+    "panel_text": "You completed the entire survey in 1 minute 36 seconds, while most others took about 9 minutes. This is far faster than expected and means you could not have read and answered all questions with care. High speed violates survey quality rules.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3019,
+    "outputTokens": 149
+  },
+  "storedAt": "2026-10-02T00:53:20.989Z"
+}

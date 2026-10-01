@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail 'crisps' associated with Kettlebird, showing recognition of a product type."
+  },
+  "usage": {
+    "inputTokens": 1544,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:50.045Z"
+}

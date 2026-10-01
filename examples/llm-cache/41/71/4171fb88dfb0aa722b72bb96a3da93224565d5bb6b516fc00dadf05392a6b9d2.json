@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up instantly on both prototype tasks without any attempt (0 clicks, 3-4 seconds each), and left the website help task within 4 seconds. Their total time is dramatically lower than the cohort (166s vs 520s). This is clear evidence of no genuine attempt to engage with any interactive task.",
+    "panel_text": "You pressed give up immediately on all interactive tasks without making any attempt or clicking anything, spending only about 3 seconds where others spent more than a minute. This shows you did not actually try to complete the tasks, which is required for this survey.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3175,
+    "outputTokens": 164
+  },
+  "storedAt": "2026-10-02T00:53:23.002Z"
+}

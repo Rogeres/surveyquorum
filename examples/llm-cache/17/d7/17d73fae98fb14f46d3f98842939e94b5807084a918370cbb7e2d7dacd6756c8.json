@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific observation about the help centre's structure and location of the 'missing item' instructions, showing engagement and detail beyond a vague comment."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:42:12.739Z"
+}

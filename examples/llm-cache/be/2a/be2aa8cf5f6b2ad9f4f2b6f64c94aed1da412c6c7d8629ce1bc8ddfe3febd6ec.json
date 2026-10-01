@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in 90 seconds, far below the typical 329 seconds, and rushed through 13 of 18 questions, including both grids and open-ended questions. There are also patterned (flat) matrix responses, further supporting inattentive or insincere engagement.",
+    "panel_text": "You finished the survey in 90 seconds, while most people needed about 5 minutes and 30 seconds. Completing so quickly means there was not enough time to read and answer the questions carefully. This does not meet our standards for thoughtful participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3458,
+    "outputTokens": 145
+  },
+  "storedAt": "2026-10-02T07:14:05.258Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared being a business owner with software purchasing authority, but explicitly stated in open answers that they do not actually have a company and are a student. This is a clear misrepresentation and invalidates their responses for this survey's target group.",
+    "panel_text": "You stated at the beginning that you own a business and decide on its software purchases. Later, you wrote: \"I don't actually have a company, I'm a student.\" This is a clear contradiction. The survey is for business owners who buy software for their company.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2330,
+    "outputTokens": 127
+  },
+  "storedAt": "2026-10-01T22:23:45.724Z"
+}

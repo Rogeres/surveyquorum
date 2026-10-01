@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates no relevant input or refusal to answer, effectively providing no data related to the question."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:19.004Z"
+}

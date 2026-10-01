@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The response includes a psychological reason ('inertia') and a specific observation about smaller firms, providing concrete detail beyond a minimal answer."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:43:33.965Z"
+}

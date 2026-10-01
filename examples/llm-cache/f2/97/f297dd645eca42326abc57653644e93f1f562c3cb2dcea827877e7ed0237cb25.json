@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in about 71 seconds, while the median for others was 329 seconds. Their answers to matrix questions are flat and completed exceptionally quickly, and their open answers are clearly non-informative. This indicates that the survey was not filled out thoughtfully.",
+    "panel_text": "You finished the survey in 71 seconds, while others typically needed about 5 and a half minutes. This is much faster than normal and suggests you did not take adequate time to read and answer the questions.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2820,
+    "outputTokens": 131
+  },
+  "storedAt": "2026-10-01T22:23:40.547Z"
+}

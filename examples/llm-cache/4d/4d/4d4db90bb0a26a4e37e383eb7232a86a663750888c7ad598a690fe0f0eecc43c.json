@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared themselves as a business owner with recent software purchase experience but gave multiple open answers stating they are a student who doesn't own a business or buy business software, directly contradicting the screener. This is a clear misrepresentation.",
+    "panel_text": "You stated in the survey that you are a student and do not own a business, but at the start you declared yourself an owner or co-owner of a business with recent software purchase experience. Giving false information about your business status is a violation of survey rules.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2413,
+    "outputTokens": 131
+  },
+  "storedAt": "2026-10-01T22:23:43.529Z"
+}

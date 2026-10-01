@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered nonsense strings ('hjkl', 'qwerty', 'dfgdfg sdf') for all three open-ended questions, which were required to collect real opinions or experiences. This demonstrates clear bad faith answering, as no attempt was made to provide a meaningful response.",
+    "panel_text": "You answered three open-ended questions with text like “hjkl”, “qwerty”, and “dfgdfg sdf”. These do not answer the questions and look like random keystrokes. This does not meet the standard of genuine survey participation and is not allowed on this panel.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2734,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:37.278Z"
+}

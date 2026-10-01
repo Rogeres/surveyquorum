@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer indicates no applicable situation or refusal to provide a relevant reason, which fits the no_answer category."
+  },
+  "usage": {
+    "inputTokens": 1542,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:43:27.402Z"
+}

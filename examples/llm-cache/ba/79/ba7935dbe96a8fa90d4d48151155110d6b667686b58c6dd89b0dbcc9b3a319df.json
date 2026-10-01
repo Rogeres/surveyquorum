@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent declared at screening that they are a business owner who makes software decisions, but in the body states repeatedly that they are a student with no business experience. This is an unambiguous contradiction between profile and substantive answers, amounting to misrepresentation.",
+    "panel_text": "You stated at the start that you own a business and make decisions about software, but later in the survey wrote, 'Student here, no business, no software purchases.' Taking part under false pretenses breaches the rules and damages the research.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3020,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-02T00:53:40.847Z"
+}

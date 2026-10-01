@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "surveyquorum: consensus screening of survey respondents"
+type: software
+authors:
+  - family-names: Strunin
+    given-names: George
+    email: rogeres@yandex.ru
+repository-code: "https://github.com/Rogeres/surveyquorum"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-10-01
+keywords:
+  - survey research
+  - data quality
+  - respondent screening
+  - fraud detection
+  - LLM

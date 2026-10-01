@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent pasted the same generic, non-informative text ('No problems at all with this one.') into all three distinct open-ended questions, each of which required a different, specific response. This repeated answer does not meaningfully address any of the questions and indicates bad faith.",
+    "panel_text": "You wrote the same answer, 'No problems at all with this one.', on three different questions asking for your own thoughts about Kettlebird. Each question is separate and needs its own specific answer, so copying the same text throughout is not acceptable.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3300,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-02T00:53:36.015Z"
+}

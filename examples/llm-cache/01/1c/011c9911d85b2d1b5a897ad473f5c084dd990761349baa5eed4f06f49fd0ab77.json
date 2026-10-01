@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave only placeholder answers to all open-ended questions (\"ok\", \"nothing\", \"dont know\") and rushed through the survey about four times faster than the cohort (83 s vs 368 s). Even a fast but genuine respondent would offer at least some substance to open questions.",
+    "panel_text": "You wrote only 'ok', 'nothing', or 'dont know' on all open-ended questions, and finished the survey in 83 seconds while most people took about 6 minutes. This suggests you did not seriously answer the questions, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2375,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-01T22:23:42.584Z"
+}

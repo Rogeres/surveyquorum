@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific suggestion about substitution preferences rather than a generic comment."
+  },
+  "usage": {
+    "inputTokens": 1552,
+    "outputTokens": 34
+  },
+  "storedAt": "2026-10-01T18:42:21.615Z"
+}

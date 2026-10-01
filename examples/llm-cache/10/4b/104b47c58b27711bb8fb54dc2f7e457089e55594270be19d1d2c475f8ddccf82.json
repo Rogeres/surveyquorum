@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about the CRM purchase, the motivation (losing track of quotes), and a problem encountered (per-seat pricing doubling)."
+  },
+  "usage": {
+    "inputTokens": 1575,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:09.470Z"
+}

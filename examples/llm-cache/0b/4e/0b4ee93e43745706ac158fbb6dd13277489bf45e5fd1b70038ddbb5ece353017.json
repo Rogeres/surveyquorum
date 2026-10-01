@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The fast completion is clear, but open answers are terse but responsive, and per-question speed could be explained by very short answers and low engagement, not outright bad faith. The repeated use of 'easy' is natural; it's a common response to usability prompts. No clear evidence of insincere participation.",
+    "panel_text": "If the block were justified, it would be because your total time (about 1 minute 40 seconds) was much shorter than the other participants (about 9 minutes). If you had to rush, please take your time in future surveys and give complete answers where asked.",
+    "per_signal": {
+      "pace.consistent": "does_not_support",
+      "duplicate-open.x2": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2462,
+    "outputTokens": 151
+  },
+  "storedAt": "2026-10-01T22:23:24.545Z"
+}

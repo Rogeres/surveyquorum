@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "There is a direct contradiction between the respondent's screener answers (claims to be a business owner and decision-maker) and multiple open answers where they state they are a student with no company. This is clear misrepresentation and invalidates their survey data.",
+    "panel_text": "You stated you are a business owner and software decision maker, but in your answers you said 'I'm studying at the moment and don't own anything' and 'I don't have a company so I don't look for this stuff.' This contradicts your screening answers and means your responses do not qualify for this survey.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2427,
+    "outputTokens": 155
+  },
+  "storedAt": "2026-10-01T22:23:44.594Z"
+}

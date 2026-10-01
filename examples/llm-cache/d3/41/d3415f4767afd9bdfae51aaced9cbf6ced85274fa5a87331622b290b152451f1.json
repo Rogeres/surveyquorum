@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail by mentioning the app follows a 'pretty standard grocery app pattern,' indicating some engagement and a concrete observation."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:12.112Z"
+}

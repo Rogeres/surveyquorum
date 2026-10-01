@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a detailed description including what software was purchased, why (to fix accountant errors), what went wrong (migration took longer, payroll delays), and reflects on the experience."
+  },
+  "usage": {
+    "inputTokens": 1591,
+    "outputTokens": 55
+  },
+  "storedAt": "2026-10-01T18:43:14.817Z"
+}

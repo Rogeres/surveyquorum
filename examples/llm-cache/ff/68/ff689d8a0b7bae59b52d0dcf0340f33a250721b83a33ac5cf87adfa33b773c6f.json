@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the brand's honest ingredients and short ingredient list, indicating a concrete observation about Kettlebird."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:05.914Z"
+}

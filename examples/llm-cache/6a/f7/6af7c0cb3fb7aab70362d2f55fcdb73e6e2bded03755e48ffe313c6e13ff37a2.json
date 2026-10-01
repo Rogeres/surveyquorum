@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in less than one third the median time (90 s vs 329 s) and answered 13 of 18 questions much faster than the rest, including several requiring thoughtful input. Three different rating grids were filled out with the same answer in every row, a classic indicator of careless responding. Both speed and pattern are independent and strong evidence.",
+    "panel_text": "You completed the survey in 90 seconds while most people took around 5 and a half minutes, and on three different sets of rating questions you selected the same answer for every item. This suggests the questions were not read carefully and the answers may not reflect real opinions.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3464,
+    "outputTokens": 167
+  },
+  "storedAt": "2026-10-02T07:57:00.155Z"
+}

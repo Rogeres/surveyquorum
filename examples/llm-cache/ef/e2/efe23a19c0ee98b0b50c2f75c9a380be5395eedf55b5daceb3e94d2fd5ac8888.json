@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The free-text answer to an open question requiring explanation is just 'fghj', which is clear gibberish and not a valid response. This fulfills the standard for bad faith on a strong ground regardless of the other signals.",
+    "panel_text": "On the question 'What, if anything, was confusing about adding an item to the basket?', you wrote only 'fghj'. This answer is not a real response to the question, and does not give any information. Answers must be real words relevant to what was asked.",
+    "per_signal": {
+      "pace.fast_cluster": "does_not_support",
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2478,
+    "outputTokens": 136
+  },
+  "storedAt": "2026-10-01T22:23:29.597Z"
+}

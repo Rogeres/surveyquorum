@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides a specific detail about their actions when scheduling delivery, showing some engagement with the process but without extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1561,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:17.674Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Several open-ended answers are pure gibberish (random letters or digits), which clearly do not attempt to answer the questions. This demonstrates bad faith in survey participation.",
+    "panel_text": "You entered answers like \"asdkjh qwe\", \"hjkl\", and \"zxcv zxcv\" to questions asking for your experience or feedback. These are not real responses and show you did not try to answer the questions. Providing random letters instead of a genuine answer is not allowed.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2386,
+    "outputTokens": 120
+  },
+  "storedAt": "2026-10-01T22:23:24.002Z"
+}

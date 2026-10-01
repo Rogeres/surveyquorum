@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer specifies that the accountant's familiarity with the current tool and the need to change her work process are the reasons for not switching, providing a concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 51
+  },
+  "storedAt": "2026-10-01T18:43:12.801Z"
+}

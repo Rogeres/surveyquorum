@@ -1,0 +1,13 @@
+{
+  "name": "surveyquorum",
+  "owner": {
+    "name": "George Strunin"
+  },
+  "plugins": [
+    {
+      "name": "surveyquorum",
+      "source": ".",
+      "description": "Consensus screening of survey respondents (open beta). Five skills: screener-design, survey-review, quorum-import, quorum-screen, panel-complaint."
+    }
+  ]
+}

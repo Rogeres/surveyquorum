@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific observation about the screen staying blank which relates directly to the scheduling process and what the respondent expected to see."
+  },
+  "usage": {
+    "inputTokens": 1560,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:27.175Z"
+}

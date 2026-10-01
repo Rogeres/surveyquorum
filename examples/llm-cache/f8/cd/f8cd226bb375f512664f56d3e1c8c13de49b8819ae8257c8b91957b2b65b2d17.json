@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a concrete feature request about reordering last week's basket in one tap, showing engagement with the product."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:21.414Z"
+}

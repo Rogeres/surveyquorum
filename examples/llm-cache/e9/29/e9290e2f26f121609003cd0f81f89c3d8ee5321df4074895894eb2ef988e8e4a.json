@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides detailed personal experience including how the bookkeeper influences software choice and the method of trialing two options before deciding."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:29.035Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific usability suggestions (dark mode, bigger tap targets) showing concrete details about the user experience."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:42:17.374Z"
+}

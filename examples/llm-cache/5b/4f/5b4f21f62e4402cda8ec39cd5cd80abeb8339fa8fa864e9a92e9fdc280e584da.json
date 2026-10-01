@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey dramatically faster than the cohort (90 seconds compared to the median of 329 seconds), with 13 of 18 questions answered at extreme speed. Three large grid questions show a flat pattern (identical answers to all rows), which combined with the speed indicates careless answering, not genuine participation.",
+    "panel_text": "You finished the survey in 90 seconds, but most people needed about 5 and a half minutes. When answers come this fast, it shows the questions were not read carefully and the survey was not taken seriously. This breaks the rules for genuine participation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3464,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T07:57:00.122Z"
+}

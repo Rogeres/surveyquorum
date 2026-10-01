@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a concrete reason related to staff pushback and team resistance, which is a specific detail relevant to the question."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:20.092Z"
+}

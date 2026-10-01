@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent provided non-informative, repeated answers ('fine i guess') on two separate open questions that required substantive detail. Additionally, the full survey was completed in about one-third the usual time, with multiple questions answered far faster than the cohort. These facts individually and together evidence bad faith.",
+    "panel_text": "On two questions that asked for detailed descriptions ('Describe the last software purchase you decided on' and 'What stops you from switching a tool you are unhappy with?'), you wrote the same generic answer: 'fine i guess'. This does not give the information these questions asked for.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2972,
+    "outputTokens": 152
+  },
+  "storedAt": "2026-10-02T00:53:45.403Z"
+}

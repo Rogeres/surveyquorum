@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single, fast response to a simple multiple-choice question. All other answers show regular pace and high-quality, detailed open answers. Speed on a single, easily-answered question does not prove bad faith.",
+    "panel_text": "You answered every other question normally and wrote detailed answers in your own words. The only issue was a single quick response on one simple multiple-choice question, which does not justify withholding your payment.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "design_artifact"
+  },
+  "usage": {
+    "inputTokens": 3008,
+    "outputTokens": 142
+  },
+  "storedAt": "2026-10-02T00:53:46.216Z"
+}

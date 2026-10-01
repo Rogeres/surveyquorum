@@ -1,0 +1,262 @@
+{
+  "dataset": [
+    {
+      "id": "demo-1",
+      "responses": [
+        {
+          "id": "r-001",
+          "blocks": [
+            {
+              "blockId": "q1",
+              "question": "Which of these drinks do you buy at least monthly?",
+              "duration": 14.2,
+              "type": "choice",
+              "answer": [
+                "Tea",
+                "Coffee"
+              ]
+            },
+            {
+              "blockId": "q2",
+              "question": "How satisfied are you with your usual brand?",
+              "duration": 6,
+              "type": "scale",
+              "answer": "4"
+            },
+            {
+              "blockId": "q3",
+              "question": "Rate each brand on taste and price",
+              "duration": 31.5,
+              "type": "matrix",
+              "answer": {
+                "Alpha": [
+                  "Good",
+                  "Fair"
+                ],
+                "Beta": [
+                  "Poor"
+                ]
+              }
+            },
+            {
+              "blockId": "q4",
+              "question": "Why did you choose that brand?",
+              "duration": 48,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "It is the only one with \"no sugar\" on the shelf, and it is cheap."
+                }
+              ]
+            },
+            {
+              "blockId": "q5",
+              "question": "Where would you click to find the price list?",
+              "duration": 9,
+              "type": "firstclick",
+              "answer": {
+                "top": 0.42,
+                "left": 0.71
+              }
+            },
+            {
+              "blockId": "q6",
+              "question": "Add the item to the cart",
+              "duration": 52,
+              "type": "prototype",
+              "status": "completed",
+              "clickCount": 7
+            },
+            {
+              "blockId": "q7",
+              "question": "Find the opening hours of the nearest store",
+              "duration": 40,
+              "type": "website",
+              "gaveUp": false
+            },
+            {
+              "blockId": "q8",
+              "question": "Group these features",
+              "duration": 66,
+              "type": "cardsort",
+              "answer": {
+                "Must have": [
+                  "Search",
+                  "Filters"
+                ],
+                "Nice to have": [
+                  "Dark mode"
+                ]
+              }
+            },
+            {
+              "blockId": "q9",
+              "question": "Rank the three brands",
+              "duration": 22,
+              "type": "other",
+              "sourceType": "ranking",
+              "rawAnswer": "Alpha>Beta>Gamma"
+            }
+          ]
+        },
+        {
+          "id": "r-002",
+          "blocks": [
+            {
+              "blockId": "q1",
+              "question": "Which of these drinks do you buy at least monthly?",
+              "duration": 3.1,
+              "type": "choice",
+              "answer": [
+                "Coffee"
+              ]
+            },
+            {
+              "blockId": "q2",
+              "question": "How satisfied are you with your usual brand?",
+              "duration": 1.4,
+              "type": "scale",
+              "answer": "5"
+            },
+            {
+              "blockId": "q3",
+              "question": "Rate each brand on taste and price",
+              "duration": 4,
+              "type": "matrix",
+              "answer": {
+                "Alpha": [
+                  "Good",
+                  "Good"
+                ],
+                "Beta": [
+                  "Good",
+                  "Good"
+                ]
+              }
+            },
+            {
+              "blockId": "q4",
+              "question": "Why did you choose that brand?",
+              "duration": 2.2,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "good"
+                }
+              ]
+            },
+            {
+              "blockId": "q5",
+              "question": "Where would you click to find the price list?",
+              "duration": 1.1,
+              "type": "firstclick",
+              "answer": {
+                "top": 0.05,
+                "left": 0.05
+              }
+            },
+            {
+              "blockId": "q6",
+              "question": "Add the item to the cart",
+              "duration": 3,
+              "type": "prototype",
+              "status": "gave_up",
+              "clickCount": 1
+            },
+            {
+              "blockId": "q7",
+              "question": "Find the opening hours of the nearest store",
+              "duration": 2,
+              "type": "website",
+              "gaveUp": true
+            }
+          ]
+        },
+        {
+          "id": "r-003",
+          "blocks": [
+            {
+              "blockId": "q1",
+              "question": "Which of these drinks do you buy at least monthly?",
+              "duration": 11,
+              "type": "choice",
+              "answer": [
+                "Tea",
+                "Juice",
+                "Water"
+              ]
+            },
+            {
+              "blockId": "q4",
+              "question": "Why did you choose that brand?",
+              "duration": 37,
+              "type": "open",
+              "answer": [
+                {
+                  "role": "user",
+                  "text": "My family has bought it for years, so it is habit more than taste."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "report": {
+    "rowsRead": 19,
+    "rowsConverted": 18,
+    "rowsSkipped": 1,
+    "skipped": [
+      {
+        "reason": "unreadable firstclick answer",
+        "count": 1,
+        "examples": [
+          {
+            "line": 20,
+            "detail": "firstclick coordinates \"not sure\" are not numbers"
+          }
+        ]
+      }
+    ],
+    "surveys": 1,
+    "responses": 3,
+    "blocks": 18,
+    "blocksByType": {
+      "choice": 3,
+      "scale": 2,
+      "matrix": 2,
+      "open": 3,
+      "firstclick": 2,
+      "prototype": 2,
+      "website": 2,
+      "cardsort": 1,
+      "other": 1
+    },
+    "screeningAnswers": 0,
+    "hasDuration": true,
+    "warnings": [
+      "unknown question type \"ranking\" on 1 row(s): kept as \"other\""
+    ],
+    "detectorsAvailable": [
+      "pace",
+      "open-answer",
+      "duplicate-open",
+      "matrix-pattern",
+      "mass-select",
+      "prototype-effort",
+      "cardsort-consensus",
+      "firstclick-offtarget",
+      "website-bounce",
+      "positive"
+    ],
+    "detectorsUnavailable": [
+      {
+        "detector": "coherence (screening-vs-body)",
+        "reason": "no screening answers"
+      }
+    ]
+  }
+}

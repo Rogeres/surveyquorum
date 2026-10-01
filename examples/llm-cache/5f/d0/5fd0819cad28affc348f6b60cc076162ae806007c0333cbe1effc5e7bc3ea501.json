@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides detailed information about the software type, reasons for choice, specific problems encountered, and a lesson learned, indicating clear engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1579,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:43:33.830Z"
+}

@@ -1,0 +1,53 @@
+{
+  "json": {
+    "results": [
+      {
+        "i": 1,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner is not in conflict with Q2=An IT contractor involved in purchase."
+      },
+      {
+        "i": 2,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner is compatible with Q2=ok as a valid description of a last software purchase."
+      },
+      {
+        "i": 3,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner matches Q2=Bookkeeping and invoices as time use; no contradiction."
+      },
+      {
+        "i": 4,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner and Q2=CRM paid for are compatible; no contradiction with 'not employed' condition."
+      },
+      {
+        "i": 5,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Q1=Owner or co-owner with business employing 2-10 is compatible; no contradiction."
+      },
+      {
+        "i": 6,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Employing 2-10 and involvement of IT contractor in buying software are compatible; no contradiction."
+      },
+      {
+        "i": 7,
+        "contradicts": false,
+        "confidence": 5,
+        "explanation": "Answered Yes to deciding purchase and describing last purchase as 'ok' are compatible."
+      }
+    ]
+  },
+  "usage": {
+    "inputTokens": 1163,
+    "outputTokens": 281
+  },
+  "storedAt": "2026-10-01T18:44:07.083Z"
+}

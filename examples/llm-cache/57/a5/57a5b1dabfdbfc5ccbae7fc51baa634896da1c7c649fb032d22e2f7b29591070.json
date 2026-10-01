@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the exact same non-informative answer ('No problems at all with this one.') to three distinct open-ended questions that should have produced different, substantive responses. This is strong evidence of bad-faith answering.",
+    "panel_text": "You wrote the same answer, “No problems at all with this one.”, to three different questions that asked for your thoughts or suggestions. Each question needed a specific, meaningful reply. This shows you did not answer the questions properly.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3292,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-02T00:53:31.258Z"
+}

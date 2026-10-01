@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides specific details about finding the delivery option under checkout, the limited availability of the evening slot, and clarity of the confirmation screen."
+  },
+  "usage": {
+    "inputTokens": 1574,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:13.501Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "needs_human",
+    "confidence": 3,
+    "reason": "All three first clicks land at the exact same spot, which could indicate clicking without reading the tasks. However, without access to the images or layouts being tested, I cannot judge whether this is a valid response (e.g., a menu always in the same location, or unclear images). Human review is needed.",
+    "panel_text": "If the images on these questions have different layouts, clicking the exact same spot for all three would suggest not engaging with the tasks. If the click target does not move or is always in the same place, this would be a valid response.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "needs_human"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3020,
+    "outputTokens": 148
+  },
+  "storedAt": "2026-10-02T00:53:28.770Z"
+}

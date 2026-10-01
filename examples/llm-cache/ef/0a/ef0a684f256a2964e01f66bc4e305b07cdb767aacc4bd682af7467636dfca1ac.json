@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Three open-ended answers are nonsensical or random strings ('asdkjh qwe', 'hjkl', 'zxcv zxcv'), which do not address the questions or provide meaningful content. This pattern demonstrates bad faith participation and cannot be explained by survey design or technical error.",
+    "panel_text": "On three questions that asked for your thoughts or feedback, you answered with unrelated random letters or words (for example: 'asdkjh qwe' when asked what was confusing, 'hjkl', and 'zxcv zxcv'). These answers do not respond to the questions and suggest you did not participate seriously.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2983,
+    "outputTokens": 156
+  },
+  "storedAt": "2026-10-02T00:53:21.252Z"
+}

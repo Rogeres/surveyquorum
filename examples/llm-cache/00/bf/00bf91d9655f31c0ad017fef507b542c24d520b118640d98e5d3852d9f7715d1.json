@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "gibberish",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is nonsensical random characters unrelated to the question."
+  },
+  "usage": {
+    "inputTokens": 1549,
+    "outputTokens": 34
+  },
+  "storedAt": "2026-10-01T18:42:40.596Z"
+}

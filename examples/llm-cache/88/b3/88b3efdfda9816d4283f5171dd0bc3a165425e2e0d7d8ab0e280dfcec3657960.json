@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The answer 'fghj' to an open question is clearly meaningless and not an attempt to genuinely answer, which is a violation regardless of the pace or other answers. The gibberish open answer alone justifies the flag.",
+    "panel_text": "To the question 'What, if anything, was confusing about adding an item to the basket?', you answered 'fghj'. This response does not give any real information and suggests you did not respond in good faith, which is not allowed on this platform.",
+    "per_signal": {
+      "pace.fast_cluster": "does_not_support",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3075,
+    "outputTokens": 139
+  },
+  "storedAt": "2026-10-02T07:13:59.929Z"
+}

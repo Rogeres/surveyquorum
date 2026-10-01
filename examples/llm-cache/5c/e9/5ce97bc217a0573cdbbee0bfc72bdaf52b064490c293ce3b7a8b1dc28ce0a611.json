@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives detailed specifics including the software type, reason for purchase, and a concrete problem experienced, showing clear engagement."
+  },
+  "usage": {
+    "inputTokens": 1580,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:43:11.795Z"
+}

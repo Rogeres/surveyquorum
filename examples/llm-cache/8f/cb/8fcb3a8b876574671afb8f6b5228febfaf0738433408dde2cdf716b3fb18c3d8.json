@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the cost during the overlap period and a condition for switching, showing thought about the issue."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:34.371Z"
+}

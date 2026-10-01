@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent explicitly stated they are not a business owner despite passing the screener as one, and their answers repeatedly indicate no business ownership or relevant experience. This is a clear misrepresentation that invalidates their responses.",
+    "panel_text": "You stated at the start that you are an owner or co-owner of a business, but in question 3 you wrote: \"I don't actually have a company, I'm a student, so I haven't bought any business software.\" This means you are not eligible for this survey, which is only for business owners.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2330,
+    "outputTokens": 129
+  },
+  "storedAt": "2026-10-01T22:23:45.841Z"
+}

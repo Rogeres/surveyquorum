@@ -1,0 +1,19 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in less than one quarter of the median time, gave empty or placeholder answers to three open-ended questions that demanded detail, and their card sort is consistent with random placement. These are independent strong signals of bad faith.",
+    "panel_text": "On three questions that asked for detail, your answers were either 'ok', 'dont know', or 'nothing'. These do not address the question. Other respondents gave detailed, relevant answers. The survey was also completed much faster than others: 84 seconds, while most took about 6 minutes.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3094,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:40.859Z"
+}

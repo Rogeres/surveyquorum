@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "There is a direct contradiction between the claimed business owner status in the screener and explicit denial of having a company in multiple open answers. This is clear bad faith. The open answer evidence is correct as a secondary signal but not needed for the main finding.",
+    "panel_text": "You stated in the screening you are an owner or co-owner of a business, but in your answers you wrote, for example: 'Student here, no business, no software purchases.' It is not allowed to misrepresent your background to enter a survey. This means you are not eligible for payment.",
+    "per_signal": {
+      "open-answer.off_topic": "supports",
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3020,
+    "outputTokens": 150
+  },
+  "storedAt": "2026-10-02T00:53:41.213Z"
+}

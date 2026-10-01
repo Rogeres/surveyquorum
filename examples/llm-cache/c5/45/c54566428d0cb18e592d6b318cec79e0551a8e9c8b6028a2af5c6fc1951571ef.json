@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent gives a specific observation about article grouping and a concrete suggestion about the search box size."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:42:37.046Z"
+}

@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in about 115 seconds compared to a cohort median of 520 seconds, with more than half of questions answered in less than half the cohort's time. Open-text answers are minimal and non-informative. This demonstrates clear bad faith as the respondent did not engage meaningfully with the tasks.",
+    "panel_text": "You completed the entire survey in about 2 minutes, while most others needed around 9 minutes. This much faster pace means you could not have given the questions the attention they require. As a result, your answers do not qualify for compensation.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3092,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:27.857Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 4,
+    "reason": "All three first clicks landed at the same spot, but without seeing the images, I cannot rule out that these clickable targets genuinely appeared in the same position across tasks. There are no other signs of bad faith; open answers are reasonable and the respondent engaged with the tasks.",
+    "panel_text": "If the clickable targets for 'change delivery address', 'find yesterday's order', and 'apply a promo code' are in the same place on all screens, clicking them in the same spot is correct, not a violation. Without seeing the images, this could be normal careful behavior.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2411,
+    "outputTokens": 141
+  },
+  "storedAt": "2026-10-01T22:23:30.882Z"
+}

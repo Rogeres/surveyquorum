@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific sequence of steps taken (browsed orders section, then used search) providing a concrete detail about how the instructions were found."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 50
+  },
+  "storedAt": "2026-10-01T18:42:29.878Z"
+}

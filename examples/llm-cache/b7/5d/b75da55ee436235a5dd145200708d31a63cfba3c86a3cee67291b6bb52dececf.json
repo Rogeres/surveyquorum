@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the identical answer 'It works well for what I need.' on four separate open-ended questions that each called for a task-specific, substantive response. This strongly indicates template or copy-pasted answers without actual engagement.",
+    "panel_text": "You gave the same response, 'It works well for what I need.', to four different questions asking about different experiences or feedback. This suggests you did not provide genuine answers to each question, which is required for survey participation.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2980,
+    "outputTokens": 121
+  },
+  "storedAt": "2026-10-02T00:53:24.195Z"
+}

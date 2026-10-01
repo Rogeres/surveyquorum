@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about the checkout page layout and a suggestion for improvement."
+  },
+  "usage": {
+    "inputTokens": 1573,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:25.798Z"
+}

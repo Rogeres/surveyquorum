@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Two open answers ('zxcv zxcv' and 'aaaa') are non-answers with no relevant or meaningful content, both to questions that require substantive responses about software purchases and discovery. This is clear evidence of bad faith.",
+    "panel_text": "On ‘Describe the last software purchase you decided on’, you answered: “zxcv zxcv”. This is not a real answer and does not provide any information about your experience. For open questions, you must provide a meaningful, relevant response.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2904,
+    "outputTokens": 154
+  },
+  "storedAt": "2026-10-02T00:53:44.648Z"
+}

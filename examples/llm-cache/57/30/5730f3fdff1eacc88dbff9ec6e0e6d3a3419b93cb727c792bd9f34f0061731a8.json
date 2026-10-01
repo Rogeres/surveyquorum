@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered 'rarely or never' to the initial screener but then proceeded to answer detailed questions about brands and past experience with specific flavours, which is inconsistent. Additionally, they provided 'neither agree nor disagree' or identical responses across multiple rating grids, showing a pattern of flat, non-discriminating answers, matching the definition of careless responding.",
+    "panel_text": "In multiple sections you selected 'neither agree nor disagree' or gave the same rating repeatedly (for example, for all statements about brands and packaging). This pattern makes it unlikely you read and considered each item, as most other people gave a mix of answers.",
+    "per_signal": {
+      "matrix-pattern.straightline_full": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3371,
+    "outputTokens": 158
+  },
+  "storedAt": "2026-10-02T07:56:58.848Z"
+}

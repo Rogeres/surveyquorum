@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is one single outlier fast answer (Q18, 1s) while all other questions are at or above cohort pace and the total time spent is longer than the median. Speed on a single, final, simple choice question does not prove bad faith.",
+    "panel_text": "If this case were justified, you would see: You answered question 18 ('How likely are you to buy Kettlebird in the next month?') in 1 second, much faster than other respondents. Answering so quickly suggests you may not have read the question. Please make sure to read and consider each question carefully in future surveys.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3377,
+    "outputTokens": 159
+  },
+  "storedAt": "2026-10-02T00:53:31.395Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent selected nearly every option on all four multi-select questions while answering each faster than the average participant. This is a strong indication of bad faith and not reading the questions, as it is unlikely that every option genuinely applies on every question.",
+    "panel_text": "On four different questions where you were asked to choose all options that applied, you selected nearly every option each time, for example on 'Which snack brands have you bought in the last three months?' and 'On which occasions do you snack?'. This shows you were not reading carefully and did not answer honestly.",
+    "per_signal": {
+      "mass-select.heavy_pattern": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3467,
+    "outputTokens": 142
+  },
+  "storedAt": "2026-10-02T07:56:58.425Z"
+}

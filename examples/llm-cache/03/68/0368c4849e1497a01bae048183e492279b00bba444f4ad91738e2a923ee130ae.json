@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer states the respondent did not know about the product and did not try it, providing no usable data about experience or opinion."
+  },
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 45
+  },
+  "storedAt": "2026-10-01T18:42:49.197Z"
+}

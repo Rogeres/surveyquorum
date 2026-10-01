@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason related to fear of new problems and paying twice, indicating some engagement and detail beyond minimal response."
+  },
+  "usage": {
+    "inputTokens": 1554,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:09.406Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "There are four open-ended responses consisting of random characters (e.g., 'lkjlkj', 'sdfsdf', 'dfgdfg sdf', 'fghj'), which are not substantive or meaningful answers. This is strong evidence the respondent did not engage in good faith.",
+    "panel_text": "You gave non-answers like 'lkjlkj', 'sdfsdf', 'dfgdfg sdf', and 'fghj' to questions asking for details about your business and experience. Answers like this do not provide useful information and show you did not fill out the survey properly.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2906,
+    "outputTokens": 151
+  },
+  "storedAt": "2026-10-02T00:53:39.177Z"
+}

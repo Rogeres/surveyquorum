@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent pasted an identical, generic answer to four different open-ended questions. This demonstrates clear bad faith, as these questions demand unique and substantive responses related to distinct business experiences.",
+    "panel_text": "You wrote exactly the same answer, 'Everything was fine and easy to use.', to four different questions that each asked for details about your business software experience. This suggests you did not actually answer the questions as intended.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2891,
+    "outputTokens": 109
+  },
+  "storedAt": "2026-10-02T00:53:43.772Z"
+}

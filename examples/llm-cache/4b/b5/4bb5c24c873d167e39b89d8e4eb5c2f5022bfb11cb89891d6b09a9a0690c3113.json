@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave the exact same non-informative open-ended answer ('No problems at all with this one.') on three distinct open questions that clearly ask for different, specific input. This is classic templated or careless behavior, and not a valid response pattern for an attentive participant.",
+    "panel_text": "You wrote the same answer, “No problems at all with this one,” on three separate questions asking about your opinions and experience with Kettlebird. These questions require a separate, specific answer each time. This pattern shows you did not provide genuine feedback as required.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3292,
+    "outputTokens": 141
+  },
+  "storedAt": "2026-10-02T00:53:31.306Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_high",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a detailed description of the scheduling process and specific details about delivery slot selection."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:25.630Z"
+}

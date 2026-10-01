@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The respondent completed the entire survey in about 2 minutes, compared to a median of nearly 9 minutes for others, and nearly every answer is minimal and non-substantive ('fine', 'good', 'nice'). This shows no real engagement with the tasks or questions.",
+    "panel_text": "You completed the whole survey in 1 minute 55 seconds, while most people took about 9 minutes. Answers like 'fine', 'good', and 'nice' suggest you did not provide thoughtful feedback, as required. Speeding through with brief answers is not accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2495,
+    "outputTokens": 158
+  },
+  "storedAt": "2026-10-01T22:23:31.368Z"
+}

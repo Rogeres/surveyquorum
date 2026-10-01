@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer confirms use but provides no specific detail other than agreement, which fits valid_low."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:48.323Z"
+}

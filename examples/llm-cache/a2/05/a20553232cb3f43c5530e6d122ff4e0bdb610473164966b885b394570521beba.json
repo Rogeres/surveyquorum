@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered the identical, non-specific answer 'I think it is pretty good overall.' on four different open questions clearly requiring distinct, substantive responses. This is strong evidence of not engaging with the content in good faith.",
+    "panel_text": "The answer 'I think it is pretty good overall.' was entered to these different questions: 'Describe the last software purchase you decided on: what, why, what went wrong.', 'How do you usually hear about new business software?', 'What stops you from switching a tool you are unhappy with?', and 'What would make you recommend a business tool to another owner?'. These required specific answers, but got the same copy-paste text.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2284,
+    "outputTokens": 157
+  },
+  "storedAt": "2026-10-01T22:23:46.711Z"
+}

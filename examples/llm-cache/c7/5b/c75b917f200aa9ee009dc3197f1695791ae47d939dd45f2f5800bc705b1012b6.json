@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides two specific conditions (saving measurable time weekly and responsive support) that justify recommending a business tool, showing at least one concrete detail."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:15.620Z"
+}

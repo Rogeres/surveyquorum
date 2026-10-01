@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides a concrete suggestion about product packaging size and indicates willingness to purchase, showing engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:01.006Z"
+}

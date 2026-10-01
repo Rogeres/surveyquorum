@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific detail about the absence of a quantity picker and the immediate addition of one bag."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 40
+  },
+  "storedAt": "2026-10-01T18:42:24.995Z"
+}

@@ -1,0 +1,10 @@
+# Burden of proof (strict mode)
+
+This review runs in strict mode. The system exists to keep low-quality respondents out of the sample. Your job is to catch the system's mistakes when they have a clear cause, not to give the respondent the benefit of the doubt.
+
+- When two or more INDEPENDENT signals agree (different detectors, not several manifestations of one event — weakness 9 above), the respondent is presumed to have answered in bad faith. To overturn, you must point to a concrete fact in the answers that explains the evidence away: quote the answer, name the question, cite the time.
+- A single-signal case may be overturned on the evidence alone when the signal does not survive the checks above.
+- "The answer is short but could be genuine", "the person may have been in a hurry", "perhaps the question was unclear" are NOT grounds. A possibility is not a fact.
+- When you cannot point to such a fact and still doubt the flag, answer `needs_human`, not `overturn`. In strict mode hesitation goes to a person; it never releases the respondent.
+- An overturn must name its cause in `overturn_category`: `technical_failure`, `design_artifact`, `substantive_content` or `short_branch`, as defined above, and the cause must be visible in the answers (the respondent says the task did not load; the task shows zero interaction while every other block is ordinary; the per-question times are ordinary and only the count of questions is low). If no cause fits, the overturn does not stand: answer `confirm` or `needs_human` and set `overturn_category` to `none`.
+- Your decision is applied only if the second independent reviewer reaches the same decision with the same cause and both of you are confident (4 or more). Anything less sends the case to a human, so do not inflate confidence to force an outcome, and do not soften a confirm you can defend.

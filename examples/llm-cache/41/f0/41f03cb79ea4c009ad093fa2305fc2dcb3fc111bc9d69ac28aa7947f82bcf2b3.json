@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "This respondent completed the entire survey in less than a third of the median time (90s vs 329s), with the majority of questions answered much faster than the rest of the cohort. Their open answers are non-informative one-word responses, indicating little genuine engagement.",
+    "panel_text": "You completed the whole survey in 90 seconds, while most people needed about 5 and a half minutes. This is much faster than normal and suggests the questions were not read or considered with care. Answers given in this way can't be accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2861,
+    "outputTokens": 136
+  },
+  "storedAt": "2026-10-01T22:23:38.906Z"
+}

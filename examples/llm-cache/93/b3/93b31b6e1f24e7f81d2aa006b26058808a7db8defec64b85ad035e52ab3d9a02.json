@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent directly contradicts their screening profile by stating in Q3 and Q11 that they are not a business owner and do not have a company, despite claiming to be an owner/co-owner at screening. This is a clear and unambiguous misrepresentation.",
+    "panel_text": "You stated during screening that you are a business owner, but in the survey you wrote: \"I don't actually have a company, I'm a student, so I haven't bought any business software\" and \"I wouldn't know, I'm not a business owner.\" This is a direct contradiction and violates survey rules.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2927,
+    "outputTokens": 144
+  },
+  "storedAt": "2026-10-02T00:53:40.787Z"
+}

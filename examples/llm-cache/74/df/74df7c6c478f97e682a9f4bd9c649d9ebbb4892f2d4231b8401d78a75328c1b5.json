@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about finding the option under checkout and the limited availability of the evening slot, plus a preference for a calendar view."
+  },
+  "usage": {
+    "inputTokens": 1571,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:41.672Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Four open-ended answers consist only of random letters (e.g., 'lkjlkj', 'sdfsdf'), which are not meaningful responses to the questions and clearly indicate bad faith completion.",
+    "panel_text": "For the question 'Describe the last software purchase you decided on: what, why, what went wrong?', you answered 'lkjlkj'. For several other open questions you entered only random letters. This does not answer the questions and does not show real engagement with the survey.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2309,
+    "outputTokens": 121
+  },
+  "storedAt": "2026-10-01T22:23:43.540Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered the exact same non-informative answer, 'I think it is pretty good overall,' to four different open-ended questions that asked for varied, detailed responses. This indicates a lack of genuine engagement and bad faith completion.",
+    "panel_text": "On four different questions that asked for your own experience or opinions, you wrote exactly the same answer: 'I think it is pretty good overall.' These questions were about very different topics, so repeating a generic phrase without explanation shows you did not answer them properly.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2284,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-01T22:23:46.697Z"
+}

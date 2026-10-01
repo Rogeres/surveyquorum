@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "needs_human",
+    "confidence": 4,
+    "reason": "All three first clicks are at exactly the same spot, which is highly unusual, but without seeing the images presented for each question, I cannot determine whether this reflects inattention or simply that the interface elements genuinely appear in the same place. I cannot judge intent without this context.",
+    "panel_text": "Your first clicks for all three questions landed in exactly the same spot on the screen. If those questions displayed different images, this suggests you may not have been paying close attention. If the images were similar, however, this might be reasonable.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3008,
+    "outputTokens": 141
+  },
+  "storedAt": "2026-10-02T00:53:27.078Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The isolated fast answer is to a trivial multi-select question completed in 1 second, which is not itself proof of bad faith. All other responses show normal or above-average engagement and detailed, relevant answers.",
+    "panel_text": "If this flag were upheld, you would be told: “You answered one question (‘Which of these features would you use?’) far faster than average, in 1 second versus about 14 seconds. However, for a simple selection, a quick response is not automatically a violation.”",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2479,
+    "outputTokens": 126
+  },
+  "storedAt": "2026-10-01T22:23:28.384Z"
+}

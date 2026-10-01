@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific detail about navigation ('two clicks from the help home page') and a concrete suggestion for improvement ('a direct link from the order would be better')."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 53
+  },
+  "storedAt": "2026-10-01T18:42:18.005Z"
+}

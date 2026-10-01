@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific requested change related to product packaging (multipacks vs sharing bag)."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:42:46.117Z"
+}

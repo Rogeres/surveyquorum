@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer gives a specific opinion about the paprika flavor and crunch, showing concrete detail about the product."
+  },
+  "usage": {
+    "inputTokens": 1551,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:42:46.204Z"
+}

@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "needs_human",
+    "confidence": 3,
+    "reason": "The first clicks are identical across three questions, which can indicate random or patterned clicking, but without seeing the images, it is not possible to judge if this is bad faith or simply that clickable elements are positioned in the same spot. Human review is needed.",
+    "panel_text": "If justified, the ground would be: Your first clicks landed at the exact same spot on three separate questions asking you to find different things on the page. This suggests you may not have been looking for each item as asked. Please make sure to read and respond to each question carefully.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2423,
+    "outputTokens": 139
+  },
+  "storedAt": "2026-10-01T22:23:33.066Z"
+}

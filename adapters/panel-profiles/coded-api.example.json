@@ -1,0 +1,13 @@
+{
+  "id": "coded-api",
+  "name": "A panel with a complaint API (example)",
+  "maxChars": 500,
+  "requiresToken": true,
+  "codes": {
+    "nonsense_text": 1,
+    "duplicate_text": 1,
+    "template_pattern": 3,
+    "speed_whole_survey": 4
+  },
+  "note": "The API wants the respondent token from the survey link, one numeric reason code and a comment of 500 characters or less; the comment is truncated beyond that. Send the whole-survey time with every speed complaint and a link to the answer where the form allows one."
+}

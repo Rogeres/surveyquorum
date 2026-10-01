@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer provides a specific observation about having to scroll past promotional content to reach help links, which is a concrete detail related to the question."
+  },
+  "usage": {
+    "inputTokens": 1557,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:42:27.638Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent entered the same non-informative text ('No problems at all with this one.') on three different open-ended questions that asked for original input, which is strong evidence of bad faith. There is no explanation for this repetition except not engaging with the questions.",
+    "panel_text": "You gave the same answer, 'No problems at all with this one.', to three different questions asking for your thoughts about Kettlebird. These questions each expect a different, original answer. Copying the same reply across them shows you did not answer them seriously.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3300,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-02T00:53:35.938Z"
+}

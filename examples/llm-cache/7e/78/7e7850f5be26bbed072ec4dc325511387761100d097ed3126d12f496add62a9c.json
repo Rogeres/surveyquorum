@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The two repeated open answers are short but plausible for the questions asked; 'Nothing specific comes to mind' is a valid response if no clear example is available. The card sort category names (e.g., 'Stuff', 'B', 'C', 'Tools') are not informative, but this is not uncommon when forced to sort generic business tools with unclear groupings and is not obvious bad faith. Both signals are weak and do not show intent to game or ignore the survey.",
+    "panel_text": "If two answers to open questions are exactly the same, such as 'Nothing specific comes to mind', and give no detail where a specific example is expected, we may reject the response. Each open question should give a separate, useful answer for that question.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "cardsort-consensus.unnamed_categories": "does_not_support"
+    },
+    "overturn_category": "substantive_content"
+  },
+  "usage": {
+    "inputTokens": 2986,
+    "outputTokens": 197
+  },
+  "storedAt": "2026-10-02T00:53:44.486Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "The respondent rushed through the full survey in less than a quarter of the median time (115s vs 520s), with seven questions answered more than 2 standard deviations faster than peers—this is well beyond natural variance. Open responses are all one-word stubs and the respondent claimed 'never' ordering groceries online, which contradicts eligibility.",
+    "panel_text": "You completed the full survey in 115 seconds, while most people needed about 9 minutes. This is much faster than is reasonable to read and answer the questions carefully, so your responses cannot be accepted.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "firstclick-offtarget.repeated_off_density": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2495,
+    "outputTokens": 146
+  },
+  "storedAt": "2026-10-01T22:23:31.370Z"
+}

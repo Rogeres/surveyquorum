@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only evidence is a single question answered much faster than the cohort, but this question was a multi-select of familiar brands and does not require much time. All other timing and substantive answers show considered, good-faith participation.",
+    "panel_text": "If the flag were justified, you would have been flagged for answering one question much quicker than most. However, the question allowed for a quick answer, and your overall survey responses appear thoughtful and genuine.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    }
+  },
+  "usage": {
+    "inputTokens": 2803,
+    "outputTokens": 112
+  },
+  "storedAt": "2026-10-01T22:23:38.669Z"
+}

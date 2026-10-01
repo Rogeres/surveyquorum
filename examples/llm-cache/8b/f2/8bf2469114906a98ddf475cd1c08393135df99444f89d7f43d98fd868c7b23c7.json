@@ -1,0 +1,20 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up instantly on all interactive tasks without a single click, supplied superficial repeated text ('everything was easy') to open questions that demand detail, and finished the entire survey in roughly a third of the median time. These are independent, consistent signs of inattention or bad faith.",
+    "panel_text": "You submitted 'everything was easy' as your answer to three different questions where the others described what they did or what was confusing in detail. This is not a valid response, as surveys rely on specific feedback in your own words to improve the product.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x3": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3226,
+    "outputTokens": 162
+  },
+  "storedAt": "2026-10-02T00:53:27.091Z"
+}

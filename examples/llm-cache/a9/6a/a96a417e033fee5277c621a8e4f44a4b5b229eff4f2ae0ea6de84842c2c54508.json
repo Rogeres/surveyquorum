@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a minimal response that formally answers the question but provides no specific detail."
+  },
+  "usage": {
+    "inputTokens": 1546,
+    "outputTokens": 36
+  },
+  "storedAt": "2026-10-01T18:42:53.250Z"
+}

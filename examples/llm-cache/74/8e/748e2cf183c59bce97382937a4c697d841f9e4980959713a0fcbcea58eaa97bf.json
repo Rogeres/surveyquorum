@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed nearly the entire survey much faster than the rest of the group (69 s vs median 368 s), and gave non-informative one-word answers to several open-ended questions, showing no engagement. The card sort was also done much faster and with a random grouping pattern. This is clear evidence of bad faith.",
+    "panel_text": "You completed the survey in 69 seconds, while most others took about 6 minutes. Answers like: 'Describe the last software purchase you decided on: what, why, what went wrong.'—'ok', and 'What stops you from switching a tool you are unhappy with?'—'good', do not give enough information for analysis. Rushed, non-informative answers break survey rules.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2439,
+    "outputTokens": 179
+  },
+  "storedAt": "2026-10-01T22:23:48.584Z"
+}

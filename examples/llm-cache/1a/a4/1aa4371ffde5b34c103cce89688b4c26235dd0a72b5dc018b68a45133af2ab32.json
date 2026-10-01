@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey much faster than the median (104s vs 329s) with straightline patterns and empty placeholder responses on open questions, indicating clear bad faith: questions were not meaningfully considered or answered.",
+    "panel_text": "You finished the survey in 104 seconds, but most people needed about 329 seconds. This means you went through the questions much faster than others, which does not give enough time to read and answer them carefully. Answers completed this quickly do not meet our quality standards.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2895,
+    "outputTokens": 138
+  },
+  "storedAt": "2026-10-01T22:23:38.068Z"
+}

@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about hearing through the bank's business portal and an opinion about contract length, showing some engagement."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 44
+  },
+  "storedAt": "2026-10-01T18:43:30.351Z"
+}

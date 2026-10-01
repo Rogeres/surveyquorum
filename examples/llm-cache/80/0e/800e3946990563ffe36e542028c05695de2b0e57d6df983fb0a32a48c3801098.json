@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent directly contradicts their screening answers, repeatedly stating they are not a business owner and have no business experience, despite claiming otherwise at screening. This is clear evidence of misrepresentation.",
+    "panel_text": "You stated in the screening that you are an owner or co-owner of a small business, but in your answers you wrote: \"I don't actually have a company, I'm a student\" and \"I'm not a business owner\". This contradicts your screening profile and violates survey rules.",
+    "per_signal": {
+      "coherence.contradiction": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2928,
+    "outputTokens": 137
+  },
+  "storedAt": "2026-10-02T00:53:37.836Z"
+}

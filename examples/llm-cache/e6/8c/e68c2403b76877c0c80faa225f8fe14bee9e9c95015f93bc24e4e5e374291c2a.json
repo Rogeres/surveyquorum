@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a specific detail about the basket icon not updating and the item (oranges) added, showing concrete observation related to the question."
+  },
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:42:34.114Z"
+}

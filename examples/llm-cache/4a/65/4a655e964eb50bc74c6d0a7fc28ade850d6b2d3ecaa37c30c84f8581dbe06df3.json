@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer is a brief opinion with no specific details, which could apply to many products or questions."
+  },
+  "usage": {
+    "inputTokens": 1544,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:04.268Z"
+}

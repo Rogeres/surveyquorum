@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 4,
+    "profanity": false,
+    "reason": "The answer is a minimal effort that answers the question but provides no specific detail; it is a vague generalization applicable to any similar question."
+  },
+  "usage": {
+    "inputTokens": 1545,
+    "outputTokens": 47
+  },
+  "storedAt": "2026-10-01T18:43:18.199Z"
+}

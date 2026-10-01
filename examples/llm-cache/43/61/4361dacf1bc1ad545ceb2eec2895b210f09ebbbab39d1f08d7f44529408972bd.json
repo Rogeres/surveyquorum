@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent honestly states they don't know what to change, which is a lack of data."
+  },
+  "usage": {
+    "inputTokens": 1547,
+    "outputTokens": 37
+  },
+  "storedAt": "2026-10-01T18:43:07.126Z"
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Four different open questions received the identical answer 'Everything was fine and easy to use,' which does not address the specific intent of any of the questions and indicates template or copy-paste behavior, not genuine response.",
+    "panel_text": "You wrote the exact same answer (“Everything was fine and easy to use”) on four different questions that asked about specific experiences and opinions. Repeating the same text this way suggests you did not answer the questions properly.",
+    "per_signal": {
+      "duplicate-open.x3": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2892,
+    "outputTokens": 116
+  },
+  "storedAt": "2026-10-02T00:53:42.282Z"
+}

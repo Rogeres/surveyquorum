@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent provides a specific detail about seeing the brand in the premium aisle and not having had it for a while, indicating some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:42:54.402Z"
+}

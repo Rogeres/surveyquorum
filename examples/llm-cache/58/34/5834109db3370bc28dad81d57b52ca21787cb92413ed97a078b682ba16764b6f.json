@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 83 seconds, while the cohort median was 368 seconds, and several open-ended answers were non-informative placeholders ('ok', 'nothing', 'don't know'). This shows clear signs of bad faith: not reading or considering the questions and not providing meaningful answers.",
+    "panel_text": "You completed the entire survey in 83 seconds, while most people needed about 6 minutes. This is much faster than would be possible if reading and answering the questions seriously, so we cannot accept these responses.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.empty_repeat": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2375,
+    "outputTokens": 133
+  },
+  "storedAt": "2026-10-01T22:23:42.390Z"
+}

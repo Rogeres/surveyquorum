@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent answered all questions drastically faster than the rest of the cohort (total 69 s vs 368 s), including on complex tasks like the card sort. Their open-text answers show minimal engagement, and the card sort was performed randomly and in very little time. This pattern shows clear bad faith.",
+    "panel_text": "You completed the entire survey in 69 seconds, while others took about 6 minutes. For example, on the card sorting task, others took a minute and a half but you finished in 23 seconds with a random arrangement. This shows you did not take time to give thoughtful answers.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "cardsort-consensus.random_sort": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3036,
+    "outputTokens": 157
+  },
+  "storedAt": "2026-10-02T00:53:43.837Z"
+}

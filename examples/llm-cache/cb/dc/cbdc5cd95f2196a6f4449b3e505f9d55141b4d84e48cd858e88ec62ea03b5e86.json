@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in about 60 seconds (cohort median 329s), with 14 of 18 questions answered faster than 2 standard deviations below the norm, and filled out rating grids with a flat pattern at high speed. This indicates bad faith: the answers were not read or considered.",
+    "panel_text": "You completed the whole survey in about 1 minute, while most people took around 5 and a half minutes. This is much faster than normal and shows that you likely did not read or answer the questions carefully, which is not allowed.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "matrix-pattern.straightline_fast": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3468,
+    "outputTokens": 151
+  },
+  "storedAt": "2026-10-02T00:53:32.790Z"
+}

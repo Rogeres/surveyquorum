@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "overturn",
+    "confidence": 5,
+    "reason": "The only signal is a single fast answer (1 second on question 2), but this is a simple brand checklist and a single outlier is not evidence of bad faith, especially with a slow total completion time. No substantive or pattern evidence.",
+    "panel_text": "If your case had been justified, it would have been for answering one of the brand checklist questions much faster than others in the sample. However, this question is simple and a quick answer does not mean you did anything wrong.",
+    "per_signal": {
+      "pace.single_outlier": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3400,
+    "outputTokens": 151
+  },
+  "storedAt": "2026-10-02T00:53:34.261Z"
+}

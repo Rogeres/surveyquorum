@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason (staff pushback and team resistance) and mentions smaller firms, giving concrete detail about the situation preventing tool switching."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 48
+  },
+  "storedAt": "2026-10-01T18:43:28.011Z"
+}

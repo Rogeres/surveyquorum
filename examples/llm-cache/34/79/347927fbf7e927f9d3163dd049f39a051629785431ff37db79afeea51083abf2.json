@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Several open-ended answers contain only random characters or numbers with no connection to the questions, showing no attempt to answer meaningfully. This is clear bad faith, not simply a brief or minimalist response.",
+    "panel_text": "On the question 'What, if anything, was confusing about adding an item to the basket?', you answered 'zxcv zxcv'. This is not a real answer and shows no effort to respond to what was asked. Participants are expected to provide meaningful feedback in their own words.",
+    "per_signal": {
+      "open-answer.gibberish": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2390,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-01T22:23:33.002Z"
+}

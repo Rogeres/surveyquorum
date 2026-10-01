@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a concrete detail about grabbing a bag at services during road trips and a specific observation about the bag's resealability."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:43:06.197Z"
+}

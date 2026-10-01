@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "needs_human",
+    "confidence": 3,
+    "reason": "All three first clicks land at the exact same point, which is unusual. However, without seeing the images for the first click tasks, I cannot determine if the clickable areas genuinely differed or if the design placed the target in the same position each time. This requires human review.",
+    "panel_text": "If your first click on each task was on the same spot, but the images or tasks were different, this can look as though you were not engaging with the tasks as intended. If there was a design reason the spots were the same, please explain what you saw.",
+    "per_signal": {
+      "firstclick-offtarget.same_spot": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3008,
+    "outputTokens": 147
+  },
+  "storedAt": "2026-10-02T00:53:27.200Z"
+}

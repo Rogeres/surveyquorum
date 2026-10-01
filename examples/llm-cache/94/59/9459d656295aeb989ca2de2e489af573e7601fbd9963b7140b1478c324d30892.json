@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific observations about the brand such as 'rustic packaging' and 'farmer imagery', which are concrete details related to the question."
+  },
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 49
+  },
+  "storedAt": "2026-10-01T18:42:59.453Z"
+}

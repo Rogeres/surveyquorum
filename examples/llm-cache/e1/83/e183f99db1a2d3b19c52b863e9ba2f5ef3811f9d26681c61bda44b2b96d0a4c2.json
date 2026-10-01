@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "Four open-ended answers are filled with meaningless strings like 'asdkjh qwe' and 'fghj', with one such answer repeated. This is clear evidence of not providing genuine or informative responses, regardless of speed or other question types.",
+    "panel_text": "On the open-ended questions, answers like \"asdkjh qwe\" and \"fghj\" were entered instead of a real response. These do not provide any meaningful information and show that the questions were not answered seriously, which is not allowed.",
+    "per_signal": {
+      "duplicate-open.x2": "supports",
+      "open-answer.gibberish": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2965,
+    "outputTokens": 140
+  },
+  "storedAt": "2026-10-02T00:53:40.927Z"
+}

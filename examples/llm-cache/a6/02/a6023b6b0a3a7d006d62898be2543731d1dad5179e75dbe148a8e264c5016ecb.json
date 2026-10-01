@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific reason involving staff and team resistance, which is more than a minimal or generic response."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:29.855Z"
+}

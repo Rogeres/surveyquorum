@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer provides a specific detail about the substitution toggle appearing prematurely, indicating engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1558,
+    "outputTokens": 38
+  },
+  "storedAt": "2026-10-01T18:42:25.501Z"
+}

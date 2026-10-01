@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes specific details about the thyme flavor being subtle and the salt level being about right, indicating some engagement but not extensive detail."
+  },
+  "usage": {
+    "inputTokens": 1562,
+    "outputTokens": 46
+  },
+  "storedAt": "2026-10-01T18:42:55.108Z"
+}

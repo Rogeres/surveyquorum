@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent gave up instantly on multiple interactive tasks without any attempt, and completed the entire survey in under a third of the time the rest of the group needed. These are classic indicators of bad faith: giving up immediately and not attempting the tasks.",
+    "panel_text": "You left every interactive task immediately without trying (for example, you gave up after 4 seconds when others took about 1 minute), and finished the whole survey in 2 minutes when most people needed 9 minutes. This means your answers cannot show genuine effort or attention.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "prototype-effort.instant_give_up": "supports",
+      "website-bounce.bounce": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2578,
+    "outputTokens": 145
+  },
+  "storedAt": "2026-10-01T22:23:26.897Z"
+}

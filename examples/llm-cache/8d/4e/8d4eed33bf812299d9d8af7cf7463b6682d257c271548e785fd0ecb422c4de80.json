@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "no_answer",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The respondent states they have no idea and do not buy such tools, indicating absence of data rather than engagement."
+  },
+  "usage": {
+    "inputTokens": 1550,
+    "outputTokens": 41
+  },
+  "storedAt": "2026-10-01T18:43:13.623Z"
+}

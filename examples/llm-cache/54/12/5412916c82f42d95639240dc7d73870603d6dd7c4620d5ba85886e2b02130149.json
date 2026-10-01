@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific suggestion for a baked or lower-fat option, which is a concrete detail about product improvement."
+  },
+  "usage": {
+    "inputTokens": 1559,
+    "outputTokens": 42
+  },
+  "storedAt": "2026-10-01T18:42:49.734Z"
+}

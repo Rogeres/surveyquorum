@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_low",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer 'ok' is a minimal response that formally acknowledges the question but does not provide any specific detail or explanation."
+  },
+  "usage": {
+    "inputTokens": 1544,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:14.484Z"
+}

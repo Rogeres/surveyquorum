@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer contains a concrete detail about grabbing a bag at service stations during road trips, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1555,
+    "outputTokens": 43
+  },
+  "storedAt": "2026-10-01T18:42:46.215Z"
+}

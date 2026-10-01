@@ -1,0 +1,17 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 4,
+    "reason": "All three click-location questions were answered by clicking the exact same spot, even though the tasks ask about very different functions. This is strong evidence the respondent did not read or attempt these tasks. The two repeated open answers are weak and common, but the click issue alone is sufficient.",
+    "panel_text": "For the questions about where to click to: change your delivery address, find yesterday’s order, and apply a promo code, you selected the exact same spot every time. These questions are about different actions, so always choosing the same place suggests you were not engaging with what was asked.",
+    "per_signal": {
+      "duplicate-open.x2": "does_not_support",
+      "firstclick-offtarget.same_spot": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2432,
+    "outputTokens": 149
+  },
+  "storedAt": "2026-10-01T22:23:25.934Z"
+}

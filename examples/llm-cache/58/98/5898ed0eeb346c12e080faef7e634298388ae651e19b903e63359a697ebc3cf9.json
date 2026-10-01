@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the survey in less than a third of the time others needed, with 4 questions answered much faster than almost anyone else. Multiple open answers are minimal, and the same non-informative phrase appears in two, supporting the conclusion of bad faith.",
+    "panel_text": "You completed the survey in 115 seconds, while others needed about 6 minutes. Answering so much faster than everyone else shows you did not spend enough time to give careful, genuine answers as requested.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "supports"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 2972,
+    "outputTokens": 131
+  },
+  "storedAt": "2026-10-02T00:53:45.804Z"
+}

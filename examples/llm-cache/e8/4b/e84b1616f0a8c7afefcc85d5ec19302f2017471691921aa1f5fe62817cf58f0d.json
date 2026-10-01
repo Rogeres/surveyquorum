@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a specific reason related to time needed for data migration and training, and mentions the organization's small size as a factor, showing some engagement with the question."
+  },
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 52
+  },
+  "storedAt": "2026-10-01T18:43:39.613Z"
+}

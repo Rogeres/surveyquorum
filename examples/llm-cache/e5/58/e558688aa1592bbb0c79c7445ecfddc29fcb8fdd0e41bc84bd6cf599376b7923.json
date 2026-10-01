@@ -1,0 +1,16 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey in 96 seconds, while the cohort median was over 8 minutes. This gap is too large to plausibly reflect good-faith engagement, especially given repeated pattern of extremely fast responses and non-informative open answers.",
+    "panel_text": "You completed the entire survey in 1 minute 36 seconds, while most people took about 8 minutes and 40 seconds. This is far quicker than someone could thoughtfully read and answer all the questions, so your responses do not appear genuine.",
+    "per_signal": {
+      "pace.consistent": "supports"
+    }
+  },
+  "usage": {
+    "inputTokens": 2422,
+    "outputTokens": 123
+  },
+  "storedAt": "2026-10-01T22:23:23.889Z"
+}

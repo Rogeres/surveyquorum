@@ -1,0 +1,13 @@
+{
+  "json": {
+    "label": "valid_medium",
+    "confidence": 5,
+    "profanity": false,
+    "reason": "The answer includes a comparison with a previous flavor, showing a specific detail about the respondent's experience."
+  },
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 39
+  },
+  "storedAt": "2026-10-01T18:43:01.853Z"
+}

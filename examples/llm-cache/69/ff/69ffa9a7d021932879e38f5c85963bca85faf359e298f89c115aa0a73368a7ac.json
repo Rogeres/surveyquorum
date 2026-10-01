@@ -1,0 +1,18 @@
+{
+  "json": {
+    "decision": "confirm",
+    "confidence": 5,
+    "reason": "The respondent completed the entire survey roughly five times faster than the median, with most questions answered far faster than their peers. The repeated short open answers ('easy') are not strong on their own, but the consistently minimal time and effort across multiple question types, combined with terse, non-specific responses, indicate clear bad faith.",
+    "panel_text": "You completed the survey in 101 seconds, while most people needed about 9 minutes. This is far faster than expected, and most of your answers were given much quicker than others. Speed like this means answers are unlikely to be thoughtful or reliable, so you cannot be approved.",
+    "per_signal": {
+      "pace.consistent": "supports",
+      "duplicate-open.x2": "does_not_support"
+    },
+    "overturn_category": "none"
+  },
+  "usage": {
+    "inputTokens": 3059,
+    "outputTokens": 159
+  },
+  "storedAt": "2026-10-02T00:53:21.350Z"
+}
