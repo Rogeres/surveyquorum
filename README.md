@@ -8,7 +8,7 @@ An open toolkit for researchers: how to recruit respondents from external panels
 
 ## Where the project comes from
 
-The project is led by [George Strunin](https://github.com/Rogeres), co-founder of Pathway. The repository grew out of his talk "Who really answers your surveys: measuring hidden junk in online samples, and open-sourcing the tools" at Research Expo on 2 October 2026 in Moscow ([announcement](https://t.me/pthwy/349), [about the talk](https://t.me/pthwy/371), both in Russian). The method shown in the talk is published here in the open, and the figures in this text come from the talk.
+The project is led by [George Strunin](https://github.com/Rogeres), co-founder of Pathway. The repository grew out of his talk "Who really answers your surveys: measuring hidden junk in online samples, and open-sourcing the tools" at Research Expo on 2 October 2026 in Moscow. The method shown in the talk is published here in the open, and the figures in this text come from the talk.
 
 ## What problem does it solve?
 
@@ -18,7 +18,7 @@ The project is built on data from Pathway, a platform for product and marketing 
 
 Above are real examples (in Russian): empty open answers, contradictions between the screener and the questionnaire, a random card sort, a prototype task abandoned after two seconds. In practice such answers cannot be rejected on a formal signal: on review, a share of them turns out not to be junk but a consequence of a peculiar study design or of mistakes in how the study was built.
 
-**The quality of an answer is only visible with the full context of the study.** For the talk at Research Expo 2026 we labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. About 6 % are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
+**The quality of an answer is only visible with the full context of the study.** For the talk at Research Expo 2026 we labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. About 6% are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
 
 **Screening does more than a check after the field.** A strong screener cuts junk several times over and costs less than cleaning afterwards, while study authors without training systematically underestimate it.
 
@@ -49,7 +49,7 @@ The full checking loop in Pathway. The open version has no "before the survey" l
 
 Every answer, together with the study context, is checked for signals: strong and weak, towards junk and towards quality. The decision is not made on a single signal but on the probability of junk for the whole set: the signal weights are measured on a large labeled sample. If the combined signals make junk highly probable, the answer is blocked. If there are no signals, the answer is left alone. If there are signals but no certainty, a person looks at the answer, and an arbiter model takes most of that queue. The formula, weights and thresholds are in `docs/weights.md`, the detectors in `docs/detectors.md`.
 
-**How this differs from the usual checks.** An attention check, total completion time or a panel's speed threshold look at a single signal, and a single signal fires on honest people too: a short branch of the questionnaire looks like speeding, an attentive respondent can slip on a trap question. Quorum does not block an answer on one signal: the decision rests on a set of independent checks, and every decision comes with evidence that can be re-examined.
+**How this differs from the usual checks.** An attention check, total completion time or a panel's speed threshold look at a single signal, and a single signal is imprecise and noisy. Quorum does not block an answer on one signal: the decision rests on a set of independent checks, and every decision comes with evidence that can be re-examined.
 
 A rejected answer is separated from the dataset and the researcher can bring it back. The rejection reason is assembled from the evidence automatically, so the complaint to the panel is ready at once.
 
@@ -57,7 +57,7 @@ A rejected answer is separated from the dataset and the researcher can bring it 
 
 Not every platform provides the data needed for the full check. So for the open version we looked for a mechanism that applies everywhere: to an ordinary export of answers, without access to the platform's internals, so that the problem can be fought anywhere. That is what is published here: simplified compared with Pathway but built on the same ideas — ten detectors, a weighted quorum with measured weights, and an arbiter as an optional stage.
 
-Some checks are not in the open version yet: the device fingerprint and respondent history across surveys, the match to the declared audience, recognition of answers typed with AI assistance. They need data that an export usually does not carry, and we are still deciding how to publish or replace them. So this is a beta: it can be used already, and the repository keeps growing.
+Some checks are not in the open version yet: the device fingerprint and respondent history across surveys, the match to the declared audience, recognition of answers typed with AI assistance. They need data that an export usually does not carry, and we are still thinking about how to publish or replace them. So this is a beta: it can be used already, and the repository keeps growing.
 
 ## Using it without code
 
