@@ -1,0 +1,16 @@
+# Синтетика: «выберите все подходящие» при типе «один ответ» (C5); разорванный вариант, пустая строка и правило на вариант, которого нет в списке (C7);
+# экран «вы нам подходите, проверка закончена» (C6). Ловушка: «Ни одного» с выходом есть — не A2 и не A5. topic-leak@S1 допустим: критерий — сама категория «фитнес-клуб», и вопрос её называет.
+- description: "C5 на S1, C7 на S2, C6 на S3; «ни одного» с выходом — не A2/A5"
+  vars:
+    brief: "Нужны люди, которые были в фитнес-клубе хотя бы раз за последний месяц."
+    draft: file://drafts/instruction-success-format-fitness.md
+    expect: "instruction-mismatch@S1, format-defect@S2, success-message@S3"
+    reject: "no-none@S1, no-exit@S1"
+    tolerate: "topic-leak@S1, multi-no-limit@S1, no-randomization@S2, no-exit@S2, logic-contradiction@S2, topic-leak@S3, bad-order@S2"
+    maxExtra: 2
+    mustKeep: "фитнес"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

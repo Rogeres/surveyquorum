@@ -1,0 +1,15 @@
+# Синтетика: список сервисов с честным «ни одним», но без правила выхода (A2); список городов без «другой город» (A5).
+# Ловушки: возрастные диапазоны без пересечений; квотный вопрос про пол без выхода — норма.
+- description: "A2 на S2 (честный вариант есть, выхода нет), A5 на S3 (городам нечего выбрать); квота по полу без выхода — не A2"
+  vars:
+    draft: file://drafts/no-exit-no-none-pharmacy.md
+    expect: "no-exit@S2, no-none@S3"
+    reject: "no-exit@S4, no-none@S2, overlap@S1, multi-no-limit@S2"
+    tolerate: "no-randomization@S3, huge-list@S3, panel-profile-reasked@S1, panel-profile-reasked@S3, panel-profile-reasked@S4, logic-contradiction@S3, bad-order@S1"
+    maxExtra: 2
+    mustKeep: "пол"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

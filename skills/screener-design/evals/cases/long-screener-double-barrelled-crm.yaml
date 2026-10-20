@@ -1,0 +1,16 @@
+# Синтетика: 14 вопросов, из них десять не фильтруют и не кормят квоту (D2, причина 1); вариант «Работаю в продажах и участвую в выборе CRM» — два условия в одном (C4).
+# Ловушки: сферы занятости с «Не работаю» — не C4; диапазоны возраста и дохода без пересечений — не C1. Таргетов найма нет, поэтому соцдем — не A13, а просто пустые вопросы.
+- description: "D2 (десять пустых вопросов из 14), C4 на S10; список занятости с «Не работаю» не C4"
+  vars:
+    brief: "Нужны сотрудники компаний от 50 человек, которые участвуют в выборе CRM. Таргеты найма не используются, сервис ничего не проверяет."
+    draft: file://drafts/long-screener-double-barrelled-crm.md
+    expect: "long-screener@screener, double-barrelled@S10"
+    reject: "double-barrelled@S7, overlap@S2, overlap@S12, no-none@S7"
+    tolerate: "panel-profile-reasked@S1, panel-profile-reasked@S2, panel-profile-reasked@S9, no-exit@S1, no-exit@S2, no-exit@S3, no-exit@S4, no-exit@S5, no-exit@S6, no-exit@S9, no-exit@S11, no-exit@S12, no-exit@S13, no-exit@S14, no-randomization@S7, no-randomization@S11, short-list@S10, leading@S10, yes-no-gate@S10, no-none@S10, bad-order@S7, bad-order@S8, topic-leak@S10, topic-leak@S11, no-none@S11"
+    maxExtra: 3
+    mustKeep: "CRM"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

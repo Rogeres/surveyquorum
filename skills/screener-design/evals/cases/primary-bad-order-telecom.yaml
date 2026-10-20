@@ -1,0 +1,16 @@
+# Синтетика: частота пользования интернетом «Сигмы» спрошена до того, как установлено, что человек вообще абонент (A8); гейт на «основного» оператора, хотя нужны пользователи (A7).
+# Ловушки: шкала частоты с единицей — не A9; бренд в списке того же рода — не утечка; квота по возрасту.
+- description: "A8 на S1 (частота раньше поведения), A7 на S2 («основной» вместо «пользуетесь»); шкала с единицей не A9"
+  vars:
+    brief: "Нужны абоненты оператора «Сигма» (пользуются SIM-картой «Сигмы» сейчас, не обязательно как основной)."
+    draft: file://drafts/primary-bad-order-telecom.md
+    expect: "bad-order@S1, primary-question@S2"
+    reject: "vague-frequency@S1, topic-leak@S2, no-exit@S3, overlap@S3"
+    tolerate: "topic-leak@S1, no-randomization@S1, criterion-mismatch@S2, criterion-mismatch@S1, short-list@S3, panel-profile-reasked@S3, logic-contradiction@S2"
+    maxExtra: 2
+    mustKeep: "Сигма"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

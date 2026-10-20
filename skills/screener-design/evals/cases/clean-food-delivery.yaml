@@ -1,0 +1,8 @@
+# Контроль: скрининг по скелету каталога, ошибок нет. Скилл должен сказать «всё в порядке» и ничего не придумать.
+- description: "контроль: чистый скрининг, ожидается none"
+  vars:
+    draft: file://drafts/clean-food-delivery.md
+    mustKeep: "Цитрус, Быстроед"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectNone", weight: 4 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

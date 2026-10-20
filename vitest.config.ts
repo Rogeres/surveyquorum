@@ -7,7 +7,7 @@ export default defineConfig({
     alias: { surveyquorum: fileURLToPath(new URL('./packages/core/src/index.ts', import.meta.url)) },
   },
   test: {
-    include: ['packages/*/test/**/*.spec.ts'],
+    include: ['packages/*/test/**/*.spec.ts', 'skills/**/*.spec.ts'],
     reporters: ['default'],
   },
 });

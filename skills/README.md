@@ -37,13 +37,14 @@ clone, or `surveyquorum` / `sq` when installed.
 
 ## The five skills
 
-**`screener-design`** - from an audience description (and an optional draft) to an audience
-difficulty score 1-10 with reasoning and a recruitment route, a 5-8 question screener on the
-behavior-first funnel (no yes/no on the qualifying behavior, the target masked among ~10
-options, non-overlapping options, a graceful exit everywhere, the realistic completion time
-stated), three honeypots per brand or tool question with a two-or-more pass rule, and - for
-difficulty 6 and above - a ready-to-paste open experience verifier that must go into the
-questionnaire body. A self-check runs silently before the output.
+**`screener-design`** - builds a screener from a brief or reviews an existing one, in two
+modes it picks from the request. The output is the screener itself in the terms a screener
+editor uses (type, options, randomization, exit logic), then - in review mode - a plain-language
+"what to fix and why" for the researcher, one paragraph per fault from a closed catalog of 25
+(`screener-design/catalog/`, bilingual cards: topic leak, yes/no gate, multi-select without a
+basis-limited choice, no honest exit, logic against quotas, body re-asking the screener, ...).
+Every catalog entry names what it breaks in the field; the skill never adds information
+screens, honeypots or difficulty scores. Evals: `screener-design/evals/` (`npm run eval:screener`).
 
 **`survey-review`** (first, partial version; the full one follows shortly) - reviews the questionnaire body before field from the questionnaire plus
 an audience description. One hard requirement: the questionnaire must not be empty for its

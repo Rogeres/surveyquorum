@@ -1,0 +1,15 @@
+# Двойник реального скрининга с главной ошибкой корпуса: выход на тех, кого ждут квоты (без Лимонной карты).
+# S4 (доход «30 000 – 50 000 / 50 000 – 80 000») это настоящее пересечение границ, поэтому overlap@S4 допустим; S3 (города «от 500 тыс. до 1 млн / от 1 млн») нет.
+- description: "D5 (выход против квот на S6), A6 на трёх списках; шкала города не C1, доход с общими границами C1"
+  vars:
+    draft: file://drafts/logic-vs-quota-loyalty.md
+    expect: "logic-contradiction@S6, multi-no-limit@S5, multi-no-limit@S6"
+    reject: "overlap@S3, overlap@S2, vague-frequency@S5"
+    tolerate: "logic-contradiction@S7, overlap@S4, multi-no-limit@S7, no-randomization@S5, no-randomization@S6, topic-leak@S5, topic-leak@S6, long-screener, panel-profile-reasked@S1, panel-profile-reasked@S2, panel-profile-reasked@S3"
+    maxExtra: 3
+    mustKeep: "Лимонн, BNPL"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

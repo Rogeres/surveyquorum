@@ -1,0 +1,16 @@
+# Двойник реального скрининга: гейт на покупки в сети задан вопросом да/нет с названием сети.
+- description: "A3+A4: целевое поведение спрошено да/нет, сеть названа в вопросе; квотные вопросы без выхода — это нормально"
+  vars:
+    draft: file://drafts/yes-no-gate-grocery.md
+    expect: "yes-no-gate@S2, topic-leak@S2"
+    reject: "no-exit@S4, no-exit@S5, no-exit@S6, overlap@S1, vague-frequency@S3"
+    tolerate: "yes-no-gate@S4, yes-no-gate@S5, topic-leak@S4, no-randomization@S3, short-list@S2"
+    maxExtra: 3
+    mustKeep: "Лимонн, рассрочк"
+    mustNotAdd: "вторичн, ипотек"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }
+    - { type: javascript, value: "file://lib/harm.mjs:noNewCriterion", weight: 2 }

@@ -1,0 +1,15 @@
+# Синтетика: скрининга нет вообще, а критерий поведенческий (ходит в клуб «Пульс») и таргетом найма не закрывается.
+- description: "A1: скрининга нет, критерий поведенческий; скилл должен построить скрининг, а не сказать «всё в порядке»"
+  vars:
+    brief: "Нужны клиенты фитнес-клубов «Пульс», которые были в клубе хотя бы раз за последний месяц. Таргеты найма: только возраст 18–55, его проверяет сервис."
+    draft: file://drafts/no-screener-fitness.md
+    expect: "no-screener@screener"
+    reject: "panel-profile-reasked@S1, long-screener@screener"
+    tolerate: "body-contradiction@B4, body-contradiction@body"
+    maxExtra: 1
+    mustNotAdd: "возраст, сколько вам лет"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:noNewCriterion", weight: 2 }

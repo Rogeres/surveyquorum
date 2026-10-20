@@ -1,0 +1,17 @@
+# Синтетика: бриф говорит, что возраст и город проверяет таргет найма, а скрининг спрашивает их снова (A13 ×2);
+# бриф просит оформивших карту за 12 месяцев, а выход стоит только на «нет карты» — проходят и те, кто оформил 2 года назад (A10).
+# Ловушки: возрастные диапазоны чистые; список банков с лимитом «чаще всего» и выходом — норма; S4 пятивариантный, не да/нет.
+- description: "A13 на S1 и S2 (таргет уже проверил), A10 на S4 (окно 12 месяцев из брифа не перенесено в логику)"
+  vars:
+    brief: "Нужны клиенты банка «Цитрус», которые оформили его кредитную карту за последние 12 месяцев. Таргеты найма проверяют возраст 25–45 и город Москва, эти критерии сервис проверяет сам."
+    draft: file://drafts/criterion-mismatch-reasked-bank.md
+    expect: "panel-profile-reasked@S1, panel-profile-reasked@S2, criterion-mismatch@S4"
+    reject: "overlap@S1, no-exit@S3, yes-no-gate@S4, multi-no-limit@S3"
+    tolerate: "topic-leak@S4, no-exit@S4, no-randomization@S1, no-randomization@S2, no-randomization@S4, logic-contradiction@S4, long-screener@screener"
+    maxExtra: 2
+    mustKeep: "Цитрус"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

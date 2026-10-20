@@ -27,11 +27,16 @@
     "surveyquorum": "tsx packages/cli/src/cli.ts",
     "examples:generate": "tsx examples/generate.ts",
     "examples:expected": "tsx examples/write-expected.ts",
-    "calibration:fit": "tsx calibration/fit-weights.ts"
+    "calibration:fit": "tsx calibration/fit-weights.ts",
+    "catalog:build": "tsx skills/screener-design/catalog/build.ts",
+    "catalog:check": "tsx skills/screener-design/catalog/build.ts --check",
+    "eval:screener": "promptfoo eval -c skills/screener-design/evals/promptfooconfig.yaml --no-cache --repeat 3 -j 4",
+    "eval:view": "promptfoo view skills/screener-design/evals/results -y"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.0",
     "@types/node": "^22.10.0",
+    "promptfoo": "^0.124.1",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"

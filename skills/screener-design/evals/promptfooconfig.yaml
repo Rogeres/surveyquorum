@@ -1,0 +1,19 @@
+# Evals of the screener-design skill. Run from the repo root: npm run eval:screener  (results: evals/results/, view: npm run eval:view)
+description: screener-design skill — catalog faults, controls and traps
+prompts:
+  - file://prompts/review.mjs
+providers:
+  - id: file://providers/claude-cli.mjs
+    label: claude-sonnet
+    config: { model: sonnet }
+  # Add more models here. OpenAI-compatible endpoints (incl. Qwen/DeepSeek hosted in RU) need an API key in env:
+  # - id: openai:chat:gpt-5
+  # - id: openai:chat:qwen3-235b
+  #   config: { apiBaseUrl: https://your-host/v1, apiKeyEnvar: QWEN_API_KEY }
+defaultTest:
+  assert:
+    - { type: javascript, value: "file://lib/harm.mjs:formatHeld", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:noInfoScreen", weight: 2 }
+tests:
+  - file://cases/*.yaml
+outputPath: skills/screener-design/evals/results/latest.json

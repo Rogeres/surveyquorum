@@ -1,0 +1,14 @@
+# Двойник реального скрининга: список «выберите все» без лимита на фильтре (S5 не фильтрует и в квотах не участвует, поэтому A6 там допустим, но не обязателен), бренд назван после списка, который никого не отсеял; возраст переспрошен в теле.
+- description: "A6×2, B2, C1 (58 в двух диапазонах), A4 после нефильтрующего списка, D6 в теле"
+  vars:
+    draft: file://drafts/multi-no-limit-apps.md
+    expect: "multi-no-limit@S4, no-randomization@S4, overlap@S2, topic-leak@S6, body-contradiction"
+    reject: "overlap@S1, vague-frequency@S6, double-barrelled@S1"
+    tolerate: "multi-no-limit@S5, no-randomization@S5, no-exit@S4, no-exit@S5, no-none@S5, long-screener"
+    maxExtra: 3
+    mustKeep: "Корзинк, приложени"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

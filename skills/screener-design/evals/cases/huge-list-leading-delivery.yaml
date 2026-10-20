@@ -1,0 +1,16 @@
+# Синтетика: 35 регионов в одном вопросе (B4); «Как курьер, в каком сервисе…» — вопрос предполагает ответ (C2).
+# Ловушки: регион — квотный вопрос, без выхода и с «Другой регион» — не A2 и не A5; «Не работаю курьером» есть — не A5.
+- description: "B4 на S1 (35 регионов), C2 на S2 (пресуппозиция «как курьер»); квота по региону без выхода — норма"
+  vars:
+    brief: "Нужны курьеры сервисов доставки, которые работают сейчас."
+    draft: file://drafts/huge-list-leading-delivery.md
+    expect: "huge-list@S1, leading@S2"
+    reject: "no-exit@S1, no-none@S1, no-none@S2, no-exit@S2"
+    tolerate: "no-randomization@S1, topic-leak@S2, bad-order@S2, panel-profile-reasked@S1, short-list@S2"
+    maxExtra: 2
+    mustKeep: "регион"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
+    - { type: javascript, value: "file://lib/harm.mjs:keepsQuotaQuestions", weight: 2 }

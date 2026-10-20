@@ -1,0 +1,13 @@
+# Ловушка: границы «от 500 тыс. до 1 млн / от 1 млн», «Москва» рядом с размерами городов и шкала частоты с единицей — не ошибки. Настоящая ошибка одна: список страховых без лимита.
+- description: "ловушка: C1/A9/C4 не должны сработать; A6 и B2 на S3 должны"
+  vars:
+    draft: file://drafts/trap-bands-and-ladders.md
+    expect: "multi-no-limit@S3, no-randomization@S3"
+    reject: "overlap@S1, double-barrelled@S1, vague-frequency@S2, yes-no-gate@S2"
+    tolerate: "topic-leak@S2, leading@S2"
+    maxExtra: 2
+    mustKeep: "Маяк"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }

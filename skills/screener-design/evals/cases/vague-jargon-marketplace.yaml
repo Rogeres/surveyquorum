@@ -1,0 +1,14 @@
+# Синтетика: частота наречиями «регулярно / иногда / редко» (A9) и жаргон селлера в вопросе (C3).
+# Ловушка: список сфер занятости с «Не работаю» — один критерий с честным выходом, не C4 и не A5.
+- description: "A9 и C3 на S2; список занятости с «Не работаю» не C4"
+  vars:
+    draft: file://drafts/vague-jargon-marketplace.md
+    expect: "vague-frequency@S2, jargon@S2"
+    reject: "double-barrelled@S1, no-none@S1, overlap@S1, no-exit@S1"
+    tolerate: "topic-leak@S2, bad-order@S2, no-randomization@S1, no-randomization@S2, leading@S2, yes-no-gate@S2, short-list@S2"
+    maxExtra: 2
+    mustNotAdd: "ипотек"
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }

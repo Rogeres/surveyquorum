@@ -1,0 +1,14 @@
+# Синтетика: намерение спрошено в лоб шкалой вероятности с выходом (A16); список банков из четырёх вариантов вокруг цели (B3).
+# Ловушка: пятибалльная шкала — не да/нет и не наречия частоты.
+- description: "A16 на S1 (намерение в лоб), B3 на S2 (короткий список); шкала из пяти уровней не A3"
+  vars:
+    brief: "Нужны люди, которые планируют оформить ипотеку в ближайшие 3 месяца и рассматривают для этого банк «Цитрус»."
+    draft: file://drafts/unmasked-intent-short-list-mortgage.md
+    expect: "unmasked-intent@S1, short-list@S2"
+    reject: "yes-no-gate@S1, vague-frequency@S1, no-exit@S1, no-exit@S2"
+    tolerate: "topic-leak@S1, no-none@S2, no-randomization@S1, no-randomization@S2, leading@S2, bad-order@S2, topic-leak@S2, unmasked-intent@S2"
+    maxExtra: 2
+  assert:
+    - { type: javascript, value: "file://lib/tags.mjs:expectTags", weight: 3 }
+    - { type: javascript, value: "file://lib/tags.mjs:rejectTags", weight: 2 }
+    - { type: javascript, value: "file://lib/tags.mjs:limitExtras", weight: 1 }
