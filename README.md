@@ -6,6 +6,10 @@ An open toolkit for researchers: how to recruit respondents from external panels
 
 [Русская версия — README.ru.md](README.ru.md)
 
+## Where the project comes from
+
+The project is led by [George Strunin](https://github.com/Rogeres), co-founder of Pathway. The repository grew out of his talk "Who really answers your surveys: measuring hidden junk in online samples, and open-sourcing the tools" at Research Expo on 2 October 2026 in Moscow ([announcement](https://t.me/pthwy/349), [about the talk](https://t.me/pthwy/371), both in Russian). The method shown in the talk is published here in the open, and the figures in this text come from the talk.
+
 ## What problem does it solve?
 
 The project is built on data from Pathway, a platform for product and marketing research: millions of answers from external panels and thousands of surveys written by researchers with very different experience. On a stream of that size, problems with answer quality show up as a pattern, not as isolated cases.
@@ -14,7 +18,7 @@ The project is built on data from Pathway, a platform for product and marketing 
 
 Above are real examples (in Russian): empty open answers, contradictions between the screener and the questionnaire, a random card sort, a prototype task abandoned after two seconds. In practice such answers cannot be rejected on a formal signal: on review, a share of them turns out not to be junk but a consequence of a peculiar study design or of mistakes in how the study was built.
 
-**The quality of an answer is only visible with the full context of the study.** For the talk at ResearchExpo 2026 we labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. About 6 % are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
+**The quality of an answer is only visible with the full context of the study.** For the talk at Research Expo 2026 we labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. About 6 % are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
 
 **Screening does more than a check after the field.** A strong screener cuts junk several times over and costs less than cleaning afterwards, while study authors without training systematically underestimate it.
 
@@ -24,7 +28,7 @@ Hence two directions: help build a strong screener before the field and clean up
 
 Before the field, checking the questionnaire and the screener is cheap: no domain knowledge is needed, an LLM skill with a detailed instruction on how to build a strong screener is enough, and the instruction is in this repository.
 
-After the field, the remaining junk is cleaned almost automatically and before analysis: the mechanism finds low-quality answers and attaches evidence and a rejection reason to each. Most panels accept such rejections and refund the low-quality answers.
+After the field, the remaining junk is cleaned almost automatically and before analysis: the mechanism finds low-quality answers and attaches evidence and a rejection reason to each. If your panel accepts a rejection with grounds, that is enough to get a refund for the low-quality answers: every verdict carries evidence and a ready complaint text.
 
 ![Two points where sample quality is decided, and two tools](docs/img/two-places.en.svg)
 
@@ -35,21 +39,25 @@ After the field, the remaining junk is cleaned almost automatically and before a
 
 Both work from your AI agent: Claude Code, Cursor, Codex, Gemini CLI. No code to write.
 
-## How answer checking works in Pathway
+## The reference check built on this method
 
-This is the full algorithm that runs in the platform. It relies on data only the platform has: the device fingerprint, the respondent's history, behaviour in the interface, a record of how the text was typed.
+The full version of Quorum runs in production at Pathway, where the platform adds its own data to each answer: the device fingerprint, the respondent's history, behaviour in the interface. What is published here is the same method reduced to an ordinary export of answers.
 
 ![Four levels of answer checks](docs/img/four-levels.en.svg)
 
+The full checking loop in Pathway. The open version has no "before the survey" level and lacks some first-level checks: the match to the declared audience and recognition of answers typed with AI assistance. They need data that an ordinary export does not carry.
+
 Every answer, together with the study context, is checked for signals: strong and weak, towards junk and towards quality. The decision is not made on a single signal but on the probability of junk for the whole set: the signal weights are measured on a large labeled sample. If the combined signals make junk highly probable, the answer is blocked. If there are no signals, the answer is left alone. If there are signals but no certainty, a person looks at the answer, and an arbiter model takes most of that queue. The formula, weights and thresholds are in `docs/weights.md`, the detectors in `docs/detectors.md`.
 
-A rejected answer is separated from the dataset and the researcher can bring it back. Most panels accept a rejection with a reason, and the reason is generated automatically: every verdict carries evidence.
+**How this differs from the usual checks.** An attention check, total completion time or a panel's speed threshold look at a single signal, and a single signal fires on honest people too: a short branch of the questionnaire looks like speeding, an attentive respondent can slip on a trap question. Quorum does not block an answer on one signal: the decision rests on a set of independent checks, and every decision comes with evidence that can be re-examined.
+
+A rejected answer is separated from the dataset and the researcher can bring it back. The rejection reason is assembled from the evidence automatically, so the complaint to the panel is ready at once.
 
 ## What is published here and why
 
 Not every platform provides the data needed for the full check. So for the open version we looked for a mechanism that applies everywhere: to an ordinary export of answers, without access to the platform's internals, so that the problem can be fought anywhere. That is what is published here: simplified compared with Pathway but built on the same ideas — ten detectors, a weighted quorum with measured weights, and an arbiter as an optional stage.
 
-Some checks are not in the open version yet: the device fingerprint and respondent history across surveys, the match to the declared audience, recognition of answers typed with AI assistance. They need data that an export usually does not carry, and we are still deciding how to publish or replace them. So this is a beta: it can be used already, and the repository keeps growing. The more interest it gets (stars, requests and suggestions), the more actively we will extend it.
+Some checks are not in the open version yet: the device fingerprint and respondent history across surveys, the match to the declared audience, recognition of answers typed with AI assistance. They need data that an export usually does not carry, and we are still deciding how to publish or replace them. So this is a beta: it can be used already, and the repository keeps growing.
 
 ## Using it without code
 
@@ -58,8 +66,6 @@ Both tools work from an AI agent: Claude Code, Cursor, Codex, Gemini CLI. Give t
 **Review a screener.** "Review this screener with the screener-design skill" and paste the screener text, or "Build a screener from this brief" and paste the brief. You get back a repaired screener in the editor's terms and an explanation of what was wrong and what it would have cost in the field.
 
 **Check the answers.** "Screen the answers in answers.csv with surveyquorum". The agent brings the export into the common format, asks two or three questions about the structure, runs the checks and returns three groups: clean, probably junk, look by eye. Every verdict comes with evidence and a complaint text for the panel.
-
-> Video: what it looks like on a real survey. The link will appear here.
 
 ## Using it if you write code
 
@@ -120,11 +126,9 @@ The repository is in beta: the production mechanism is simplified so that it can
 
 Two tracks along which the repository grows:
 
-1. **Skills.** The screener skill already works for researchers and is built into the AI chat of the Pathway editor. We regularly check its quality and extend the fault base with cases built from real examples.
+1. **Skills.** The screener skill is built into the AI chat of the Pathway editor and is checked on real questionnaires. We extend the fault base with cases built from real examples.
 2. **Quality checks.** The Quorum engine follows the production system but is simplified. As it runs on new data we will refine the methods and calibrate the weights.
-
-The feature list for the next releases: in progress.
 
 ## Who it is for
 
-Researchers who recruit respondents on panels and answer for sample quality. Panel and platform teams that need a verifiable quality standard. Apache-2.0 license, changes via issues and pull requests, CITATION.cff for references in publications.
+Researchers who recruit respondents on panels and are accountable for sample quality. Panel and platform teams that need a verifiable quality standard. Apache-2.0 license, changes via issues and pull requests, CITATION.cff for references in publications.
