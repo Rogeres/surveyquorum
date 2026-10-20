@@ -62,5 +62,5 @@ explains results; it must not re-implement detector logic in prose.
 ## Before you finish
 
 Run `npm run check`. Confirm no file under `examples/` contains anything that looks like a
-real answer. Keep `docs/numbers.md` consistent with the code: if a ladder or a threshold
+real answer. Keep `docs/weights.md` consistent with the code: if a weight or a threshold
 changed, update the document in the same commit.

@@ -20,17 +20,12 @@ block; the summary says how many verdicts changed in each direction.
 
 ## What panels accept
 
-Measured on […] filed over eight weeks in 2026 from the production system this port
-is based on, to the one panel that offers a complaint API:
-
-| ground | accepted |
-|---|---|
-| explicit nonsense in an open answer (gibberish, a dot, wrong language) | […] |
-| the same rating down a whole grid (template) | […] |
-| speed, stub answers in every open question (one-word templates), or "a combination of signals" | […] |
-| the same text on exactly two questions | […] |
-| texts of 500 characters or less | […] |
-| longer texts (the field truncates at 500 and the tail is lost) | […] |
+From the production system this port is based on, filing complaints through the one panel that
+offers a complaint API, the pattern is clear: explicit nonsense in an open answer and the same
+rating down a whole grid are accepted most of the time; speed, stub answers and "a combination
+of signals" much less often; the same text on exactly two questions rarely. Texts of 500
+characters or less are accepted far more often than longer ones, because the field truncates at
+500 and the tail is lost.
 
 Panels recognise **three grounds** and need exactly one per complaint: the whole survey done
 far faster than the others (with both times), one non-informative open answer (quote question

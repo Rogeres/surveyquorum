@@ -4,8 +4,8 @@ One section per detector: what it catches, its signals with the shipped weight, 
 and the design-artifact rule. The README next to each statistical detector
 (`packages/core/src/detectors/<name>/README.md`) holds the exact formulas; the two LLM detectors
 (`open-answer`, `coherence`) are specified by their prompts in `prompts/` and by their sections
-here. This page is the overview. LLRs are from `packages/core/src/quorum/weights.json` v1.1.0; **measured** = from
-arbiter-confirmed production bans, […]; **assumed** = placeholder until refit. Signals
+here. This page is the overview. LLRs are from `packages/core/src/quorum/weights.json` v1.1.0; **measured** = calibrated
+on Pathway production data; **assumed** = placeholder until refit. Signals
 without a row fall back to the strength default (strong +3.418, weak +2.119, positive −1.400).
 `alone` = posterior probability when only that signal fires (prior 2.25 %): ≥ 0.20 is `review`.
 
@@ -174,12 +174,12 @@ to the model.
 | `bad_language` — profanity without content | strong | +2.827 | 0.28 | measured before the semantics changed; expected higher |
 | `gibberish` | strong | +2.619 | 0.24 | measured, 0.24 |
 | `off_topic` | weak | +0.593 | 0.04 | measured, near base rate — corroborating only |
-| `rich_open_answers` — ≥ 2 `valid_high` answers | positive | −1.400 | — | measured: confirm rate […] vs 0.23 |
+| `rich_open_answers` — ≥ 2 `valid_high` answers | positive | −1.400 | — | measured, positive evidence |
 | `numeric_open_question`, hard label as artifact | artifact | — | — | reported only |
 
 Limits: the model never sees images — "what do you see here?" is judged blind, the main
 source of false `off_topic`; very short answers to questions that invite them; fluent
-AI-written answers are `valid_*`; `off_topic` alone was wrong […] of the time in production.
+AI-written answers are `valid_*`; `off_topic` alone sits near the base rate and only corroborates.
 Design artifacts: the same hard label on the same question for ≥ 5 % of the cohort (and ≥ 3
 answers) is the question's fault; numeric-only answers on ≥ 30 % of a question mark a number
 field miscast as open text.

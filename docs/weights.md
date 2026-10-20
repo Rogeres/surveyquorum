@@ -20,13 +20,13 @@ review  when probability ≥ 0.20
 keep    otherwise
 ```
 
-`prior` is the base rate of confirmed junk among all respondents — 2.25 % in the production data
-behind v1 (`logit(0.0225) ≈ −3.77`). Positive evidence (a respondent who writes rich, specific
+`prior` is the base rate of junk the weights assume before any evidence — 2.25 % in v1
+(`logit(0.0225) ≈ −3.77`); a refit takes it from your labels. Positive evidence (a respondent who writes rich, specific
 open answers) has a negative LLR and pulls the probability down.
 
 The probability is an **estimate**: it assumes the signals are independent (naive Bayes), and
-correlated signals make it optimistic. The empirical reference is the measured precision ladder by
-number of agreeing signals — 1 → […], 2 → […], 3 → […], 4+ → […] (`docs/numbers.md`) — and the
+correlated signals make it optimistic. The empirical reference is the observed precision ladder by
+number of agreeing signals on the calibration data, and the
 thresholds are chosen so that a `block` corresponds to the top of that ladder. The refit tool
 reports the observed ladder on your data, so you can see how far it departs from the estimate.
 
@@ -49,8 +49,7 @@ ladder steps against the shipped weights and fails if a refit breaks them.
 
 ## v1 weights (`packages/core/src/quorum/weights.json`, v1.1.0)
 
-Derived from arbiter-confirmed production bans, […], with […] cases
-double-reviewed by humans. v1.1.0 adds `matrix-pattern.straightline_full` (assumed) and widens
+Derived from arbiter-confirmed bans on Pathway production data. v1.1.0 adds `matrix-pattern.straightline_full` (assumed) and widens
 the `heavy_pattern` / `random_sort` routes so that a pattern spanning the whole survey — the
 long-string / insufficient-effort index of Curran 2016 and Meade & Craig 2012 — counts as strong
 evidence on its own; the LLRs of the existing signals are unchanged. Each LLR is `logit(precision) − logit(0.0225)`, capped at ±4.5, where
@@ -90,7 +89,7 @@ had no production measurement yet — treat them as opinions until you refit.
 | cardsort-consensus.unnamed_categories | 0.08 | +1.329 | measured |
 | pace.whole_survey_fast | 0.05 | +0.827 | measured |
 | open-answer.off_topic | 0.04 | +0.593 | measured (near base rate) |
-| open-answer.rich_open_answers | — | −1.400 | measured (confirm rate […] vs 0.23 among flagged) |
+| open-answer.rich_open_answers | — | −1.400 | measured (positive evidence) |
 
 Signals without an entry fall back to the mean LLR of their strength class: strong +3.418,
 weak +2.119, positive −1.400. `surveyquorum weights` prints this table from the live file,

@@ -45,7 +45,7 @@ const strongEv = (key: string): Evidence => {
 };
 
 describe('v1 weights file', () => {
-  it('is Bayesian, with a production prior and probability thresholds', () => {
+  it('is Bayesian, with a shipped prior and probability thresholds', () => {
     expect(isBayesian(DEFAULT_WEIGHTS)).toBe(true);
     expect(DEFAULT_WEIGHTS.prior).toBeCloseTo(0.0225, 4);
     expect(DEFAULT_WEIGHTS.thresholds.block).toBeGreaterThan(DEFAULT_WEIGHTS.thresholds.review);

@@ -156,7 +156,6 @@ silently. Without `--arbiter` the run stops at the engine's split (block 18, rev
 | page | what |
 |---|---|
 | [docs/methodology.md](docs/methodology.md) | the four levels, flagged / reviewed / confirmed / blocked, what each check needs in the data |
-| [docs/numbers.md](docs/numbers.md) | every production number with definition, base, period, judge |
 | [docs/detectors.md](docs/detectors.md) | one section per detector: signals, weights, limits and what each one needs |
 | [docs/weights.md](docs/weights.md) | the scoring formula and the v1 weights with provenance |
 | [docs/arbiter.md](docs/arbiter.md) | the LLM second opinion: strictness modes, mechanism, measured agreement, cost |
@@ -177,16 +176,12 @@ v0.1, open beta. The first public version of a production mechanism; the interfa
 change between releases. Clone and run; the npm packages `surveyquorum` / `surveyquorum-cli` are
 reserved for v0.2.
 
-Measured (production, […], one panel-research platform, a stream of several hundred
-thousand responses; confirmation by an LLM arbiter, whose agreement with human reviewers is
-documented in `docs/arbiter.md`): the weights of 23 signals, the precision ladder by number of
-agreeing signals (1 → […], 2 → […], 3 → […], 4+ → […]), the pace ladder, the arbiter's
-agreement with humans. Assumed, pending refit: 7 signals of the card-sort, first-click, website
+Measured (Pathway production data; confirmation by an LLM arbiter, whose behaviour against human
+reviewers is described in `docs/arbiter.md`): the weights of 23 signals. Assumed, pending refit: 7 signals of the card-sort, first-click, website
 and mass-select detectors, marked `assumed` in `weights.json` so that a refit replaces them
-first. The weights and ladders come from production measurements; this port is validated against
+first. The weights come from production measurements; this port is validated against
 the synthetic demo and its regression tests, and a production re-measurement on this exact code
-is the next step. See `docs/numbers.md` for each number and `docs/weights.md` for the refit
-procedure. Roadmap: respondent history across surveys, a fit-to-audience axis, a service without installation for
+is the next step. See `docs/weights.md` for the refit procedure. Roadmap: respondent history across surveys, a fit-to-audience axis, a service without installation for
 the no-code path.
 
 ## Not shipped yet
@@ -201,7 +196,7 @@ one platform and need a platform-independent design before they can be published
 | answers made with AI | spots answers produced with an AI assistant | needs a mechanism in the survey front end that records how the answer was entered (typing, paste, dictation) |
 | service without installation | the statistical detectors as a hosted page, nothing to install | after the CLI stabilises |
 
-None of these is implied by the published numbers: every figure in `docs/numbers.md` was produced by
+None of these is implied by the published weights: every weight was measured on
 detectors that are in this repository.
 
 ## License and citation

@@ -14,7 +14,7 @@ The project is built on data from Pathway, a platform for product and marketing 
 
 Above are real examples (in Russian): empty open answers, contradictions between the screener and the questionnaire, a random card sort, a prototype task abandoned after two seconds. In practice such answers cannot be rejected on a formal signal: on review, a share of them turns out not to be junk but a consequence of a peculiar study design or of mistakes in how the study was built.
 
-**The quality of an answer is only visible with the full context of the study.** We labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. On average 5–7 % are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
+**The quality of an answer is only visible with the full context of the study.** For the talk at ResearchExpo 2026 we labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. About 6 % are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
 
 **Screening does more than a check after the field.** A strong screener cuts junk several times over and costs less than cleaning afterwards, while study authors without training systematically underestimate it.
 
@@ -41,7 +41,7 @@ This is the full algorithm that runs in the platform. It relies on data only the
 
 ![Four levels of answer checks](docs/img/four-levels.en.svg)
 
-Every answer, together with the study context, is checked for signals: strong and weak, towards junk and towards quality. The decision is not made on a single signal but on the probability of junk for the whole set: the signal weights are measured on a large labeled sample. If the combined signals make junk highly probable, the answer is blocked. If there are no signals, the answer is left alone. If there are signals but no certainty, a person looks at the answer; a strong model closes […] of that stage, and we have verified it. The formula, weights and thresholds are in `docs/weights.md`, the detectors in `docs/detectors.md`.
+Every answer, together with the study context, is checked for signals: strong and weak, towards junk and towards quality. The decision is not made on a single signal but on the probability of junk for the whole set: the signal weights are measured on a large labeled sample. If the combined signals make junk highly probable, the answer is blocked. If there are no signals, the answer is left alone. If there are signals but no certainty, a person looks at the answer, and an arbiter model takes most of that queue. The formula, weights and thresholds are in `docs/weights.md`, the detectors in `docs/detectors.md`.
 
 A rejected answer is separated from the dataset and the researcher can bring it back. Most panels accept a rejection with a reason, and the reason is generated automatically: every verdict carries evidence.
 
@@ -109,7 +109,7 @@ The examples are anonymised twins of real screeners: clients and brands replaced
 
 ## What is measured and what is not yet
 
-- The full version of Quorum runs in production at Pathway: […] turn out to be real junk on manual review. This repository holds its first version, not tied to the platform, with regression tests on a synthetic demo. Results of a large run of the open version will appear here in due course.
+- The full version of Quorum runs in production at Pathway. This repository holds its first version, not tied to the platform, with regression tests on a synthetic demo. Results of a large run of the open version will appear here in due course.
 - The screener skill: the catalog was built from a labeled dataset of real screeners. The regression set: 14 cases, each of the 25 catalog faults expected in at least one, with traps for the exceptions.
 
 Details for developers: the engine, weights, detectors, API and import formats in `docs/`.

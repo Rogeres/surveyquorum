@@ -108,7 +108,7 @@ The run prints per survey: `<id>: N respondents - block B, review R, keep K` plu
 post-arbiter numbers. Present:
 
 - **Counts and rates.** B/N and R/N as percentages. The shipped prior is 2.25% junk. As a
-  heuristic from one platform's production ([…]), a block rate far above 5% or a
+  heuristic from Pathway's experience, a block rate far above 5% or a
   review rate above 15% usually means a questionnaire fault, not a bad cohort - look at the
   design artifacts before anything else.
 - **Design artifacts.** The run summary prints one line per affected question (`design

@@ -47,8 +47,8 @@ cohort median, the screening profile, the target, the evidence — and returns `
 evidence. How much it may release
 is a setting (`docs/arbiter.md`, "Strictness"). The default, strict, lifts a verdict only when
 both judges agree on an overturn with a named cause and sends every hesitation to a human. In
-lenient mode — the one measured in production — it agreed with humans […] of the time on a
-[…] double-reviewed bans and overturned […] of the bans humans kept. Treat a lenient `overturn` as
+lenient mode — the one compared with human reviewers in production — it is softer than people and
+overturns a large share of the bans humans keep. Treat a lenient `overturn` as
 "not provable from the data", not "the respondent is fine".
 
 ## Vocabulary
@@ -60,16 +60,16 @@ lenient mode — the one measured in production — it agreed with humans […] 
 | **review, after the arbiter** | the arbiter's `needs_human`: a person must look. Reviews the arbiter confirmed have become `block`, reviews it overturned `keep` |
 | **blocked** | the engine's outcome is `block`: posterior ≥ 0.95, which needs at least two agreeing strong signals; after the arbiter, also a `review` the arbiter confirmed (`arbiter.originalOutcome: "review"`) |
 | **reviewed** | a flagged respondent was read by the arbiter or a person |
-| **confirmed** | the reviewer agreed the respondent acted in bad faith. In every production number on these pages the reviewer is the LLM arbiter, which is softer than humans; human confirmation would be higher on text, lower on speed |
+| **confirmed** | the reviewer agreed the respondent acted in bad faith. In the Pathway calibration the reviewer is the LLM arbiter, which is softer than humans; human confirmation would be higher on text, lower on speed |
 | **design artifact** | evidence suppressed because the same signal fired on the same question for a large share of the cohort |
 | **precision** of a signal | share of confirmed junk among the respondents the signal selected |
 
 ## Why one signal never blocks
 
-Alone, a signal lands at its measured precision. The best single signal in production
-(`pace.consistent`) was right […] of the time; the median single signal, […]. Banning on one
-signal means being wrong three times out of four on average. Two agreeing, independent signals
-reached […], three […], four or more […] (`docs/numbers.md`). The weights encode exactly
+Alone, a signal lands at its measured precision, and on Pathway data even the best single signal
+(`pace.consistent`) is wrong part of the time while the median one is wrong most of the time.
+Banning on one signal means being wrong more often than right. Precision climbs steeply with
+each agreeing, independent signal. The weights encode exactly
 this: every LLR is capped at ±4.5, so the strongest lone signal reaches a posterior of about
 0.67 — `review`, not `block`. A lone signal asks for a second look; a consensus decides.
 
@@ -89,8 +89,7 @@ Such evidence is kept on the verdict under `designArtifacts`, carries no weight,
 grouped per question for the author: the run summary prints one line per affected question
 ("prototype task … — 16 respondents gave up with no clicks; the prototype likely did not load")
 and `verdicts.json` carries the same rows as `designArtifactSummary`. In production this guard
-would have suppressed […] across […]; on review of per-class samples […] of
-those bans were overturned (sample sizes are not recorded here). The guard runs before
+turned out to matter: almost every ban it would have suppressed was overturned on review. The guard runs before
 scoring, so a design fault never becomes a ban in the first place. The before-field skills
 (`screener-design` for the screener, `survey-review` for the body) exist to catch the same
 faults before any respondent sees them.
@@ -102,7 +101,7 @@ faults before any respondent sees them.
   detector sees it, and only when the body contains a question that contradicts the screening
   profile. A targeting-fit axis is on the roadmap; until then the defence is screener design
   (verifier questions about personal experience) rather than detection.
-- **No open questions → effort signals only.** […] of production responses contained no open
+- **No open questions → effort signals only.** A large share of real surveys contain no open
   question at all. There the engine judges effort only: pace, patterns, tasks; a careful
   imposter is then a matter for screener design, not detection. The verdict carries
   `noContentToCheck: true` so the report can say so.
@@ -120,8 +119,7 @@ faults before any respondent sees them.
 
 ## What is measured and what is assumed
 
-Every number on these pages comes from one platform's production, […], with an LLM
-arbiter as the judge, and was measured on the predecessor of this code, not on this
-repository. Weights marked `assumed` in `weights.json` are placeholders. The demo dataset is
+The weights come from Pathway production data with an LLM arbiter as the judge, and were
+measured on the predecessor of this code, not on this repository. Weights marked `assumed` in `weights.json` are placeholders. The demo dataset is
 synthetic and shows mechanics, not performance. To know how Quorum performs on your data, label
 a sample and refit (`docs/weights.md`, "Refitting on your own labels").

@@ -51,7 +51,7 @@ export interface Verdict {
 export const DEFAULT_WEIGHTS: Weights = defaultWeights as Weights;
 
 /**
- * Largest magnitude an LLR may carry. With the production prior of 2.25 % a single capped signal
+ * Largest magnitude an LLR may carry. With the shipped prior of 2.25 % a single capped signal
  * reaches a posterior of about 0.67 — inside `review`, never `block`. That is the quorum principle
  * expressed as a number: one signal asks for a second look, two agreeing signals decide.
  */

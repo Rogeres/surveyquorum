@@ -77,15 +77,14 @@ Every judge in every mode returns `overturn_category` (the schema requires it), 
 available for calibration in balanced and lenient mode too; only strict mode makes the verdict
 depend on it.
 
-**Why strict is the default for a public tool.** The production measurements below were made in
-what is now lenient mode, and they say the arbiter is softer than people: it lifted […] of the
+**Why strict is the default for a public tool.** The production comparison with human reviewers was made in
+what is now lenient mode, and it says the arbiter is softer than people: it lifted a large share of the
 bans human reviewers kept. For a tool that anyone can run against their own panel, a default that
-quietly releases four in ten of the respondents a human would have blocked is the wrong default.
+quietly releases respondents a human would have blocked is the wrong default.
 Strict mode keeps the arbiter's real value — catching engine mistakes with a nameable cause,
 writing the panel text, telling you which detector is broken — while routing its doubt to a
 person instead of into the sample. Choose `balanced` when you have a human queue and want fewer
-cases in it; choose `lenient` when you are reproducing the production measurements or would
-rather lose junk than wrong an honest respondent.
+cases in it; choose `lenient` when you would rather lose junk than wrong an honest respondent.
 
 `surveyquorum run` prints the mode and the hesitations, then the post-arbiter split:
 
@@ -148,27 +147,25 @@ fact and a named cause, and tells the judge to answer `needs_human` when it doub
 
 ## Measured context (be honest about this)
 
-Numbers below come from the production system this port is based on, mid-2026, on
-production bans, **in what is now lenient mode** — two judges, blind tie-break, any overturn
-applied, no burden-of-proof section. They have not been re-measured on this repository's
-detectors, and the strict and balanced modes have not been measured against humans at all.
+The arbiter was compared with human reviewers on the production system this port is based on,
+mid-2026, on production bans, **in what is now lenient mode** — two judges, blind tie-break, any
+overturn applied, no burden-of-proof section. It has not been re-measured on this repository's
+detectors, and the strict and balanced modes have not been measured against humans at all. What
+the comparison showed, in words:
 
-- Against **[…]** from one badly designed questionnaire: raw agreement […],
-  Cohen's […]. Against a **small cross-survey sample**, […]–0.78 depending
-  on the model; two strong judges agreed with each other at […]–0.74.
-- On **[…] bans reviewed independently by both** the human QA team and the arbiter (the same
-  sample as `docs/numbers.md`), raw agreement was […] and **the arbiter overturned […] of the
-  bans humans kept**. The lenient arbiter is softer than people: humans are stricter about text
-  quality and softer about speed; the arbiter is the reverse. Treat a lenient `overturn` as
-  "not provable from the data", not as "the respondent is fine". This gap is the reason strict
-  is the default.
-- The biggest blind spot is images: in about 40% of cases the question referred to a visual
-  the arbiter cannot see; that is the main source of `needs_human`.
-- A two-judge split sends […] of cases to a human with 0–1 errors on the sample; a blind
-  tie-break brings that down to about 5%. Strict mode forgoes the tie-break on purpose, so
-  expect its human share to sit at the upper end of that range plus the weak and uncategorised
-  overturns it refuses to apply. One judge alone is half the price and has no uncertainty
-  detector.
+- Agreement with humans is far from perfect and depends heavily on the survey: on a badly
+  designed questionnaire the two disagree often; across ordinary surveys two strong judges agree
+  with each other about as well as either agrees with a person.
+- The lenient arbiter is softer than people and overturns a large share of the bans humans keep.
+  Humans are stricter about text quality and softer about speed; the arbiter is the reverse. Treat
+  a lenient `overturn` as "not provable from the data", not as "the respondent is fine". This gap
+  is the reason strict is the default.
+- The biggest blind spot is images: a large share of `needs_human` comes from questions that
+  referred to a visual the arbiter cannot see.
+- A two-judge split sends a noticeable share of cases to a human; a blind tie-break brings that
+  down a lot. Strict mode forgoes the tie-break on purpose, so expect its human share to sit at
+  the upper end plus the weak and uncategorised overturns it refuses to apply. One judge alone is
+  half the price and has no uncertainty detector.
 
 ## Cost
 

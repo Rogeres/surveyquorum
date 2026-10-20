@@ -1,9 +1,9 @@
 # FAQ
 
 **Why not block on one signal?**
-Because alone, a signal is right as often as its measured precision — […] for the median
-single signal in production, […] for the best one. Two agreeing independent signals reached
-[…], three […], four or more […] (`docs/numbers.md`). The weights encode this: every LLR is
+Because alone, a signal is right only as often as its precision, and on Pathway data even the
+best single signal is wrong part of the time while the median one is wrong most of the time.
+Precision climbs steeply with every agreeing independent signal. The weights encode this: every LLR is
 capped at ±4.5, so the strongest lone signal reaches a posterior of about 0.67, which is
 `review`, never `block` (`docs/weights.md`).
 
@@ -53,7 +53,7 @@ Label respondents (`good` / `bad_*`), run the engine, then
 The script prints per-signal precision and LLR plus the ladder by number of signals. Inspect
 with `surveyquorum weights --file my-weights.json`; use it with `surveyquorum run dataset.json --weights my-weights.json`
 (library: `runSurvey(survey, { weights })`).
-Never edit the numbers by hand (`docs/weights.md`, `docs/numbers.md`).
+Never edit the numbers by hand (`docs/weights.md`).
 
 **What is the arbiter, and how strict is it?**
 An optional LLM stage (`--arbiter`) that re-reads every block and review verdict with the full
@@ -64,19 +64,18 @@ same cause (`technical_failure`, `design_artifact`, `substantive_content`, `shor
 both confirming confirms; anything else — a split, a weak or uncategorised overturn — sends the
 respondent to a human as `review`. When the arbiter hesitates, a person looks; a block is never
 silently released. `balanced` adds a blind tie-break on disagreement and lifts at confidence 3;
-`lenient` lifts any overturn. The production numbers ([…] agreement with humans, […] of
-human-kept bans overturned) were measured in what is now lenient mode, whose rubric treats
+`lenient` lifts any overturn. The production comparison with human reviewers was made in what is now lenient mode, whose rubric treats
 "formally true but proves no bad faith" as an overturn (`docs/arbiter.md`).
 
 **Why is speed measured per question instead of whole-survey time?**
-Because whole-survey time is mostly branch length. In production, respondents who finished
-in under half the median time but had no single fast question were confirmed junk […] of the
-time — the base rate. Respondents with 3 questions each faster than 98 % of the cohort: […];
-with 5 or more: […] (`docs/numbers.md`). Speed is a pattern across questions, not a total.
+Because whole-survey time is mostly branch length. On Pathway data, respondents who finished
+in under half the median time but had no single fast question were junk about as often as
+everyone else, while the share of junk climbs steeply with the number of questions answered
+faster than nearly the whole cohort. Speed is a pattern across questions, not a total.
 
 **What can the engine not see?**
 A respondent who is not who the screener asked for but answers with ordinary effort; a careful
-imposter in a questionnaire with no open questions ([…] of production responses had none);
+imposter in a questionnaire with no open questions (a large share of real surveys have none);
 images the classifier was never shown; paraphrased duplicates; fluent AI-written text; thin
 cohorts; sources without per-question durations. Full list in `docs/methodology.md`.
 
@@ -86,8 +85,8 @@ is not a quorum; they sit in `keep` at their single signal's precision. That is 
 method makes: 0 honest respondents blocked.
 
 **Does the panel accept these complaints?**
-One ground per complaint, 500 characters or less, with the numbers: that form was accepted
-about 75 % of the time for nonsense text and about […] for grid templates, against […] for
+One ground per complaint, 500 characters or less, with the numbers: in our experience that form
+is accepted most of the time for nonsense text and grid templates, and much less often for
 speed or "a combination of signals". `surveyquorum complaints` writes exactly that form
 (`docs/panels.md`). Run the arbiter first — a lifted ban is a complaint you do not have to defend,
 and in strict mode every lifted ban carries a named cause both judges agreed on.
