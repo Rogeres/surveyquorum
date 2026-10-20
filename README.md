@@ -1,209 +1,130 @@
-# surveyquorum
+# SurveyQuorum
 
-Consensus screening of survey respondents. Quorum runs independent checks over a survey's
-answers and flags a respondent only when several of them agree. Every verdict comes with the
-evidence behind it and, when wanted, a one-ground complaint text for the panel.
+**So that the people in your study are the people you were looking for.**
 
-**Status: open beta, v0.1.** The mechanism behind this repository runs in production on one
-survey platform. What is published here is its first platform-independent version: the engine,
-the weights and five skills, ported and validated against a synthetic demo with regression tests.
-A few production methods that still depend on one platform follow in later releases, and a
-production re-measurement on this exact code is the next step. Corrections are welcome — open an
-issue or a pull request. "Status" and "Not shipped yet" below list what is measured, what is
-assumed and what comes next.
+An open toolkit for researchers: how to recruit respondents from external panels properly, how to keep people without the required experience out of the study, and how to clean the sample of junk quickly, effectively and cheaply once the field is closed.
 
-[Russian version — README.ru.md](README.ru.md)
+[Русская версия — README.ru.md](README.ru.md)
 
-## The quorum principle
+## What problem does it solve?
 
-Detectors do not decide. Each one emits evidence — a named signal with a strength — and a
-weighted layer turns the evidence about a respondent into one of three outcomes:
+The project is built on data from Pathway, a platform for product and marketing research: millions of answers from external panels and thousands of surveys written by researchers with very different experience. On a stream of that size, problems with answer quality show up as a pattern, not as isolated cases.
 
-| outcome | meaning |
-|---|---|
-| `block` | two or more strong independent signals agree, or several weaker ones add up to the same certainty — a call that needs no second look |
-| `review` | one signal, or weaker ones — a second look by the arbiter or a person |
-| `keep` | nothing, or positive evidence only |
+![What really arrives in the data: four scenes from the talk](docs/img/examples/problem.ru.gif)
 
-Every signal's weight is a measured likelihood ratio, capped so that **a single signal always
-stops at `review`**. The cap is the principle written as arithmetic; `docs/weights.md` has the
-formula and the thresholds.
+Above are real examples (in Russian): empty open answers, contradictions between the screener and the questionnaire, a random card sort, a prototype task abandoned after two seconds. In practice such answers cannot be rejected on a formal signal: on review, a share of them turns out not to be junk but a consequence of a peculiar study design or of mistakes in how the study was built.
 
-Signals that fire for a large share of the cohort on the same question are reported to the
-survey author as *design artifacts* and carry no weight: the run summary prints one line per
-affected question (`design artifact: prototype task '…' — 16 respondents (16% of the cohort) gave
-up with no clicks; the prototype likely did not load`), and `verdicts.json` carries the same rows
-as `designArtifactSummary`.
+**The quality of an answer is only visible with the full context of the study.** We labeled 10,000 random answers that reflect the stream: quality signals plus an expert verdict on each. On average 5–7 % are junk, the share grows with survey length and audience narrowness, and the number of signals in an answer correlates strongly with the expert verdict. The checking mechanism is built on this.
 
-Ten detectors. Eight statistical, no LLM: per-question pace, duplicate open answers, matrix
-straightlining, mass-select, prototype effort, website bounce, card-sort consensus, first-click
-placement. Two LLM: open-answer classification and cross-answer coherence. Overview in
-`docs/detectors.md`; the README next to each statistical detector is the detail, the LLM
-detectors are specified by their prompts.
+**Screening does more than a check after the field.** A strong screener cuts junk several times over and costs less than cleaning afterwards, while study authors without training systematically underestimate it.
 
-## Three ways in
+Hence two directions: help build a strong screener before the field and clean up the remainder after it. The next section is about them.
 
-Same engine, three ways to give it a model. Requirements: Node 20+, a clone of this repository
-(not on npm yet — see Status).
+## How does the mechanism work?
 
-**1. Inside a coding agent, with only a subscription.** The simplest start: paste the link to
-this repository into your Claude Code, Codex, Cursor or Gemini CLI session and ask in plain words,
-for example *"design a screener for my audience with the screener-design skill from
-https://github.com/Rogeres/surveyquorum"* or *"screen the responses in answers.csv with
-surveyquorum"*. The agent reads `AGENTS.md` and the skills, clones and installs what it needs,
-and does the rest; you only answer its questions. Under the hood the agent is the model: the CLI writes its LLM judgements to a file,
-the agent answers them, `resume` finishes the run.
+Before the field, checking the questionnaire and the screener is cheap: no domain knowledge is needed, an LLM skill with a detailed instruction on how to build a strong screener is enough, and the instruction is in this repository.
+
+After the field, the remaining junk is cleaned almost automatically and before analysis: the mechanism finds low-quality answers and attaches evidence and a rejection reason to each. Most panels accept such rejections and refund the low-quality answers.
+
+![Two points where sample quality is decided, and two tools](docs/img/two-places.en.svg)
+
+| where | what goes wrong | tool |
+|---|---|---|
+| **Before the field.** Questionnaire and screener review | the filter hints the right answer, impostors get in, honest people are cut by logic that fights the quotas | **Screener skill** `screener-design`: builds a screener from a brief or reviews one against a catalog of 25 typical faults |
+| **After the field.** Answer review | professional respondents, click-through, identical open answers | **Quorum**: ten independent checks, a verdict only when several agree, every verdict with evidence and a ready complaint text for the panel |
+
+Both work from your AI agent: Claude Code, Cursor, Codex, Gemini CLI. No code to write.
+
+## How answer checking works in Pathway
+
+This is the full algorithm that runs in the platform. It relies on data only the platform has: the device fingerprint, the respondent's history, behaviour in the interface, a record of how the text was typed.
+
+![Four levels of answer checks](docs/img/four-levels.en.svg)
+
+Every answer, together with the study context, is checked for signals: strong and weak, towards junk and towards quality. The decision is not made on a single signal but on the probability of junk for the whole set: the signal weights are measured on a large labeled sample. If the combined signals make junk highly probable, the answer is blocked. If there are no signals, the answer is left alone. If there are signals but no certainty, a person looks at the answer; a strong model closes […] of that stage, and we have verified it. The formula, weights and thresholds are in `docs/weights.md`, the detectors in `docs/detectors.md`.
+
+A rejected answer is separated from the dataset and the researcher can bring it back. Most panels accept a rejection with a reason, and the reason is generated automatically: every verdict carries evidence.
+
+## What is published here and why
+
+Not every platform provides the data needed for the full check. So for the open version we looked for a mechanism that applies everywhere: to an ordinary export of answers, without access to the platform's internals, so that the problem can be fought anywhere. That is what is published here: simplified compared with Pathway but built on the same ideas — ten detectors, a weighted quorum with measured weights, and an arbiter as an optional stage.
+
+Some checks are not in the open version yet: the device fingerprint and respondent history across surveys, the match to the declared audience, recognition of answers typed with AI assistance. They need data that an export usually does not carry, and we are still deciding how to publish or replace them. So this is a beta: it can be used already, and the repository keeps growing. The more interest it gets (stars, requests and suggestions), the more actively we will extend it.
+
+## Using it without code
+
+Both tools work from an AI agent: Claude Code, Cursor, Codex, Gemini CLI. Give the agent the link to this repository and say in plain words what you need. The agent reads the instructions, installs what it needs and asks questions if something is missing.
+
+**Review a screener.** "Review this screener with the screener-design skill" and paste the screener text, or "Build a screener from this brief" and paste the brief. You get back a repaired screener in the editor's terms and an explanation of what was wrong and what it would have cost in the field.
+
+**Check the answers.** "Screen the answers in answers.csv with surveyquorum". The agent brings the export into the common format, asks two or three questions about the structure, runs the checks and returns three groups: clean, probably junk, look by eye. Every verdict comes with evidence and a complaint text for the panel.
+
+> Video: what it looks like on a real survey. The link will appear here.
+
+## Using it if you write code
+
+Node 20+ and a clone of the repository. One engine, three ways to give it a model: an agent on a subscription, an API key or a local model, or the library in your own code.
+
+**Answer checking, Quorum.**
 
 ```bash
 git clone https://github.com/Rogeres/surveyquorum.git && cd surveyquorum && npm install
-# try the mechanics first: every judgement replays from the shipped cache, nothing is pending
-npm run surveyquorum -- run examples/demo-dataset.json --llm agent --llm-cache examples/llm-cache
-# on your own data the agent is the model:
-npm run surveyquorum -- run dataset.json --llm agent
-#  → .surveyquorum/judge-requests.jsonl + instructions printed for the agent
-#  the agent appends answers to .surveyquorum/judge-responses.jsonl, then:
-npm run surveyquorum -- resume
+npm run surveyquorum -- run examples/demo-dataset.json --llm agent --llm-cache examples/llm-cache   # demo, judgements replayed from the cache
+npm run surveyquorum -- convert export.csv --mapping my-mapping.json --out dataset.json             # your export into the common format
+npm run surveyquorum -- run dataset.json --arbiter --out verdicts.json                              # a run with an API key
+npm run surveyquorum -- explain verdicts.json <responseId>                                          # evidence for one answer
+npm run surveyquorum -- complaints verdicts.json --dataset dataset.json --lang en                   # complaint texts for the panel
 ```
 
-Skills in `skills/` wrap this flow (install as a Claude Code plugin from `.claude-plugin/`, or
-copy a skill folder into another agent's rules directory).
+Without a key the eight statistical detectors run; the two LLM detectors and the arbiter need a model, configured in `docs/models.md`. As a library: `import { parseDataset, run } from 'surveyquorum'`. Import formats in `adapters/`, weights and thresholds in `docs/weights.md`, detectors in `docs/detectors.md`. The detailed description of commands, the demo and the status: `docs/usage.md`.
 
-**2. CLI with an API key or a local model.** OpenAI-compatible endpoints (OpenAI, Yandex Cloud,
-OpenRouter, Ollama), Anthropic. Without a key the eight statistical detectors still run.
+**Screener review, the screener-design skill.** Installed as a Claude Code plugin or copied as the `skills/screener-design` folder into another agent's rules. The fault catalog and the reference live next to the skill; the regression tests run with one command.
 
 ```bash
-export SURVEYQUORUM_LLM_PROVIDER=openai-compatible SURVEYQUORUM_LLM_API_KEY=... \
-       SURVEYQUORUM_LLM_MODEL=gpt-4.1-mini SURVEYQUORUM_LLM_ARBITER_MODEL=gpt-4.1
-npm run surveyquorum -- convert export.csv --mapping my-mapping.json --out dataset.json
-npm run surveyquorum -- run dataset.json --arbiter --out verdicts.json   # --weights my-weights.json after a refit
-npm run surveyquorum -- explain verdicts.json <responseId>
-npm run surveyquorum -- complaints verdicts.json --dataset dataset.json --lang en
-# reason codes / token rule of your panel: --panel-profile my-panel.json (adapters/panel-profiles/)
+/plugin marketplace add Rogeres/surveyquorum && /plugin install surveyquorum@surveyquorum   # in Claude Code
+npm run eval:screener                                                                        # 14 cases × 3 runs, about 9 minutes
 ```
 
-**3. As a library** (`packages/core`, package name `surveyquorum`). The package resolves to
-`packages/core/dist`, which `npm install` builds through the root `prepare` script; if `dist/`
-is missing (an install with `--ignore-scripts`, a fresh checkout without install), build it first:
+## The screener fault catalog
 
-```bash
-npm run build          # compiles packages/core/dist and packages/cli/dist
-```
+The heart of the screener skill. Twenty-five faults, each with a card: what it is, **what it breaks in the field**, how to fix it, exceptions, a "bad" and a "good" example. A fault enters the catalog only with its sanction: if we cannot say what the fault costs, it is not a fault.
 
-```ts
-// screen.mjs in the repository root; run with: node screen.mjs
-import { readFileSync } from 'node:fs';
-import { parseDataset, run } from 'surveyquorum';
-const dataset = parseDataset(JSON.parse(readFileSync('examples/demo-dataset.json', 'utf8')));
-const results = await run(dataset, { minCohort: 30 }); // add `llm: createLlmClient(cfg)` for the LLM detectors
-for (const v of results[0].verdicts) console.log(v.responseId, v.outcome, v.probability);
-```
+A few examples:
 
-Provider setup, env variables and the config file: `docs/models.md`. Bringing a foreign CSV
-into the input contract: `adapters/README.md`.
+- **Yes/no on the target behaviour.** "Do you use a voice recorder?" An impostor passes with one click. The fix is a list of functions of the same kind with a limit, "most often, up to three".
+- **Topic leak.** The brand is named in the welcome text or the first question. Professional respondents memorise the criterion for the next waves.
+- **Logic against quotas.** A quota waits for people without the bank's card, and the screener throws them out. Two cells out of four can never be filled.
 
-### Importing from Pathway
+Full catalog: `skills/screener-design/catalog/README.md` (Russian cards with English summaries).
 
-Pathway is a survey and UX-research platform; the author's platform, and the only system with a
-built-in importer today. Everything else comes in through `convert` with a preset or a mapping.
+## Adding your own methodology
 
-```bash
-PATHWAY_API_TOKEN=... npm run surveyquorum -- import pathway --test <test-id> --out dataset.json
-```
+The catalog is open to changes, and every change is checked.
 
-A Pathway report CSV is recognised by its header and converts without a mapping
-(`npm run surveyquorum -- convert report.csv`), as is the generic flat-long layout
-(`adapters/presets/flat-long.json`). Details: `adapters/presets/pathway.md`.
+1. Write a fault card following the template: what it is, what it breaks, how to fix it.
+2. Add an example: a draft screener with this fault and the list of what the skill must find.
+3. Run one command. It runs every example through the model and shows a report: what was found, what was missed, whether anything old broke.
 
-## What the demo shows
+The examples are anonymised twins of real screeners: clients and brands replaced, structure and faults kept. So the check shows how the skill behaves on real questionnaires, not on textbook ones.
 
-`examples/` holds three synthetic surveys, 300 invented respondents, each with a known persona.
-LLM judgements — the detectors' and the arbiter's — replay from `examples/llm-cache/`, so the
-full pipeline runs without a key:
+## What is measured and what is not yet
 
-```bash
-npm run surveyquorum -- run examples/demo-dataset.json --llm-cache examples/llm-cache --arbiter
-```
+- The full version of Quorum runs in production at Pathway: […] turn out to be real junk on manual review. This repository holds its first version, not tied to the platform, with regression tests on a synthetic demo. Results of a large run of the open version will appear here in due course.
+- The screener skill: the catalog was built from a labeled dataset of real screeners. The regression set: 14 cases, each of the 25 catalog faults expected in at least one, with traps for the exceptions.
 
-| | respondents | blocked | to a person | kept |
-|---|---:|---:|---:|---:|
-| planted offenders (10 personas) | 64 | 54 | 4 | 6 |
-| honest (4 personas, incl. profane, "don't know", one-off fast click) | 236 | 0 | 3 | 233 |
+Details for developers: the engine, weights, detectors, API and import formats in `docs/`.
 
-54 of 64 planted offenders blocked; no honest respondent blocked; 7 respondents handed to a
-person because the judges hesitated — 4 planted offenders and 3 honest ones. Of the 6 offenders
-kept, 3 were released by the arbiter with a named cause (their open answers read as genuine) and
-3 never reached it: a mass-selector at near-normal pace and two random sorters whose sort sits
-within two standard deviations of the room show only a weak pattern or none, and the engine keeps
-them by design.
+## Open beta
 
-Before the arbiter the engine itself blocks 18 of the offenders and asks for a second look on 43
-of them — plus 5 honest respondents, the one-off fast click persona: one signal, so a second look
-rather than a block. The arbiter is that second look. It confirms 36 of the 43 and completes
-their quorum, releases 3 with a cause and hands 4 to a person; of the 5 honest it releases 2 and
-hands 3 to a person. Slow straightliners and mass-selectors reach it as single-signal cases
-because their pattern spans the whole survey — the long-string index of the careless-responding
-literature, strong on its own — but one signal is not a quorum until an independent judge agrees.
-The 12 honest respondents whose prototype did not load are reported as one design-artifact line
-for the survey author (16 respondents on that task, counting the 4 planted give-uppers), not as
-twelve bans. When the arbiter hesitates, a person looks; nothing it is unsure about is released
-silently. Without `--arbiter` the run stops at the engine's split (block 18, review 48, keep
-234); the measured behaviour of the lenient mode is documented in `docs/arbiter.md`.
+The repository is in beta: the production mechanism is simplified so that it can be applied to any study on any platform. Something surely does not work perfectly yet. Open issues, send pull requests; new cases for the checks and new typical screener faults are welcome.
 
-## Documentation
+Two tracks along which the repository grows:
 
-| page | what |
-|---|---|
-| [docs/methodology.md](docs/methodology.md) | the four levels, flagged / reviewed / confirmed / blocked, what each check needs in the data |
-| [docs/numbers.md](docs/numbers.md) | every production number with definition, base, period, judge |
-| [docs/detectors.md](docs/detectors.md) | one section per detector: signals, weights, limits and what each one needs |
-| [docs/weights.md](docs/weights.md) | the scoring formula and the v1 weights with provenance |
-| [docs/arbiter.md](docs/arbiter.md) | the LLM second opinion: strictness modes, mechanism, measured agreement, cost |
-| [docs/panels.md](docs/panels.md) | one-ground complaints and what panels accept |
-| [docs/models.md](docs/models.md) | providers, env variables, tested models, cost |
-| [docs/faq.md](docs/faq.md) | short answers to the usual questions |
-| [docs/video-script.md](docs/video-script.md) | shooting script for the walkthrough video |
-| [adapters/README.md](adapters/README.md) | the input contract and how to write a mapping |
-| [examples/README.md](examples/README.md) | the demo dataset and its personas |
-| [AGENTS.md](AGENTS.md) | rules for coding agents working in this repository |
+1. **Skills.** The screener skill already works for researchers and is built into the AI chat of the Pathway editor. We regularly check its quality and extend the fault base with cases built from real examples.
+2. **Quality checks.** The Quorum engine follows the production system but is simplified. As it runs on new data we will refine the methods and calibrate the weights.
 
-Skills (`skills/<name>/SKILL.md`): `screener-design`, `survey-review` (before field; `survey-review` ships as a first, partial version — the full one follows shortly),
-`quorum-import`, `quorum-screen`, `panel-complaint` (after field).
+The feature list for the next releases: in progress.
 
-## Status
+## Who it is for
 
-v0.1, open beta. The first public version of a production mechanism; the interface may still
-change between releases. Clone and run; the npm packages `surveyquorum` / `surveyquorum-cli` are
-reserved for v0.2.
-
-Measured (production, […], one panel-research platform, a stream of several hundred
-thousand responses; confirmation by an LLM arbiter, whose agreement with human reviewers is
-documented in `docs/arbiter.md`): the weights of 23 signals, the precision ladder by number of
-agreeing signals (1 → […], 2 → […], 3 → […], 4+ → […]), the pace ladder, the arbiter's
-agreement with humans. Assumed, pending refit: 7 signals of the card-sort, first-click, website
-and mass-select detectors, marked `assumed` in `weights.json` so that a refit replaces them
-first. The weights and ladders come from production measurements; this port is validated against
-the synthetic demo and its regression tests, and a production re-measurement on this exact code
-is the next step. See `docs/numbers.md` for each number and `docs/weights.md` for the refit
-procedure. Roadmap: respondent history across surveys, a fit-to-audience axis, a service without installation for
-the no-code path.
-
-## Not shipped yet
-
-Some methods from the production system are deliberately not in v0.1 because they still depend on
-one platform and need a platform-independent design before they can be published:
-
-| method | what it does | why it waits |
-|---|---|---|
-| respondent history | repeat offences across surveys by device fingerprint or panel id | needs a stable respondent key every source can provide, and a place to store history; the contract already has the fields, a `ReputationStore` interface is the plan |
-| fit to the intended audience | checks whether the answers match who was supposed to be surveyed: the profile declared at screening against the answers in the questionnaire body | needs the recruiting order and screening answers, which most exports do not carry |
-| answers made with AI | spots answers produced with an AI assistant | needs a mechanism in the survey front end that records how the answer was entered (typing, paste, dictation) |
-| service without installation | the statistical detectors as a hosted page, nothing to install | after the CLI stabilises |
-
-None of these is implied by the published numbers: every figure in `docs/numbers.md` was produced by
-detectors that are in this repository.
-
-## License and citation
-
-Apache-2.0 — see [LICENSE](LICENSE). To cite, use [CITATION.cff](CITATION.cff):
-Strunin, G. (2026). *surveyquorum: consensus screening of survey respondents* (v0.1.0).
-https://github.com/Rogeres/surveyquorum
+Researchers who recruit respondents on panels and answer for sample quality. Panel and platform teams that need a verifiable quality standard. Apache-2.0 license, changes via issues and pull requests, CITATION.cff for references in publications.

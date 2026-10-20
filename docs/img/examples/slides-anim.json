@@ -1,0 +1,380 @@
+{
+ "4": {
+  "shapes": {
+   "2": {
+    "name": "Picture 1",
+    "file": "image13.png",
+    "x": 0,
+    "y": 0,
+    "w": 18288000,
+    "h": 10287000
+   },
+   "3": {
+    "name": "gq",
+    "file": "image14.png",
+    "x": 3857625,
+    "y": 2438400,
+    "w": 10572750,
+    "h": 2019300
+   },
+   "4": {
+    "name": "card01",
+    "file": "image15.png",
+    "x": 1571625,
+    "y": 4533900,
+    "w": 4410075,
+    "h": 1428750
+   },
+   "5": {
+    "name": "card02",
+    "file": "image16.png",
+    "x": 6753225,
+    "y": 4486275,
+    "w": 1466850,
+    "h": 1200150
+   },
+   "6": {
+    "name": "card03",
+    "file": "image17.png",
+    "x": 10229850,
+    "y": 4886325,
+    "w": 3981450,
+    "h": 1276350
+   },
+   "7": {
+    "name": "card04",
+    "file": "image18.png",
+    "x": 2190750,
+    "y": 5857875,
+    "w": 6048375,
+    "h": 1352550
+   },
+   "8": {
+    "name": "card05",
+    "file": "image19.png",
+    "x": 8810625,
+    "y": 6048375,
+    "w": 1714500,
+    "h": 1257300
+   },
+   "9": {
+    "name": "card06",
+    "file": "image20.png",
+    "x": 12430125,
+    "y": 5810250,
+    "w": 1800225,
+    "h": 1257300
+   },
+   "10": {
+    "name": "card07",
+    "file": "image21.png",
+    "x": 3914775,
+    "y": 6991350,
+    "w": 7048500,
+    "h": 1876425
+   },
+   "11": {
+    "name": "card08",
+    "file": "image22.png",
+    "x": 10858500,
+    "y": 7077075,
+    "w": 5591175,
+    "h": 1504950
+   },
+   "12": {
+    "name": "card09",
+    "file": "image23.png",
+    "x": 1885950,
+    "y": 8210550,
+    "w": 5257800,
+    "h": 1466850
+   },
+   "13": {
+    "name": "card10",
+    "file": "image24.png",
+    "x": 9896475,
+    "y": 8439150,
+    "w": 2019300,
+    "h": 1295400
+   },
+   "14": {
+    "name": "card11",
+    "file": "image25.png",
+    "x": 12744450,
+    "y": 8001000,
+    "w": 4476750,
+    "h": 2085975
+   }
+  },
+  "seq": [
+   {
+    "spid": "3",
+    "name": "gq",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "200"
+   },
+   {
+    "spid": "4",
+    "name": "card01",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "1300"
+   },
+   {
+    "spid": "5",
+    "name": "card02",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "1850"
+   },
+   {
+    "spid": "6",
+    "name": "card03",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "2400"
+   },
+   {
+    "spid": "7",
+    "name": "card04",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "2950"
+   },
+   {
+    "spid": "8",
+    "name": "card05",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "3500"
+   },
+   {
+    "spid": "9",
+    "name": "card06",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "4050"
+   },
+   {
+    "spid": "10",
+    "name": "card07",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "4600"
+   },
+   {
+    "spid": "11",
+    "name": "card08",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "5150"
+   },
+   {
+    "spid": "12",
+    "name": "card09",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "5700"
+   },
+   {
+    "spid": "13",
+    "name": "card10",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "6250"
+   },
+   {
+    "spid": "14",
+    "name": "card11",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "6800"
+   }
+  ]
+ },
+ "5": {
+  "shapes": {
+   "2": {
+    "name": "Picture 1",
+    "file": "image26.png",
+    "x": 0,
+    "y": 0,
+    "w": 18288000,
+    "h": 10287000
+   },
+   "3": {
+    "name": "k1a",
+    "file": "image27.png",
+    "x": 1057275,
+    "y": 2028825,
+    "w": 7829550,
+    "h": 3067050
+   },
+   "4": {
+    "name": "k1x",
+    "file": "image28.png",
+    "x": 9039225,
+    "y": 2028825,
+    "w": 8191500,
+    "h": 3067050
+   },
+   "5": {
+    "name": "k1b",
+    "file": "image29.png",
+    "x": 6048375,
+    "y": 4953000,
+    "w": 6191250,
+    "h": 552450
+   },
+   "6": {
+    "name": "k2a",
+    "file": "image30.png",
+    "x": 1066800,
+    "y": 6057900,
+    "w": 7810500,
+    "h": 3009900
+   },
+   "7": {
+    "name": "k2x",
+    "file": "image31.png",
+    "x": 9039225,
+    "y": 6029325,
+    "w": 8191500,
+    "h": 3067050
+   },
+   "8": {
+    "name": "k2b",
+    "file": "image32.png",
+    "x": 5219700,
+    "y": 8943975,
+    "w": 7848600,
+    "h": 552450
+   }
+  },
+  "seq": [
+   {
+    "spid": "3",
+    "name": "k1a",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "400"
+   },
+   {
+    "spid": "4",
+    "name": "k1x",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "1300"
+   },
+   {
+    "spid": "5",
+    "name": "k1b",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "2100"
+   },
+   {
+    "spid": "6",
+    "name": "k2a",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "3100"
+   },
+   {
+    "spid": "7",
+    "name": "k2x",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "4000"
+   },
+   {
+    "spid": "8",
+    "name": "k2b",
+    "preset": "entr",
+    "presetID": "42",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "4800"
+   }
+  ]
+ },
+ "6": {
+  "shapes": {
+   "2": {
+    "name": "Picture 1",
+    "file": "image33.png",
+    "x": 0,
+    "y": 0,
+    "w": 18288000,
+    "h": 10287000
+   }
+  },
+  "seq": []
+ },
+ "7": {
+  "shapes": {
+   "2": {
+    "name": "Picture 1",
+    "file": "image34.png",
+    "x": 0,
+    "y": 0,
+    "w": 18288000,
+    "h": 10287000
+   },
+   "3": {
+    "name": "gives-up-full.mp4",
+    "file": "image35.png",
+    "x": 1266825,
+    "y": 2495550,
+    "w": 10934700,
+    "h": 6819900
+   }
+  },
+  "seq": [
+   {
+    "spid": "3",
+    "name": "gives-up-full.mp4",
+    "preset": "mediacall",
+    "presetID": "1",
+    "nodeType": "withEffect",
+    "dur": "1",
+    "delay": "0"
+   }
+  ]
+ }
+}
